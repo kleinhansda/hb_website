@@ -1,0 +1,16 @@
+/* Put your custom styles here and run `npm start` from the "src" directory on */
+
+#TableOfContents ul li {
+  margin-bottom: 1em;
+}
+h1 {
+  font-size: 100px;
+}
+img {
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px grey;
+  background: #00000;
+  padding: 20px; 
+  width: 200px;  
+}
