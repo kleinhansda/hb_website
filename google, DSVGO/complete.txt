@@ -1,0 +1,39 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136382051-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136382051-1');
+</script>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"1e9f653f83973aa96abadb5d9","lid":"2d16a8b88c","uniqueMethods":true}) })</script>
+
+<meta name="theme-color" content="#4d5560">
+
+<meta name="google-site-verification" content="sNg7tYge8o3zpAPMqnMjOg9dZSD24UV0vpowBwq5QuE" />
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "message": "Diese Website sammelt Cookies",
+    "dismiss": "Lass mich in Ruhe",
+    "link": "Info",
+    "href": "https://www.wikiwand.com/de/HTTP-Cookie"
+  }
+})});
+</script>
