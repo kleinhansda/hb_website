@@ -1,0 +1,40 @@
+title = "HannesBräu"
+#baseURL = "https://hannesbru.de/"
+#baseURL = "C:/Hugo/Sites/hb_anake/public"
+baseURL = "https://vibrant-mirzakhani-375433.netlify.app/"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+#themesDir = "/themes"
+relativeURLs = false
+uglyURLs = false
+absURL = true
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "de"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "UA-136382051-1"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "Website HannesBräu"
+  #site_logo = "images/main/logo.png"
+  twitter = "https://twitter.com/brau_hannes"
+  instagram = "https://www.instagram.com/hannesbraeu/"
+  facebook = "https://www.facebook.com/HannesBr%C3%A4u-113490456706196/?view_public_for=113490456706196/"
+  google = "https://g.page/hbverne?share"
+  shop = "https://hannesbraeu.sumup.link/"
+  youtube = ""
+  github = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-near-black"
+  #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
+  custom_css = ["css/main.css"]
+  body_classes = "avenir bg-near-white"
