@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HannesBräu</title>
-    <link>hannesbr%C3%A4u.de/</link>
+    <link>https://hannesbru.de/</link>
     <description>Recent content on HannesBräu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="hannesbr%C3%A4u.de/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hannesbru.de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sortiment - Produkte</title>
-      <link>hannesbr%C3%A4u.de/biere/sortiment_produkte/</link>
+      <link>https://hannesbru.de/biere/sortiment_produkte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/biere/sortiment_produkte/</guid>
+      <guid>https://hannesbru.de/biere/sortiment_produkte/</guid>
       <description>Alle Produkte sind erhältlich vor Ort in der Einsteinstraße 8, 68519 Viernheim
 Öffnungszeiten:
  Mo-Do von 08-12 und 13-16 Uhr sowie an Brau- und Ausschank-Tagen  Die 5L Partykegs sind zudem im Radhaus Viernheim erhältlich.
@@ -27,20 +27,20 @@ Hopfenkrüge / Bier-Siphons HannesBräu Frischbier-Genuss zuhause
     
     <item>
       <title>Sortiment - Biere</title>
-      <link>hannesbr%C3%A4u.de/biere/sortiment_biere/</link>
+      <link>https://hannesbru.de/biere/sortiment_biere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/biere/sortiment_biere/</guid>
+      <guid>https://hannesbru.de/biere/sortiment_biere/</guid>
       <description>   Vernemmer Meehdsche    Bruenette Karamell-note Schoko-note     Vernemmer Buuh    Dunkelblond Bernstein Leicht karamellig     Vernemmer Hell    Pilsener Brauart Leicht gehopft Fruchtig frisch Süffig mild   Vernemmer Weehze
  Dunkelblond Leicht gehopft Fruchtig frisch Banane &amp;amp; Hefe  </description>
     </item>
     
     <item>
       <title>Brauanlage &amp; Rohstoffe</title>
-      <link>hannesbr%C3%A4u.de/biere/rohstoffe/</link>
+      <link>https://hannesbru.de/biere/rohstoffe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/biere/rohstoffe/</guid>
+      <guid>https://hannesbru.de/biere/rohstoffe/</guid>
       <description>Brauanlage Unsere Brauanlage ist eine Polsinelli Junior Extra mit 500 L Produktionsvolumen.
 Wasser In einem speziellen Verfahren wird dem Wasser für einen samtig weichen Biergenuss das Kalk entzogen (enthärtet). Die für den menschlichen Körper kostbaren Mineralsalze bleiben bei diesem Prozess erhalten. Hier profitieren wir von der jahrelangen Erfahrung von Kleinhans-Grossküchen.
 Malze Unser Malze beziehen wir über Kling-Malz in Schriesheim.
@@ -49,10 +49,10 @@ Hopfen Unsere Hopfen beziehen wir aus der Hollertau. Für das bBauen unserer Bie
     
     <item>
       <title>Loft</title>
-      <link>hannesbr%C3%A4u.de/biere/loft/</link>
+      <link>https://hannesbru.de/biere/loft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/biere/loft/</guid>
+      <guid>https://hannesbru.de/biere/loft/</guid>
       <description>Öffnungszeiten entnehmen Sie bitte der Agenda
 Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
 Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
@@ -60,10 +60,10 @@ Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Wein
     
     <item>
       <title>Veranstaltungen</title>
-      <link>hannesbr%C3%A4u.de/biere/stubb/</link>
+      <link>https://hannesbru.de/biere/stubb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/biere/stubb/</guid>
+      <guid>https://hannesbru.de/biere/stubb/</guid>
       <description>Öffnungszeiten entnehmen Sie bitte der Agenda
 Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
  Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
@@ -71,20 +71,20 @@ Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des 
     
     <item>
       <title>Unser Corona Hygienekonzept</title>
-      <link>hannesbr%C3%A4u.de/artikel/corona/</link>
+      <link>https://hannesbru.de/artikel/corona/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/corona/</guid>
+      <guid>https://hannesbru.de/artikel/corona/</guid>
       <description>Das Wohl unserer Gäste steht für uns an erster Stelle. Damit Sie nach wie vor ihr Bier bei uns genießen können verpflichten wir uns daher zu folgendem Hygienekonzept:
  Einhaltung des Sicherheits-Abstands von mindestens 1,5 m. Aufenthaltzeiten werden dokumentiert. Getrennte und gekennzeichnete Wege für Ein- und Ausgang. Sanitäre Einrichtungen werden regelmäßig desinfiziert und sind nur einzeln zu nutzen. Handdesinfektion immer in der Nähe. Musik- und Sonder-Veranstaltungen finden im Freien statt (für Wärmequellen ist gesorgt).</description>
     </item>
     
     <item>
       <title>Termine Ausschank Jan - Feb. 2020</title>
-      <link>hannesbr%C3%A4u.de/artikel/termine_jan-feb/</link>
+      <link>https://hannesbru.de/artikel/termine_jan-feb/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/termine_jan-feb/</guid>
+      <guid>https://hannesbru.de/artikel/termine_jan-feb/</guid>
       <description>Januar   04.01. Ausschank
  🕕 18:00 Uhr 🎸 Hot Experience 🍖 Kesslwoschd midd Graud unn Bauernbrod    17.01. Ausschank
  🕕 18:00 Uhr 🍖 Szegediner &amp;amp; Salzkadoffl    31.01. Ausschank
@@ -94,10 +94,10 @@ Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des 
     
     <item>
       <title>Kessel-Predigt</title>
-      <link>hannesbr%C3%A4u.de/artikel/kesselpredigt/</link>
+      <link>https://hannesbru.de/artikel/kesselpredigt/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/kesselpredigt/</guid>
+      <guid>https://hannesbru.de/artikel/kesselpredigt/</guid>
       <description>Von drauss&amp;rsquo; vom HannesBräu komm ich her,
   Ich muss euch sagen, dort schmeckt es mir sehr!
   Allüberall an den Zapfhahnspitzen,
@@ -111,19 +111,19 @@ Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des 
     
     <item>
       <title>Bilder vom 05.07.</title>
-      <link>hannesbr%C3%A4u.de/artikel/bilder_190705/</link>
+      <link>https://hannesbru.de/artikel/bilder_190705/</link>
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/bilder_190705/</guid>
+      <guid>https://hannesbru.de/artikel/bilder_190705/</guid>
       <description>Vielen Dank an die zahlreichen Gäste und vielen Dank an die Musiker!!</description>
     </item>
     
     <item>
       <title>Stammtisch am 16.05.</title>
-      <link>hannesbr%C3%A4u.de/artikel/stammtisch-am-16-05/</link>
+      <link>https://hannesbru.de/artikel/stammtisch-am-16-05/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/stammtisch-am-16-05/</guid>
+      <guid>https://hannesbru.de/artikel/stammtisch-am-16-05/</guid>
       <description>Am Donnerstag den 16.05. hat die Stube wieder geöffnet!!
 Zeit
  18 - ca. 22 Uhr  Angebot
@@ -132,10 +132,10 @@ Zeit
     
     <item>
       <title>Ausschank am 27.04.</title>
-      <link>hannesbr%C3%A4u.de/artikel/ausschank/</link>
+      <link>https://hannesbru.de/artikel/ausschank/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/ausschank/</guid>
+      <guid>https://hannesbru.de/artikel/ausschank/</guid>
       <description>das lange warten hat ein Ende!
 Ab diesem Samstag (27.04.19) gibt es unser Bier in den Sorten Vernemmer Meehdsche, Vernemmer Buuh und Vernemmer Hell in 5 Liter Party-Keggs bei folgenden Adressen&amp;hellip;
   Bei Andreas Hoffmann im Radhaus Viernheim (Rathausstraße 56) ab 10 Uhr morgens bis Ladenschluss (bzw. solange der Vorrat reicht😉)
@@ -145,76 +145,76 @@ Ab diesem Samstag (27.04.19) gibt es unser Bier in den Sorten Vernemmer Meehdsch
     
     <item>
       <title>Ausschank am verkaufsoffenen Sonntag (19.05.)</title>
-      <link>hannesbr%C3%A4u.de/artikel/nachhaltigkeit/</link>
+      <link>https://hannesbru.de/artikel/nachhaltigkeit/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/nachhaltigkeit/</guid>
+      <guid>https://hannesbru.de/artikel/nachhaltigkeit/</guid>
       <description>Im Rahmen des verkaufsoffenen Sonntags am 19.05. in der Viernheimer Innenstadt werden wir erstmals unser Bier anbieten und - zusammen mit euch - unsere offizielle Premiere feiern!
  Datum: 19.05.19 Beginn: 13:00 Ende: 18:00 Organisator: Citygemeinschaft Viernheim  Weitere Informationen folgen!!</description>
     </item>
     
     <item>
       <title>Verkostung</title>
-      <link>hannesbr%C3%A4u.de/artikel/verkostung/</link>
+      <link>https://hannesbru.de/artikel/verkostung/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/verkostung/</guid>
+      <guid>https://hannesbru.de/artikel/verkostung/</guid>
       <description>Da wir unser Gebräu bald herausgeben wollen arbeiten wir derzeit fleißig daran unsere Vorräte aufzustocken. Heute wurde der Vernemmer Buuh gebraut und die schon in der Reifung befindlichen Biere (Vernemmer Hell und Vernemmer Meehdsche) verkostet.
 HAMMER! :)</description>
     </item>
     
     <item>
       <title>Portrait im Südhessen Morgen</title>
-      <link>hannesbr%C3%A4u.de/artikel/suedhessen/</link>
+      <link>https://hannesbru.de/artikel/suedhessen/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/suedhessen/</guid>
+      <guid>https://hannesbru.de/artikel/suedhessen/</guid>
       <description>Um den Artikel kostenlos in voller Länge zu lesen besucht das morgenweb (registrierung erforderlich).</description>
     </item>
     
     <item>
       <title>Email Verteiler</title>
-      <link>hannesbr%C3%A4u.de/artikel/2018-09-20-email/</link>
+      <link>https://hannesbru.de/artikel/2018-09-20-email/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/2018-09-20-email/</guid>
+      <guid>https://hannesbru.de/artikel/2018-09-20-email/</guid>
       <description>Du möchtest über HannesBräu auf dem laufenden bleiben, willst aber keinen RSS Feed abbonieren und hast kein Instagram? Trage dich in unseren Email Verteiler ein!
 Selbstverständlich werden wir eure Daten NICHT weiter geben!</description>
     </item>
     
     <item>
       <title>Es wurde eingemaischt!</title>
-      <link>hannesbr%C3%A4u.de/artikel/2018-09-18-einmaischen/</link>
+      <link>https://hannesbru.de/artikel/2018-09-18-einmaischen/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/2018-09-18-einmaischen/</guid>
+      <guid>https://hannesbru.de/artikel/2018-09-18-einmaischen/</guid>
       <description>Nach den langen Renovierungs und Umbauarbeiten wurde heute das erste mal in der neuen Anlage eingemaischt!</description>
     </item>
     
     <item>
       <title>Die Gerätschaften sind da!</title>
-      <link>hannesbr%C3%A4u.de/artikel/2018-06-30-geraetschaften/</link>
+      <link>https://hannesbru.de/artikel/2018-06-30-geraetschaften/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/2018-06-30-geraetschaften/</guid>
+      <guid>https://hannesbru.de/artikel/2018-06-30-geraetschaften/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Besuch bei Polsinelli, Neapel</title>
-      <link>hannesbr%C3%A4u.de/artikel/2018-04-01-polsinelli/</link>
+      <link>https://hannesbru.de/artikel/2018-04-01-polsinelli/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/2018-04-01-polsinelli/</guid>
+      <guid>https://hannesbru.de/artikel/2018-04-01-polsinelli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bauarbeiten sind im Gange</title>
-      <link>hannesbr%C3%A4u.de/artikel/2018-01-01-bauarbeiten/</link>
+      <link>https://hannesbru.de/artikel/2018-01-01-bauarbeiten/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>hannesbr%C3%A4u.de/artikel/2018-01-01-bauarbeiten/</guid>
+      <guid>https://hannesbru.de/artikel/2018-01-01-bauarbeiten/</guid>
       <description>Die Arbeiten sind in vollem Gange!</description>
     </item>
     
