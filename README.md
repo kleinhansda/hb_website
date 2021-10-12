@@ -1,5 +1,7 @@
 # HannesBräu website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/266076e6-11e5-4899-ae58-5d6d3f7eabac/deploy-status)](https://app.netlify.com/sites/hannesbru/deploys)
+
 ## development
 
 * `blogdown::serve_site()` to run a demo version in the viewer pane in rstudio or your browser
