@@ -3,244 +3,244 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hannesbru.de/biere/</loc>
+    <loc>https://www.hannesbru.de/biere/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/biere/sortiment_produkte/</loc>
+    <loc>https://www.hannesbru.de/biere/sortiment_produkte/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/</loc>
+    <loc>https://www.hannesbru.de/artikel/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/biere/sortiment_biere/</loc>
+    <loc>https://www.hannesbru.de/biere/sortiment_biere/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/biere/rohstoffe/</loc>
+    <loc>https://www.hannesbru.de/biere/rohstoffe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/events/</loc>
+    <loc>https://www.hannesbru.de/events/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/impressum/</loc>
+    <loc>https://www.hannesbru.de/impressum/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/biere/loft/</loc>
+    <loc>https://www.hannesbru.de/biere/loft/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/biere/stubb/</loc>
+    <loc>https://www.hannesbru.de/biere/stubb/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/corona/</loc>
+    <loc>https://www.hannesbru.de/tags/corona/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/</loc>
+    <loc>https://www.hannesbru.de/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/</loc>
+    <loc>https://www.hannesbru.de/tags/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/corona/</loc>
+    <loc>https://www.hannesbru.de/artikel/corona/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/termine/</loc>
+    <loc>https://www.hannesbru.de/tags/termine/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/termine_jan-feb/</loc>
+    <loc>https://www.hannesbru.de/artikel/termine_jan-feb/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/gruesse/</loc>
+    <loc>https://www.hannesbru.de/tags/gruesse/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/kesselpredigt/</loc>
+    <loc>https://www.hannesbru.de/artikel/kesselpredigt/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/bilder/</loc>
+    <loc>https://www.hannesbru.de/tags/bilder/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/bilder_190705/</loc>
+    <loc>https://www.hannesbru.de/artikel/bilder_190705/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/stammtisch-am-16-05/</loc>
+    <loc>https://www.hannesbru.de/artikel/stammtisch-am-16-05/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/ausschank/</loc>
+    <loc>https://www.hannesbru.de/artikel/ausschank/</loc>
     <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/nachhaltigkeit/</loc>
+    <loc>https://www.hannesbru.de/artikel/nachhaltigkeit/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/bier/</loc>
+    <loc>https://www.hannesbru.de/tags/bier/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/hell/</loc>
+    <loc>https://www.hannesbru.de/tags/hell/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/meehdsche/</loc>
+    <loc>https://www.hannesbru.de/tags/meehdsche/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/verkostung/</loc>
+    <loc>https://www.hannesbru.de/artikel/verkostung/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/suedhessen/</loc>
+    <loc>https://www.hannesbru.de/artikel/suedhessen/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/presse/</loc>
+    <loc>https://www.hannesbru.de/tags/presse/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/2018-09-20-email/</loc>
+    <loc>https://www.hannesbru.de/artikel/2018-09-20-email/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/2018-09-18-einmaischen/</loc>
+    <loc>https://www.hannesbru.de/artikel/2018-09-18-einmaischen/</loc>
     <lastmod>2018-09-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/2018-06-30-geraetschaften/</loc>
+    <loc>https://www.hannesbru.de/artikel/2018-06-30-geraetschaften/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/umbau/</loc>
+    <loc>https://www.hannesbru.de/tags/umbau/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/2018-04-01-polsinelli/</loc>
+    <loc>https://www.hannesbru.de/artikel/2018-04-01-polsinelli/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/tags/reise/</loc>
+    <loc>https://www.hannesbru.de/tags/reise/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/artikel/2018-01-01-bauarbeiten/</loc>
+    <loc>https://www.hannesbru.de/artikel/2018-01-01-bauarbeiten/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hannesbru.de/categories/</loc>
+    <loc>https://www.hannesbru.de/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
