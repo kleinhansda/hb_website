@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Biere on HannesBräu</title>
+    <title>Angebote on HannesBräu</title>
     <link>https://vibrant-mirzakhani-375433.netlify.app/biere/</link>
-    <description>Recent content in Biere on HannesBräu</description>
+    <description>Recent content in Angebote on HannesBräu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -47,14 +47,25 @@ Hopfen Unsere Hopfen beziehen wir aus der Hollertau. Für das bBauen unserer Bie
     </item>
     
     <item>
-      <title>Schankstube / Bar</title>
+      <title>Loft</title>
+      <link>https://vibrant-mirzakhani-375433.netlify.app/biere/loft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vibrant-mirzakhani-375433.netlify.app/biere/loft/</guid>
+      <description>Öffnungszeiten entnehmen Sie bitte der Agenda
+Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
+Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
+    </item>
+    
+    <item>
+      <title>Veranstaltungen</title>
       <link>https://vibrant-mirzakhani-375433.netlify.app/biere/stubb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vibrant-mirzakhani-375433.netlify.app/biere/stubb/</guid>
       <description>Öffnungszeiten entnehmen Sie bitte der Agenda
 Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
-Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
+ Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
     </item>
     
   </channel>
