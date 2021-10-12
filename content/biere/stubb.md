@@ -1,5 +1,5 @@
 ---
-title: "Schankstube / Bar"
+title: "Veranstaltungen"
 featured_image: '/images/stubb/DSC08266.jpg'
 type: page
 toc: true
@@ -13,7 +13,7 @@ weight: 4
 
 Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter <a href="/stubb/#angebot"><b>Angebot</b></a>. Wir freuen uns auf euch!
 
-<center><iframe src="/html/stubb_slide_auto.html" scrolling=no frameborder=0 width=100% height=350px></iframe></center>
+{{< stubb_slideshow >}}
 
 # Angebot
 

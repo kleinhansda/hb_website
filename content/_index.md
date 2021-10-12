@@ -4,5 +4,6 @@ featured_image: '/images/main/header.gif'
 description: "FRISCH | REGIONAL | NATURBELASSEN"
 ---
 
-{{< beer_navi >}}
+Für alle öffentlichen Veranstaltungen gelten aktuell die **2G Regeln**
 
+{{< beer_navi >}}
