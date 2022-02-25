@@ -5,6 +5,7 @@ deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/266076e6
 ## development
 
 * `blogdown::serve_site()` to run a demo version in the viewer pane in rstudio or your browser
+* To [allow indexing by search engines](blog.brianbeach.com/posts/2019-12-11-hugo-robots-meta-tag/) use `env HUGO_ENV="production" hugo`
 
 ## custom functions
 
