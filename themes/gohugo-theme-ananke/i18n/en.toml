@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [more]
 other = "More"
 
@@ -15,3 +16,22 @@ other = "What's in this {{ .Type }}"
 
 [related]
 other = "Related"
+=======
+[more]
+other = "More"
+
+[allTitle]
+other = "All {{.Title }}"
+
+[recentTitle]
+other = "Recent {{.Title }}"
+
+[readMore]
+other = "read more"
+
+[whatsInThis]
+other = "What's in this {{ .Type }}"
+
+[related]
+other = "Related"
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ul class="pa0">
   {{ range .Params.tags }}
    <li class="list">
@@ -7,3 +8,14 @@
    </li>
   {{ end }}
 </ul>
+=======
+<ul class="pa0">
+  {{ range .Params.tags }}
+   <li class="list">
+     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+       {{- . -}}
+     </a>
+   </li>
+  {{ end }}
+</ul>
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4

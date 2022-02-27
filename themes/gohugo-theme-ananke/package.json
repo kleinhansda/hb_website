@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "gohugo-default-theme",
   "version": "1.0.0",
@@ -18,3 +19,25 @@
   },
   "homepage": "https://github.com/theNewDynamic/thenewdynamic.com#readme"
 }
+=======
+{
+  "name": "gohugo-default-theme",
+  "version": "1.0.0",
+  "description": "Base Theme to start Hugo Sites",
+  "main": "index.js",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theNewDynamic/thenewdynamic.com.git"
+  },
+  "keywords": [
+    "hugo",
+    "gohugo"
+  ],
+  "author": "budparr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theNewDynamic/thenewdynamic.com/issues"
+  },
+  "homepage": "https://github.com/theNewDynamic/thenewdynamic.com#readme"
+}
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4

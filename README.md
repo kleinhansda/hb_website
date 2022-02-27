@@ -1,23 +1,16 @@
-# HannesBräu website
+# HannesBräu website - deploy branch
 
 deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/266076e6-11e5-4899-ae58-5d6d3f7eabac/deploy-status)](https://app.netlify.com/sites/hannesbru/deploys)
 
-## development
+## general
 
-* `blogdown::serve_site()` to run a demo version in the viewer pane in rstudio or your browser
-* To [allow indexing by search engines](blog.brianbeach.com/posts/2019-12-11-hugo-robots-meta-tag/) use `env HUGO_ENV="production" hugo`
+When pushing commits to the deploy branch, the _deploy_ will be automatically produced and published by [netlify](https://app.netlify.com/sites/hannesbru/deploys?filter=deploy). In a post-processing step, netlify will [inject a html snippet](https://app.netlify.com/sites/hannesbru/settings/deploys#post-processing) before </body> which includes color changes to the navbar in chrome, addition of google analytics and a popup to inform the visitor that the site uses cookies.
 
-## custom functions
+## how to
 
-can be found under '\themes\gohugo-theme-ananke\layouts\shortcuts\'
-
-* agenda
-  + contains an iframe to show a google calendar at 'Termine'
-* beer_navi
-  + Shows the navigtion 'Biere' and 'Produkte' on the landing page
-* form-contact
-  + contains the code for the email-contact form
-
-## how to markdown
-
-* Zeilenumbrüche: zwei leerzeichen am Ende der Zeile
+1. When you are done making changes on the main branch..
+   +  blogdown::stop_server()
+   +  eventually delete 'public' folder
+   +  blogdown::build_site()
+2. commit changes to main & deploy branch
+3. push to main & deploy branch 

@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "app": {
     "js": "js/app.3fc0f988d21662902933.js",
     "css": "css/app.955516233bcafa4d2a1c13cea63c7b50.css"
   }
+=======
+{
+  "app": {
+    "js": "js/app.3fc0f988d21662902933.js",
+    "css": "css/app.955516233bcafa4d2a1c13cea63c7b50.css"
+  }
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: *
 # robotstxt.org - if ENV production variable is false robots will be disallowed.
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
@@ -6,3 +7,12 @@ Sitemap: {{.Site.BaseURL}}/sitemap.xml
 {{ else }}
 Disallow: /
 {{ end }}
+=======
+User-agent: *
+# robotstxt.org - if ENV production variable is false robots will be disallowed.
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  Disallow:
+{{ else }}
+  Disallow: /
+{{ end }}
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4

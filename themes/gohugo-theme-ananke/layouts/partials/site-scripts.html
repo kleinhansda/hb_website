@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 {{ $script := .Site.Data.webpack_assets.app }}
 {{ with $script.js }}
   <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
 {{ end }}
+=======
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+  <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
+{{ end }}
+>>>>>>> 4e5434df52d561cbe29e258997575a9dbca244f4
