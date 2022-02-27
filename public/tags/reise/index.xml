@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reise on HannesBräu</title>
+    <link>https://hannesbru.de/tags/reise/</link>
+    <description>Recent content in Reise on HannesBräu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hannesbru.de/tags/reise/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Besuch bei Polsinelli, Neapel</title>
+      <link>https://hannesbru.de/artikel/2018-04-01-polsinelli/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannesbru.de/artikel/2018-04-01-polsinelli/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
