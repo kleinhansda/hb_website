@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>corona on HannesBräu</title>
+    <link>https://hannesbru.de/tags/corona/</link>
+    <description>Recent content in corona on HannesBräu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hannesbru.de/tags/corona/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unser Corona Hygienekonzept</title>
+      <link>https://hannesbru.de/artikel/corona/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannesbru.de/artikel/corona/</guid>
+      <description>Das Wohl unserer Gäste steht für uns an erster Stelle. Damit Sie nach wie vor ihr Bier bei uns genießen können verpflichten wir uns daher zu folgendem Hygienekonzept:
+ Einhaltung des Sicherheits-Abstands von mindestens 1,5 m. Aufenthaltzeiten werden dokumentiert. Getrennte und gekennzeichnete Wege für Ein- und Ausgang. Sanitäre Einrichtungen werden regelmäßig desinfiziert und sind nur einzeln zu nutzen. Handdesinfektion immer in der Nähe. Musik- und Sonder-Veranstaltungen finden im Freien statt (für Wärmequellen ist gesorgt).</description>
+    </item>
+    
+  </channel>
+</rss>
