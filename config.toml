@@ -38,3 +38,8 @@ enableRobotsTXT = true
   recent_posts_number = 2
   custom_css = ["css/main.css"]
   body_classes = "avenir bg-near-white"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

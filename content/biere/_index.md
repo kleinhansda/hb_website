@@ -1,7 +1,7 @@
 ---
-title: Angebote
+title: Info
 description: Hopfen und Malz, Gott erhalt's
-featured_image: '/images/malz.gif'
+featured_image: "/images/malz.gif"
 weight: 1
 ---
 

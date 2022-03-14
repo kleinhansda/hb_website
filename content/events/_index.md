@@ -1,35 +1,33 @@
 ---
-title: "Termine"
+title: "Events"
 description: 
 featured_image: '/images/termine/header_anim.gif'
 type: page
 weight: 3
 ---
 
-# Agenda
-
-Anstehende Events können in unserem Kalender eingesehen werden
-
 {{< agenda >}}
 
-# Bierbrau - Seminar
+Alternativ könnt ihr auch unseren {{< kalender >}} oder {{< newsletter_signup >}} abbonieren um über anstehende Events auf dem laufenden zu bleiben.
 
-**!! Es gelten die 2-G Regeln !!**
+## Ausschank
 
-<div align="left">
+Unser Ausschank findet zwei-wöchentlich immer Freitags statt. Dort habt ihr die Möglichkeit unser Bier direkt von der Quelle, frisch gezapft zu genießen und HannesBräu _live_ zu erleben :)
+## Bierbrau - Seminar
 
-Bei einer Führung durch das Sudhaus werden die Teilnehmer in die Geheimnisse der Braukunst eingeweiht. Bei anschließendem Vesper in der Stube werden bei netter Gesellschaft mit dem Brauer die verschiedenen Biere verköstigt.
 
-Beginn ist jeweils um 17:30 Uhr. 
+Gab es in Viernheim schonmal eine Brauerei?
+Wie wurde damals Bier hergestellt?
+Findet es heraus in unserem Bierseminar!
 
-Anmeldung über <a href="https://vhs.viernheim.de/kursuebersicht.html">VHS Viernheim</a> oder direkt über uns (Kontaktformular im Impressum)
+Beginn ist jeweils um 17:30 Uhr.
 
-</div>
+Anmeldung über {{< kursuebersicht >}} oder direkt über uns (Kontaktformular im Impressum)
 
-# Private Veranstaltungen
+## Private Veranstaltungen
 
-<div align="left">
+<div align = "left">
 
-Für Feierlichkeiten wie Geburtstage und Firmenveranstaltungen steht die <a href="https://www.hannesbru.de/biere/stubb/">Schankstube</a> zur Verfügung. Details bezüglich Personenzahl, Speiß & Trank werden individuell auf Anfrage besprochen.
+Für Feierlichkeiten wie Geburtstage und Firmenveranstaltungen stehen unsere {{< raeumlichkeiten >}} zur Verfügung. Details bezüglich Personenzahl, Speiß & Trank werden individuell auf Anfrage besprochen.
 
 </div>
