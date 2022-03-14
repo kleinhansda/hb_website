@@ -40,19 +40,25 @@
   </url>
   
   <url>
-    <loc>https://hannesbru.de/impressum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hannesbru.de/biere/loft/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>https://hannesbru.de/team/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hannesbru.de/biere/stubb/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hannesbru.de/impressum/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
