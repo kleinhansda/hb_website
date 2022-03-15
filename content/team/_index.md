@@ -1,7 +1,7 @@
 ---
 title: Team
 description: Wir stellen uns vor
-featured_image: '/images/impressum/banner.jpg'
+featured_image: "/images/impressum/banner.jpg"
 type: page
 weight: 4
 toc: true

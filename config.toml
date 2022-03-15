@@ -1,5 +1,5 @@
 title = "HannesBräu"
-baseURL = "https://hannesbru.de/"
+baseURL = "https://www.hannesbru.de/"
 #baseURL = "C:/Hugo/Sites/hb_anake/public"
 #baseURL = "https://vibrant-mirzakhani-375433.netlify.app/"
 languageCode = "en-us"
