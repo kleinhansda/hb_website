@@ -8,7 +8,7 @@ toc: true
 ---
 
 <article>
-    <a class="db pv4 ph3 ph0-l no-underline black dim">
+    <a class="db pv4 ph3 ph0-l no-underline black">
       <div class="flex flex-column flex-row-ns">
         <div class="pr3-ns mb4 mb0-ns w-100 w-60-ns">
           <img src="/images/logo.png" class="db" alt="HannesBräu">
@@ -23,26 +23,26 @@ toc: true
     </a>
   </article>
 
-{{< item_article name="Uwe Kleinhans" image="/images/team/uwe.jpg" li1="Geschäftsführer" li2="Anlagenbetreuung" li3="Eventplanung" li4="Kessel - Meister">}}
+{{< item_article_team name="Uwe Kleinhans" image="/images/team/uwe.jpg" li1="Geschäftsführer" li2="Anlagenbetreuung" li3="Eventplanung" li4="Kessel - Meister">}}
 
-{{< item_article name="David Kleinhans" image="/images/team/david_2.jpg" li1="IT Betreuung" li2="Print & Medien" li3="Marketing" li4="Co. Kessel - Meister">}}
+{{< item_article_team name="David Kleinhans" image="/images/team/david_2.jpg" li1="IT Betreuung" li2="Print & Medien" li3="Marketing" li4="Co. Kessel - Meister">}}
 
-{{< item_article name="Jaqueline Lippold" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
+{{< item_article_team name="Jaqueline Lippold" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
 
-{{< item_article name="Carola Humpe" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Ms. Allwissend" li3="Orga-Profi" li4="Gute Seele">}}
+{{< item_article_team name="Carola Humpe" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Ms. Allwissend" li3="Orga-Profi" li4="Gute Seele">}}
 
-{{< item_article name="Rainer Kritzinger" image="/images/team/rainer.jpg" li1="Bier-Tester" li2="Consulting" li3="Ruhe-Bewahrer" li4="Offenes-Ohr-haber">}}
+{{< item_article_team name="Rainer Kritzinger" image="/images/team/rainer.jpg" li1="Bier-Tester" li2="Consulting" li3="Ruhe-Bewahrer" li4="Offenes-Ohr-haber">}}
 
-{{< item_article name="Harry" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Harry" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Roland" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Roland" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Harry" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Harry" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Sabine" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Sabine" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Richard" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Richard" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Volker" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Volker" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
-{{< item_article name="Mario" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
+{{< item_article_team name="Mario" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}

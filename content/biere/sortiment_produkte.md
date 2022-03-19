@@ -1,5 +1,5 @@
 ---
-title: Sortiment - Produkte
+title: Produkt Sortiment
 featured_image: '/images/biere/header.jpg'
 type: page
 omit_header_text: true
@@ -18,7 +18,7 @@ Die 5L Partykegs sind zudem im [Radhaus Viernheim](https://goo.gl/maps/nyPwtBn5s
 
 Einige Produkte können ausserdem über unseren [online shop](https://hannesbraeu.sumup.link/) bezogen werden.
 
-# Hopfenkrüge / Bier-Siphons
+## Hopfenkrüge / Bier-Siphons
 
 HannesBräu Frischbier-Genuss zuhause
 
@@ -28,24 +28,24 @@ HannesBräu Frischbier-Genuss zuhause
 
 {{< figure src="/images/produkte/siphon.jpg" title="2L Bier Siphon" >}}
 
-# Gutschein Tank-Kadde
+## Gutschein Tank-Kadde
 
 - zum wieder-befüllen des Bier-Siphons
 
 {{< figure src="/images/produkte/tankkadde.jpg" title="Tankkadde" >}}
 
-# Party Kegs
+## Party Kegs
 
 - 5L Volumen
 - Einweg
 
 {{< figure src="/images/biere/header.jpg" title="Partykegs" >}}
 
-# Schanktisch & Anlage
+## Schanktisch & Anlage
 
 {{< figure src="/images/produkte/tisch.jpg" title="Schanktisch" >}}
 
-# Profi - FlachKegs
+## Profi - FlachKegs
 
 Mit Flachkeg Anschluss in den Größen ...
 
