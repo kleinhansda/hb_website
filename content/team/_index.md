@@ -29,7 +29,7 @@ toc: true
 
 {{< item_article_team name="Jaqueline Lippold" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
 
-{{< item_article_team name="Carola Humpe" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Ms. Allwissend" li3="Orga-Profi" li4="Gute Seele">}}
+{{< item_article_team name="Carola Humpe" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Orga-Profi" li3="Gute Seele" li4="">}}
 
 {{< item_article_team name="Rainer Kritzinger" image="/images/team/rainer.jpg" li1="Bier-Tester" li2="Consulting" li3="Ruhe-Bewahrer" li4="Offenes-Ohr-haber">}}
 
