@@ -1,6 +1,6 @@
 ---
 title: Produkt Sortiment
-featured_image: '/images/biere/header.jpg'
+featured_image: "/images/biere/header.jpg"
 type: page
 omit_header_text: true
 weight: 1
