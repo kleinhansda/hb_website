@@ -1,6 +1,6 @@
 ---
 title: "Events"
-description: 
+description: "Upcoming Events"
 featured_image: '/images/termine/header_anim.gif'
 type: page
 weight: 3
