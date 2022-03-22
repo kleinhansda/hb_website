@@ -15,9 +15,9 @@ Einsteinstraße 8
 
 {{< anfahrt_gmaps >}}
 
-## E-mail
+## Noch fragen?
 
-Noch fragen? Sende eine Nachricht!
+Sende uns eine Nachricht! :)
 
 {{< form-contact action="https://formspree.io/info@xn--hannesbru-22a.de" >}}
 ## Newsletter
