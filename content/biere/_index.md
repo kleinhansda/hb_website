@@ -22,7 +22,7 @@ weight: 1
       <a href="https://www.hannesbru.de/biere/sortiment_biere/" class="db link dim tc">
         <article class="mw5 mw6-ns center pt4">
             <div class="aspect-ratio aspect-ratio--1x1 mb4">
-            <div class="aspect-ratio--object cover" style="background:url(/images/biere/buuh.jpg) center;"></div>
+            <div class="aspect-ratio--object cover" style="background:url(/images/biere/buuh_kelch.jpg) center;"></div>
             </div>
         </article>
         <h3 class="f6 f5 fw4 mt2 black-100">Biere</h3>

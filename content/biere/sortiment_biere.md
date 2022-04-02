@@ -8,7 +8,7 @@ weight: 2
 ---
 
 <center>
-<h1>BIER, ohne <i>Ferz</i></h1>
+<h2>BIER, ohne <i>Ferz</i></h2>
 Für den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. 
 </br></br>Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. <br>Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert.
 </center>
