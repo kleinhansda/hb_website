@@ -15,7 +15,6 @@ Alternativ könnt ihr auch unseren {{< kalender >}} oder {{< newsletter_signup >
 Unser Ausschank findet zwei-wöchentlich immer Freitags statt. Dort habt ihr die Möglichkeit unser Bier direkt von der Quelle, frisch gezapft zu genießen und HannesBräu _live_ zu erleben :)
 ## Bierbrau - Seminar
 
-
 Gab es in Viernheim schonmal eine Brauerei?
 Wie wurde damals Bier hergestellt?
 Findet es heraus in unserem Bierseminar!
