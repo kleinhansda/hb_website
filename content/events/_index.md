@@ -1,6 +1,6 @@
 ---
 title: "Events"
-description: 
+description: "Upcoming Events"
 featured_image: '/images/termine/header_anim.gif'
 type: page
 weight: 3
@@ -14,7 +14,6 @@ Alternativ könnt ihr auch unseren {{< kalender >}} oder {{< newsletter_signup >
 
 Unser Ausschank findet zwei-wöchentlich immer Freitags statt. Dort habt ihr die Möglichkeit unser Bier direkt von der Quelle, frisch gezapft zu genießen und HannesBräu _live_ zu erleben :)
 ## Bierbrau - Seminar
-
 
 Gab es in Viernheim schonmal eine Brauerei?
 Wie wurde damals Bier hergestellt?
