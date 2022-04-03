@@ -19,10 +19,10 @@ weight: 1
       </a>
     </div>
     <div class="fl w-50 w-25-m w-25-l pa1">
-      <a href="https://www.hannesbru.de/biere/sortiment_biere/" class="db link dim tc">
+      <a href="https://www.hannesbru.de/biere/unsere_biere/" class="db link dim tc">
         <article class="mw5 mw6-ns center pt4">
             <div class="aspect-ratio aspect-ratio--1x1 mb4">
-            <div class="aspect-ratio--object cover" style="background:url(/images/biere/buuh.jpg) center;"></div>
+            <div class="aspect-ratio--object cover" style="background:url(/images/biere/buuh_kelch.jpg) center;"></div>
             </div>
         </article>
         <h3 class="f6 f5 fw4 mt2 black-100">Biere</h3>
