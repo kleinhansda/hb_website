@@ -1,21 +1,21 @@
 <article class="bt bb b--black-10">
     <a class="db pv4 black" style="color: black;">
       <div class="flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-100 w-50-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w- 0-ns">
           <img src="{{ .Get "image" }}" class="db" alt="{{ .Get "name" }}">
         </div>
         <div class="w-100 w-60-ns pl3-ns">
           <h1 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left;font-weight: bold">{{ .Get "name" }}</h1>
-          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Brauart</h3>
+          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Eckdaten</h3>
           <ul class="f6 f5-l lh-copy" style = "text-align: left">
-            <li>{{ .Get "art" }}</li>
+            <li>Brauart: {{ .Get "art" }}</li>
+            <li>Stammwürze: {{ .Get "wuerze" }}</li>
           </ul>
-          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Geschmacksnoten</h3>
+          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Profil</h3>
           <ul class="f6 f5-l lh-copy" style = "text-align: left">
-            <li>{{ .Get "li1" }}</li>
-            <li>{{ .Get "li2" }}</li>
-            <li>{{ .Get "li3" }}</li>
-            <li>{{ .Get "li4" }}</li>
+            <li>Farbe: {{ .Get "farbe" }}</li>
+            <li>Geschmack: {{ .Get "geschmack" }}</li>
+            <li>Geruch: {{ .Get "geruch" }}</li>
           </ul>  
         </div>
       </div>
