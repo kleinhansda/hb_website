@@ -35,9 +35,9 @@ toc: true
 
 {{< item_article_team name="Roland Engelke" image="/images/team/roland.jpg" li1="Mr. Schbritz" li2="" li3="" li4="">}}
 
-{{< item_article_team name="Richard Ringhof (Ritschie)" image="/images/team/richard.jpg" li1="Türsteher" li2="" li3="" li4="">}}
-
 {{< item_article_team name="Jaqueline Lippold" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
+
+{{< item_article_team name="Richard Ringhof (Ritschie)" image="/images/team/avatar.jpg" li1="Allrounder " li2="Mann für alle Fälle" li3="" li4="">}}
 
 {{< item_article_team name="Harry" image="/images/team/avatar.jpg" li1="Rumtreiwer" li2="" li3="" li4="">}}
 
