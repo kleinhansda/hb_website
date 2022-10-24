@@ -6,11 +6,13 @@
         </div>
         <div class="w-100 w-60-ns pl3-ns">
           <h1 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">{{ .Get "name" }}</h1>
-          <p class="f3 fw1 baskerville mt0 lh-title"><b>{{ .Get "art" }}</b><br>
-          Stammwürze: {{ .Get "wuerze" }}</p>
-          <p class="f3 fw1 baskerville mt0 lh-title"><i>{{ .Get "text" }}</i></p>
-          <p class="f3 fw1 baskerville mt0 lh-title"><b>Malz:</b><br>{{ .Get "malz" }}<br>
-          <b>Hopfen:</b><br>{{ .Get "hopfen" }}</p>  
+          <p><b>{{ .Get "art" }}</b>
+            <br>Stammwürze: {{ .Get "wuerze" }}
+          </p>
+          <p><i>{{ .Get "text" }}</i></p>
+          <p><b>Malz:</b><br>{{ .Get "malz" }}
+            <br><b>Hopfen:</b><br>{{ .Get "hopfen" }}
+          </p>  
         </div>
       </div>
     </a>
