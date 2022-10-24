@@ -1,21 +1,16 @@
 <article class="bt bb b--black-10">
-    <a class="db pv4 black" style="color: black;">
+    <a class="db pv4 ph3 ph0-l no-underline black">
       <div class="flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-80 w- 0-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-50-ns">
           <img src="{{ .Get "image" }}" class="db" alt="{{ .Get "name" }}">
         </div>
-        <div class="w-100 w-80-ns pl3-ns">
-          <h1 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left;font-weight: bold">{{ .Get "name" }}</h1>
-          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Eckdaten</h3>
-          <ul class="f6 f5-l lh-copy" style = "text-align: left">
-            <li>Brauart: {{ .Get "art" }}</li>
-            <li>Stammwürze: {{ .Get "wuerze" }}</li>
-          </ul>
-          <h3 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">Profil</h3>
-          <ul class="f6 f5-l lh-copy" style = "text-align: left">
-            <li>Farbe: {{ .Get "farbe" }}</li>
-            <li>Geschmack: {{ .Get "geschmack" }}</li>
-            <li>Geruch: {{ .Get "geruch" }}</li>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 baskerville mt0 lh-title" style = "text-align: left">{{ .Get "name" }}</h1>
+          <h4>{{ .Get "art" }}</h4>
+          <p>Stammwürze: {{ .Get "wuerze" }}</p>
+          <p><i>{{ .Get "text" }}</i></p>
+          <p><b>Malz: </b>{{ .Get "malz" }}<br>
+          <b>Hopfen: </b>{{ .Get "hopfen" }}</p>
           </ul>  
         </div>
       </div>
