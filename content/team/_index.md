@@ -23,21 +23,19 @@ toc: true
     </a>
   </article>
 
-{{< item_article_team name="Uwe Kleinhans" image="/images/team/uwe.jpg" li1="Geschäftsführer" li2="Anlagenbetreuung" li3="Eventplanung" li4="Kessel - Meister">}}
+{{< item_article_team name="Uwe" image="/images/team/uwe.jpg" li1="Geschäftsführer" li2="Anlagenbetreuung" li3="Eventplanung" li4="Kessel - Meister">}}
 
-{{< item_article_team name="Carola Humpe" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Orga-Profi" li3="Gute Seele" li4="Women & Beer Beauftragte">}}
+{{< item_article_team name="Carola" image="/images/team/carola_2.jpg" li1="Empfangschefin" li2="Orga-Profi" li3="Gute Seele" li4="Women & Beer Beauftragte">}}
 
-{{< item_article_team name="David Kleinhans" image="/images/team/david_2.jpg" li1="IT Betreuung" li2="Print & Medien" li3="Marketing" li4="Co. Kessel - Meister">}}
+{{< item_article_team name="David" image="/images/team/david_2.jpg" li1="IT Betreuung" li2="Print & Medien" li3="Marketing" li4="Co. Kessel - Meister">}}
 
-{{< item_article_team name="Rainer Kritzinger" image="/images/team/rainer.jpg" li1="Bier-Tester" li2="Consulting" li3="Ruhe-Bewahrer" li4="Offenes-Ohr-haber">}}
+{{< item_article_team name="Rainer" image="/images/team/rainer.jpg" li1="Bier-Tester" li2="Consulting" li3="Ruhe-Bewahrer" li4="Offenes-Ohr-haber">}}
 
-{{< item_article_team name="Richard Ringhof" image="/images/team/richard.jpg" li1="Allrounder " li2="Mann für alle Fälle" li3="" li4="">}}
+{{< item_article_team name="Richard" image="/images/team/richard.jpg" li1="Allrounder " li2="Mann für alle Fälle" li3="" li4="">}}
 
-{{< item_article_team name="Roland Engelke" image="/images/team/roland.jpg" li1="Mr. Schbritz" li2="" li3="" li4="">}}
+{{< item_article_team name="Roland" image="/images/team/roland_2.jpg" li1="Mr. Schbritz" li2="" li3="" li4="">}}
 
-{{< item_article_team name="Frank Weishaupt" image="/images/team/frank.jpg" li1="Griller" li2="Gondoliere" li3="de kölsche Jung" li4="">}}
-
-{{< item_article_team name="Jaqueline Lippold" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
+{{< item_article_team name="Jaqueline" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
 
 {{< item_article_team name="Harry" image="/images/team/avatar.jpg" li1="Rumtreiwer" li2="" li3="" li4="">}}
 
