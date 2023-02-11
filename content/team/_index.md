@@ -37,7 +37,7 @@ toc: true
 
 {{< item_article_team name="Jaqueline" image="/images/team/jaqueline.jpg" li1="Sonnenschein" li2="Theken Göttin" li3="Putzteufel" li4="">}}
 
-{{< item_article_team name="Harry" image="/images/team/avatar.jpg" li1="Rumtreiwer" li2="" li3="" li4="">}}
+{{< item_article_team name="Bernd" image="/images/team/bernd.jpg" li1="" li2="" li3="" li4="">}}
 
 {{< item_article_team name="Volker" image="/images/team/avatar.jpg" li1="" li2="" li3="" li4="">}}
 
