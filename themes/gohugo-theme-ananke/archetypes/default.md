@@ -1,8 +1,7 @@
-+++
-title =  "{{ replace .TranslationBaseName "-" " " | title }}"
-author = "David Kleinhans"
-description = ""
-tags = []
-date = {{ .Date }}
-featured_image = ""
-+++
+---
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: {{ .Date }}
+tags: []
+featured_image: ""
+description: ""
+---

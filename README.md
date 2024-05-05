@@ -10,6 +10,7 @@ deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/266076e6
 ## modify
 
 * `~/static/css/main.css`
+
 ## custom functions
 
 can be found under '\themes\gohugo-theme-ananke\layouts\shortcuts\'

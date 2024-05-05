@@ -1,6 +1,8 @@
 title = "HannesBräu"
 baseURL = "https://www.hannesbru.de/"
 #baseURL = "C:/Hugo/Sites/hb_anake/public"
+#baseURL = "/media/data/Code/projects/hannesbraeu/hb_website/public"
+#baseURL = "//homeserver.local/server_ext_disks/Code/projects/hannesbraeu/hb_website/public"
 #baseURL = "https://vibrant-mirzakhani-375433.netlify.app/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
