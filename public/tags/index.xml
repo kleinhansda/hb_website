@@ -2,104 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HannesBräu</title>
-    <link>https://www.hannesbru.de/tags/</link>
+    <link>http://localhost:4321/tags/</link>
     <description>Recent content in Tags on HannesBräu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.hannesbru.de/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>keggs</title>
-      <link>https://www.hannesbru.de/tags/keggs/</link>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/keggs/</guid>
+      <title>Biergondel</title>
+      <link>http://localhost:4321/tags/biergondel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/biergondel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>corona</title>
-      <link>https://www.hannesbru.de/tags/corona/</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/corona/</guid>
+      <title>Keggs</title>
+      <link>http://localhost:4321/tags/keggs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/keggs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gruesse</title>
-      <link>https://www.hannesbru.de/tags/gruesse/</link>
-      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/gruesse/</guid>
+      <title>Corona</title>
+      <link>http://localhost:4321/tags/corona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/corona/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bilder</title>
-      <link>https://www.hannesbru.de/tags/bilder/</link>
-      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/bilder/</guid>
+      <title>Gruesse</title>
+      <link>http://localhost:4321/tags/gruesse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/gruesse/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Bilder</title>
+      <link>http://localhost:4321/tags/bilder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/bilder/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bier</title>
-      <link>https://www.hannesbru.de/tags/bier/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/bier/</guid>
+      <link>http://localhost:4321/tags/bier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/bier/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hell</title>
-      <link>https://www.hannesbru.de/tags/hell/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/hell/</guid>
+      <link>http://localhost:4321/tags/hell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/hell/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Meehdsche</title>
-      <link>https://www.hannesbru.de/tags/meehdsche/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/meehdsche/</guid>
+      <link>http://localhost:4321/tags/meehdsche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/meehdsche/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Presse</title>
-      <link>https://www.hannesbru.de/tags/presse/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/presse/</guid>
+      <link>http://localhost:4321/tags/presse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/presse/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Umbau</title>
-      <link>https://www.hannesbru.de/tags/umbau/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/umbau/</guid>
+      <link>http://localhost:4321/tags/umbau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/umbau/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Reise</title>
-      <link>https://www.hannesbru.de/tags/reise/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/tags/reise/</guid>
+      <link>http://localhost:4321/tags/reise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/reise/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

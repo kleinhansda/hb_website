@@ -2,223 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HannesBräu</title>
-    <link>https://www.hannesbru.de/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content on HannesBräu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.hannesbru.de/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Produkt Sortiment</title>
-      <link>https://www.hannesbru.de/biere/sortiment_produkte/</link>
+      <link>http://localhost:4321/biere/sortiment_produkte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/biere/sortiment_produkte/</guid>
-      <description>Alle Produkte sind erhältlich vor Ort in der Einsteinstraße 8, 68519 Viernheim
-Öffnungszeiten:
- Mo-Do von 08-12 und 13-16 Uhr sowie an Brau- und Ausschank-Tagen  Die 5L Partykegs sind zudem im Radhaus Viernheim erhältlich.
-Einige Produkte können ausserdem über unseren online shop bezogen werden.
-Hopfenkrüge / Bier-Siphons HannesBräu Frischbier-Genuss zuhause
- HannesBräu branded Bier-Siphon zum wieder auffüllen 1 oder 2 L Volumen bei jeder Auffüllung gibt es einen Stempel auf die Dubbekadd.</description>
+      <guid>http://localhost:4321/biere/sortiment_produkte/</guid>
+      <description>Alle Produkte sind erhältlich vor Ort in der Einsteinstraße 8, 68519 Viernheim&#xA;Öffnungszeiten:&#xA;Mo-Do von 08-12 und 13-16 Uhr sowie an Brau- und Ausschank-Tagen Die 5L Partykegs sind zudem im Radhaus Viernheim erhältlich.&#xA;Einige Produkte können ausserdem über unseren online shop bezogen werden.&#xA;Hopfenkrüge / Bier-Siphons HannesBräu Frischbier-Genuss zuhause&#xA;HannesBräu branded Bier-Siphon zum wieder auffüllen 1 oder 2 L Volumen bei jeder Auffüllung gibt es einen Stempel auf die Dubbekadd. Bei 10 Auffüllungen gibt es eine Auffüllung umsonst.</description>
     </item>
-    
     <item>
       <title>Unsere Biere</title>
-      <link>https://www.hannesbru.de/biere/unsere_biere/</link>
+      <link>http://localhost:4321/biere/unsere_biere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/biere/unsere_biere/</guid>
-      <description>BIER, ohne FerzFür den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert.Vernemmer MeehdscheEckdatenBrauart: HellesStammwürze: 12%ProfilFarbe: BruenetteGeschmack: Honig &amp;amp; SchokoladeGeruch: Getreide  Vernemmer BuuhEckdatenBrauart: HellesStammwürze: 12%ProfilFarbe: BernsteinGeschmack: Backfrisches BrotGeruch: Malzig  Vernemmer HellEckdatenBrauart: KellerpilsStammwürze: 12%ProfilFarbe: StrohgelbGeschmack: Fruchtig frischGeruch: Hopfen &amp;amp; Mandarine  Vernemmer WeehzeEckdatenBrauart: WeizenStammwürze: 12%ProfilFarbe: Strohgelb &amp;amp; TrübGeschmack: Cremig, Banane &amp;amp; NelkeGeruch: Getreide &amp;amp; Hopfen  Vernemmer UrstoffEckdatenBrauart: StoutStammwürze: 12%ProfilFarbe: KastanienbraunGeschmack: Karamell- und Schoko-noteGeruch: Rauchig, Malz &amp;amp; Banane</description>
+      <guid>http://localhost:4321/biere/unsere_biere/</guid>
+      <description> BIER, ohne Ferz Für den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert. Vernemmer Meehdsche Eckdaten Brauart: Helles Stammwürze: 12% Profil Farbe: Bruenette Geschmack: Honig &amp;amp; Schokolade Geruch: Getreide Vernemmer Buuh Eckdaten Brauart: Helles Stammwürze: 12% Profil Farbe: Bernstein Geschmack: Backfrisches Brot Geruch: Malzig Vernemmer Hell Eckdaten Brauart: Kellerpils Stammwürze: 12% Profil Farbe: Strohgelb Geschmack: Fruchtig frisch Geruch: Hopfen &amp;amp; Mandarine Vernemmer Weehze Eckdaten Brauart: Weizen Stammwürze: 12% Profil Farbe: Strohgelb &amp;amp; Trüb Geschmack: Cremig, Banane &amp;amp; Nelke Geruch: Getreide &amp;amp; Hopfen Vernemmer Urstoff Eckdaten Brauart: Stout Stammwürze: 12% Profil Farbe: Kastanienbraun Geschmack: Karamell- und Schoko-note Geruch: Rauchig, Malz &amp;amp; Banane </description>
     </item>
-    
     <item>
       <title>Brauanlage &amp; Rohstoffe</title>
-      <link>https://www.hannesbru.de/biere/rohstoffe/</link>
+      <link>http://localhost:4321/biere/rohstoffe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/biere/rohstoffe/</guid>
-      <description>Brauanlage Unsere Brauanlage ist eine Polsinelli Junior Extra mit 500 L Produktionsvolumen.
-Wasser Guudes Vernemmer Rohrperle 😊 In einem speziellen Verfahren wird dem Wasser für einen samtig weichen Biergenuss das Kalk entzogen (enthärtet). Die für den menschlichen Körper kostbaren Mineralsalze bleiben bei diesem Prozess erhalten. Hier profitieren wir von der jahrelangen Erfahrung von Kleinhans-Grossküchen.
-Malze Unser Malze beziehen wir über Kling-Malz in Schriesheim.
-Hopfen Unsere Hopfen beziehen wir aus der Hollertau.</description>
+      <guid>http://localhost:4321/biere/rohstoffe/</guid>
+      <description>Brauanlage Unsere Brauanlage ist eine Polsinelli Junior Extra mit 500 L Produktionsvolumen.&#xA;Wasser Guudes Vernemmer Rohrperle 😊 In einem speziellen Verfahren wird dem Wasser für einen samtig weichen Biergenuss das Kalk entzogen (enthärtet). Die für den menschlichen Körper kostbaren Mineralsalze bleiben bei diesem Prozess erhalten. Hier profitieren wir von der jahrelangen Erfahrung von Kleinhans-Grossküchen.&#xA;Malze Unser Malze beziehen wir über Kling-Malz in Schriesheim.&#xA;Hopfen Unsere Hopfen beziehen wir aus der Hollertau.</description>
     </item>
-    
     <item>
       <title>Loft</title>
-      <link>https://www.hannesbru.de/biere/loft/</link>
+      <link>http://localhost:4321/biere/loft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/biere/loft/</guid>
-      <description>Öffnungszeiten entnehmen Sie bitte der Agenda
-Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
- Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
+      <guid>http://localhost:4321/biere/loft/</guid>
+      <description>Öffnungszeiten entnehmen Sie bitte der Agenda&#xA;Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!&#xA;Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
     </item>
-    
     <item>
       <title>Veranstaltungen</title>
-      <link>https://www.hannesbru.de/biere/stubb/</link>
+      <link>http://localhost:4321/biere/stubb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/biere/stubb/</guid>
-      <description>Öffnungszeiten entnehmen Sie bitte der Agenda
-Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!
- Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
+      <guid>http://localhost:4321/biere/stubb/</guid>
+      <description>Öffnungszeiten entnehmen Sie bitte der Agenda&#xA;Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!&#xA;Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
     </item>
-    
+    <item>
+      <title>Einweihung Biergondel</title>
+      <link>http://localhost:4321/artikel/biergondel/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/artikel/biergondel/</guid>
+      <description>Am 01.05. haben wir endlich unsere Biergondel eingeweiht. Die Schank- und Kühl-Technik sowie die Arbeitsabläufe funktionieren einwandfrei. Vielen Dank an für alle die da waren! Es war ein sehr schöner Tag.</description>
+    </item>
     <item>
       <title>Party Keggs wieder verfügbar</title>
-      <link>https://www.hannesbru.de/artikel/corona/</link>
+      <link>http://localhost:4321/artikel/corona/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/corona/</guid>
-      <description>Holt euch jetzt den HannesBräu Bier-Kegg für frischen HannesBräu Genuss für die ganze Runde!
-Erhältlich direkt vor Ort in der Einsteinstraße 8 :)</description>
+      <guid>http://localhost:4321/artikel/corona/</guid>
+      <description>Holt euch jetzt den HannesBräu Bier-Kegg für frischen HannesBräu Genuss für die ganze Runde!&#xA;Erhältlich direkt vor Ort in der Einsteinstraße 8 :)</description>
     </item>
-    
     <item>
       <title>Unser Corona Hygienekonzept</title>
-      <link>https://www.hannesbru.de/artikel/corona/</link>
+      <link>http://localhost:4321/artikel/corona/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/corona/</guid>
-      <description>Das Wohl unserer Gäste steht für uns an erster Stelle. Damit Sie nach wie vor ihr Bier bei uns genießen können verpflichten wir uns daher zu folgendem Hygienekonzept:
- Einhaltung des Sicherheits-Abstands von mindestens 1,5 m. Aufenthaltzeiten werden dokumentiert. Getrennte und gekennzeichnete Wege für Ein- und Ausgang. Sanitäre Einrichtungen werden regelmäßig desinfiziert und sind nur einzeln zu nutzen. Handdesinfektion immer in der Nähe. Musik- und Sonder-Veranstaltungen finden im Freien statt (für Wärmequellen ist gesorgt).</description>
+      <guid>http://localhost:4321/artikel/corona/</guid>
+      <description>Das Wohl unserer Gäste steht für uns an erster Stelle. Damit Sie nach wie vor ihr Bier bei uns genießen können verpflichten wir uns daher zu folgendem Hygienekonzept:&#xA;Einhaltung des Sicherheits-Abstands von mindestens 1,5 m. Aufenthaltzeiten werden dokumentiert. Getrennte und gekennzeichnete Wege für Ein- und Ausgang. Sanitäre Einrichtungen werden regelmäßig desinfiziert und sind nur einzeln zu nutzen. Handdesinfektion immer in der Nähe. Musik- und Sonder-Veranstaltungen finden im Freien statt (für Wärmequellen ist gesorgt).</description>
     </item>
-    
     <item>
       <title>Kessel-Predigt</title>
-      <link>https://www.hannesbru.de/artikel/kesselpredigt/</link>
+      <link>http://localhost:4321/artikel/kesselpredigt/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/kesselpredigt/</guid>
-      <description>Von drauss&amp;rsquo; vom HannesBräu komm ich her,
-  Ich muss euch sagen, dort schmeckt es mir sehr!
-  Allüberall an den Zapfhahnspitzen,
-  sah ich goldenen Gerstensaft blitzen;
-  Und zwischen den Maischebottischen aus des Sudhauses Tor,
-  trat mit vollem Glase der Braumeister hervor,
-  Und wie ich genoss, den edlen Hopfentrunk,
-  sprach mit tiefer Stimme er mich an:
-  Es Vernemmer Meehdsche!</description>
+      <guid>http://localhost:4321/artikel/kesselpredigt/</guid>
+      <description>Von drauss&amp;rsquo; vom HannesBräu komm ich her,&#xA;Ich muss euch sagen, dort schmeckt es mir sehr!&#xA;Allüberall an den Zapfhahnspitzen,&#xA;sah ich goldenen Gerstensaft blitzen;&#xA;Und zwischen den Maischebottischen aus des Sudhauses Tor,&#xA;trat mit vollem Glase der Braumeister hervor,&#xA;Und wie ich genoss, den edlen Hopfentrunk,&#xA;sprach mit tiefer Stimme er mich an:&#xA;Es Vernemmer Meehdsche! leischd mit Schoggo und Karamell,&#xA;odda doch liewer Vernemmer Klassisch Hell -</description>
     </item>
-    
     <item>
       <title>Bilder vom 05.07.</title>
-      <link>https://www.hannesbru.de/artikel/bilder_190705/</link>
+      <link>http://localhost:4321/artikel/bilder_190705/</link>
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/bilder_190705/</guid>
-      <description>Vielen Dank an die zahlreichen Gäste und vielen Dank an die Musiker!!
-   Sieh dir diesen Beitrag auf Instagram an        #bier #hannesbräu #liebe #musik #soulkitchen #viernheim
-Ein Beitrag geteilt von HannesBräu (@didi.klein) am Jul 6, 2019 um 7:01 PDT
- </description>
+      <guid>http://localhost:4321/artikel/bilder_190705/</guid>
+      <description>Vielen Dank an die zahlreichen Gäste und vielen Dank an die Musiker!!&#xA;Sieh dir diesen Beitrag auf Instagram an #bier #hannesbräu #liebe #musik #soulkitchen #viernheim&#xA;Ein Beitrag geteilt von HannesBräu (@didi.klein) am Jul 6, 2019 um 7:01 PDT</description>
     </item>
-    
     <item>
       <title>Stammtisch am 16.05.</title>
-      <link>https://www.hannesbru.de/artikel/stammtisch-am-16-05/</link>
+      <link>http://localhost:4321/artikel/stammtisch-am-16-05/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/stammtisch-am-16-05/</guid>
-      <description>Am Donnerstag den 16.05. hat die Stube wieder geöffnet!!
-Zeit
- 18 - ca. 22 Uhr  Angebot
- BIER! Kadofflsubb mit Woschd unn Bauernbrot Weine: Rot, Weiß &amp;amp; Rose  Bis dann!</description>
+      <guid>http://localhost:4321/artikel/stammtisch-am-16-05/</guid>
+      <description>Am Donnerstag den 16.05. hat die Stube wieder geöffnet!!&#xA;Zeit&#xA;18 - ca. 22 Uhr Angebot&#xA;BIER! Kadofflsubb mit Woschd unn Bauernbrot Weine: Rot, Weiß &amp;amp; Rose Bis dann!</description>
     </item>
-    
     <item>
       <title>Ausschank am 27.04.</title>
-      <link>https://www.hannesbru.de/artikel/ausschank/</link>
+      <link>http://localhost:4321/artikel/ausschank/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/ausschank/</guid>
-      <description>das lange warten hat ein Ende!
-Ab diesem Samstag (27.04.19) gibt es unser Bier in den Sorten Vernemmer Meehdsche, Vernemmer Buuh und Vernemmer Hell in 5 Liter Party-Keggs bei folgenden Adressen&amp;hellip;
-  Bei Andreas Hoffmann im Radhaus Viernheim (Rathausstraße 56) ab 10 Uhr morgens bis Ladenschluss (bzw. solange der Vorrat reicht😉)
-  Und natürlich bei HannesBräu selbst (Einsteinstraße 8) von 14 - 18 Uhr
-  Falls ihr uns direkt vor Ort besucht habt ihr außerdem die Möglichkeit unser Bier frisch gezapft zu verkosten.</description>
+      <guid>http://localhost:4321/artikel/ausschank/</guid>
+      <description>das lange warten hat ein Ende!&#xA;Ab diesem Samstag (27.04.19) gibt es unser Bier in den Sorten Vernemmer Meehdsche, Vernemmer Buuh und Vernemmer Hell in 5 Liter Party-Keggs bei folgenden Adressen&amp;hellip;&#xA;Bei Andreas Hoffmann im Radhaus Viernheim (Rathausstraße 56) ab 10 Uhr morgens bis Ladenschluss (bzw. solange der Vorrat reicht😉)&#xA;Und natürlich bei HannesBräu selbst (Einsteinstraße 8) von 14 - 18 Uhr&#xA;Falls ihr uns direkt vor Ort besucht habt ihr außerdem die Möglichkeit unser Bier frisch gezapft zu verkosten.</description>
     </item>
-    
     <item>
       <title>Ausschank am verkaufsoffenen Sonntag (19.05.)</title>
-      <link>https://www.hannesbru.de/artikel/nachhaltigkeit/</link>
+      <link>http://localhost:4321/artikel/nachhaltigkeit/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/nachhaltigkeit/</guid>
-      <description>Im Rahmen des verkaufsoffenen Sonntags am 19.05. in der Viernheimer Innenstadt werden wir erstmals unser Bier anbieten und - zusammen mit euch - unsere offizielle Premiere feiern!
- Datum: 19.05.19 Beginn: 13:00 Ende: 18:00 Organisator: Citygemeinschaft Viernheim  Weitere Informationen folgen!!</description>
+      <guid>http://localhost:4321/artikel/nachhaltigkeit/</guid>
+      <description>Im Rahmen des verkaufsoffenen Sonntags am 19.05. in der Viernheimer Innenstadt werden wir erstmals unser Bier anbieten und - zusammen mit euch - unsere offizielle Premiere feiern!&#xA;Datum: 19.05.19 Beginn: 13:00 Ende: 18:00 Organisator: Citygemeinschaft Viernheim Weitere Informationen folgen!!</description>
     </item>
-    
     <item>
       <title>Verkostung</title>
-      <link>https://www.hannesbru.de/artikel/verkostung/</link>
+      <link>http://localhost:4321/artikel/verkostung/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/verkostung/</guid>
-      <description>Da wir unser Gebräu bald herausgeben wollen arbeiten wir derzeit fleißig daran unsere Vorräte aufzustocken. Heute wurde der Vernemmer Buuh gebraut und die schon in der Reifung befindlichen Biere (Vernemmer Hell und Vernemmer Meehdsche) verkostet.
-HAMMER! :)
-  Sieh dir diesen Beitrag auf Instagram an        #bier #genuss #trinität #bierismus #liebe #hannesbräu
-Ein Beitrag geteilt von David Kleinhans (@didi.klein) am Mär 9, 2019 um 12:14 PST</description>
+      <guid>http://localhost:4321/artikel/verkostung/</guid>
+      <description>Da wir unser Gebräu bald herausgeben wollen arbeiten wir derzeit fleißig daran unsere Vorräte aufzustocken. Heute wurde der Vernemmer Buuh gebraut und die schon in der Reifung befindlichen Biere (Vernemmer Hell und Vernemmer Meehdsche) verkostet.&#xA;HAMMER! :)&#xA;Sieh dir diesen Beitrag auf Instagram an #bier #genuss #trinität #bierismus #liebe #hannesbräu&#xA;Ein Beitrag geteilt von David Kleinhans (@didi.klein) am Mär 9, 2019 um 12:14 PST</description>
     </item>
-    
     <item>
       <title>Portrait im Südhessen Morgen</title>
-      <link>https://www.hannesbru.de/artikel/suedhessen/</link>
+      <link>http://localhost:4321/artikel/suedhessen/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/suedhessen/</guid>
+      <guid>http://localhost:4321/artikel/suedhessen/</guid>
       <description>Um den Artikel kostenlos in voller Länge zu lesen besucht das morgenweb (registrierung erforderlich).</description>
     </item>
-    
     <item>
       <title>Email Verteiler</title>
-      <link>https://www.hannesbru.de/artikel/2018-09-20-email/</link>
+      <link>http://localhost:4321/artikel/2018-09-20-email/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/2018-09-20-email/</guid>
-      <description>Du möchtest über HannesBräu auf dem laufenden bleiben, willst aber keinen RSS Feed abbonieren und hast kein Instagram? Trage dich in unseren Email Verteiler ein!
- Selbstverständlich werden wir eure Daten NICHT weiter geben!</description>
+      <guid>http://localhost:4321/artikel/2018-09-20-email/</guid>
+      <description>Du möchtest über HannesBräu auf dem laufenden bleiben, willst aber keinen RSS Feed abbonieren und hast kein Instagram? Trage dich in unseren Email Verteiler ein!&#xA;Selbstverständlich werden wir eure Daten NICHT weiter geben!</description>
     </item>
-    
     <item>
       <title>Es wurde eingemaischt!</title>
-      <link>https://www.hannesbru.de/artikel/2018-09-18-einmaischen/</link>
+      <link>http://localhost:4321/artikel/2018-09-18-einmaischen/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/2018-09-18-einmaischen/</guid>
+      <guid>http://localhost:4321/artikel/2018-09-18-einmaischen/</guid>
       <description>Nach den langen Renovierungs und Umbauarbeiten wurde heute das erste mal in der neuen Anlage eingemaischt!</description>
     </item>
-    
     <item>
       <title>Die Gerätschaften sind da!</title>
-      <link>https://www.hannesbru.de/artikel/2018-06-30-geraetschaften/</link>
+      <link>http://localhost:4321/artikel/2018-06-30-geraetschaften/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/2018-06-30-geraetschaften/</guid>
+      <guid>http://localhost:4321/artikel/2018-06-30-geraetschaften/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Besuch bei Polsinelli, Neapel</title>
-      <link>https://www.hannesbru.de/artikel/2018-04-01-polsinelli/</link>
+      <link>http://localhost:4321/artikel/2018-04-01-polsinelli/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/2018-04-01-polsinelli/</guid>
+      <guid>http://localhost:4321/artikel/2018-04-01-polsinelli/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bauarbeiten sind im Gange</title>
-      <link>https://www.hannesbru.de/artikel/2018-01-01-bauarbeiten/</link>
+      <link>http://localhost:4321/artikel/2018-01-01-bauarbeiten/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hannesbru.de/artikel/2018-01-01-bauarbeiten/</guid>
-      <description>Die Arbeiten sind in vollem Gange!
- </description>
+      <guid>http://localhost:4321/artikel/2018-01-01-bauarbeiten/</guid>
+      <description>Die Arbeiten sind in vollem Gange!</description>
     </item>
-    
   </channel>
 </rss>
