@@ -23,6 +23,7 @@
       <description></description>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Corona</title>
       <link>https://www.hannesbru.de/tags/corona/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,6 +32,9 @@
     </item>
     <item>
       <title>Gruesse</title>
+=======
+      <title>gruesse</title>
+>>>>>>> f26fe854355a0cfbb83096088a9a5c78adac15df
       <link>https://www.hannesbru.de/tags/gruesse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.hannesbru.de/tags/gruesse/</guid>

@@ -72,6 +72,7 @@
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+<<<<<<< HEAD
   </url><url>
     <loc>https://www.hannesbru.de/tags/corona/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
@@ -83,6 +84,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+=======
+  </url>
+  
+  <url>
+    <loc>https://www.hannesbru.de/tags/</loc>
+    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+>>>>>>> f26fe854355a0cfbb83096088a9a5c78adac15df
     <loc>https://www.hannesbru.de/tags/gruesse/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
