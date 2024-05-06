@@ -2,49 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Info on HannesBräu</title>
-    <link>https://www.hannesbru.de/biere/</link>
+    <link>http://localhost:4321/biere/</link>
     <description>Recent content in Info on HannesBräu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.hannesbru.de/biere/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/biere/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Produkt Sortiment</title>
-      <link>https://www.hannesbru.de/biere/sortiment_produkte/</link>
+      <link>http://localhost:4321/biere/sortiment_produkte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.hannesbru.de/biere/sortiment_produkte/</guid>
+      <guid>http://localhost:4321/biere/sortiment_produkte/</guid>
       <description>Alle Produkte sind erhältlich vor Ort in der Einsteinstraße 8, 68519 Viernheim&#xA;Öffnungszeiten:&#xA;Mo-Do von 08-12 und 13-16 Uhr sowie an Brau- und Ausschank-Tagen Die 5L Partykegs sind zudem im Radhaus Viernheim erhältlich.&#xA;Einige Produkte können ausserdem über unseren online shop bezogen werden.&#xA;Hopfenkrüge / Bier-Siphons HannesBräu Frischbier-Genuss zuhause&#xA;HannesBräu branded Bier-Siphon zum wieder auffüllen 1 oder 2 L Volumen bei jeder Auffüllung gibt es einen Stempel auf die Dubbekadd. Bei 10 Auffüllungen gibt es eine Auffüllung umsonst.</description>
     </item>
     <item>
       <title>Unsere Biere</title>
-      <link>https://www.hannesbru.de/biere/unsere_biere/</link>
+      <link>http://localhost:4321/biere/unsere_biere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.hannesbru.de/biere/unsere_biere/</guid>
-<<<<<<< HEAD
-      <description> BIER, ohne Ferz Für den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert. Vernemmer Meehdsche Eckdaten Brauart: Helles Stammwürze: 12% Profil Farbe: Bruenette Geschmack: Honig &amp;amp; Schokolade Geruch: Getreide Vernemmer Buuh Eckdaten Brauart: Helles Stammwürze: 12% Profil Farbe: Bernstein Geschmack: Backfrisches Brot Geruch: Malzig Vernemmer Hell Eckdaten Brauart: Kellerpils Stammwürze: 12% Profil Farbe: Strohgelb Geschmack: Fruchtig frisch Geruch: Hopfen &amp;amp; Mandarine Vernemmer Weehze Eckdaten Brauart: Weizen Stammwürze: 12% Profil Farbe: Strohgelb &amp;amp; Trüb Geschmack: Cremig, Banane &amp;amp; Nelke Geruch: Getreide &amp;amp; Hopfen Vernemmer Urstoff Eckdaten Brauart: Stout Stammwürze: 12% Profil Farbe: Kastanienbraun Geschmack: Karamell- und Schoko-note Geruch: Rauchig, Malz &amp;amp; Banane </description>
-=======
-      <description>BIER, ohne FerzFür den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert.Vernemmer BuuhUntergärig
-Stammwürze: 13,8%Frisch und vollmündig im Charakter.</description>
->>>>>>> f26fe854355a0cfbb83096088a9a5c78adac15df
+      <guid>http://localhost:4321/biere/unsere_biere/</guid>
+      <description>BIER, ohne Ferz Für den richtigen Genuss verwenden wir nur die besten und ausschließlich naturbelassenen Zutaten die wir aus der Region beziehen. Damit der Durst nicht zu kurz kommt achten wir bei unseren Rezepturen auf einen ausgewogenen, vollmundigen Körper und eine frische Note. Alle unsere Biere zeichnen sich durch einen spritzigen Charakter aus, sind unbehandelt und ungefiltert. Vernemmer Buuh Untergärig&#xA;Stammwürze: 13,8% Frisch und vollmündig im Charakter. Leichter Geschmack mit malzigem Aroma.</description>
     </item>
     <item>
       <title>Brauanlage &amp; Rohstoffe</title>
-      <link>https://www.hannesbru.de/biere/rohstoffe/</link>
+      <link>http://localhost:4321/biere/rohstoffe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.hannesbru.de/biere/rohstoffe/</guid>
+      <guid>http://localhost:4321/biere/rohstoffe/</guid>
       <description>Brauanlage Unsere Brauanlage ist eine Polsinelli Junior Extra mit 500 L Produktionsvolumen.&#xA;Wasser Guudes Vernemmer Rohrperle 😊 In einem speziellen Verfahren wird dem Wasser für einen samtig weichen Biergenuss das Kalk entzogen (enthärtet). Die für den menschlichen Körper kostbaren Mineralsalze bleiben bei diesem Prozess erhalten. Hier profitieren wir von der jahrelangen Erfahrung von Kleinhans-Grossküchen.&#xA;Malze Unser Malze beziehen wir über Kling-Malz in Schriesheim.&#xA;Hopfen Unsere Hopfen beziehen wir aus der Hollertau.</description>
     </item>
     <item>
       <title>Loft</title>
-      <link>https://www.hannesbru.de/biere/loft/</link>
+      <link>http://localhost:4321/biere/loft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.hannesbru.de/biere/loft/</guid>
+      <guid>http://localhost:4321/biere/loft/</guid>
       <description>Öffnungszeiten entnehmen Sie bitte der Agenda&#xA;Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!&#xA;Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
     </item>
     <item>
       <title>Veranstaltungen</title>
-      <link>https://www.hannesbru.de/biere/stubb/</link>
+      <link>http://localhost:4321/biere/stubb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.hannesbru.de/biere/stubb/</guid>
+      <guid>http://localhost:4321/biere/stubb/</guid>
       <description>Öffnungszeiten entnehmen Sie bitte der Agenda&#xA;Stube Hier gibt es unser Bier in seiner frischesten Form - direkt vom Fass. Des weiteren gibt es hier live Musik sowie eine kleine Auswahl Speisen lokaler Küche. Unsere Getränkekarte findet ihr auch hier unter Angebot. Wir freuen uns auf euch!&#xA;Angebot Getränke Auf unserer Karte befinden sich neben unseren Bieren auch Weine, sowie erlesene Destillate. Des weiteren auch eine Auswahl nicht-alkolischer Getränke, sowie Kaffee Spezialitäten und edle Tee Kompositionen.</description>
     </item>
   </channel>

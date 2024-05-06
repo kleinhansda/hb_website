@@ -2,201 +2,178 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hannesbru.de/biere/</loc>
+    <loc>http://localhost:4321/biere/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/biere/sortiment_produkte/</loc>
+    <loc>http://localhost:4321/biere/sortiment_produkte/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/</loc>
+    <loc>http://localhost:4321/artikel/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/biere/unsere_biere/</loc>
+    <loc>http://localhost:4321/biere/unsere_biere/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/biere/rohstoffe/</loc>
+    <loc>http://localhost:4321/biere/rohstoffe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/events/</loc>
+    <loc>http://localhost:4321/events/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/biere/loft/</loc>
+    <loc>http://localhost:4321/biere/loft/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/team/</loc>
+    <loc>http://localhost:4321/team/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/biere/stubb/</loc>
+    <loc>http://localhost:4321/biere/stubb/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/impressum/</loc>
+    <loc>http://localhost:4321/impressum/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/</loc>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/biergondel/</loc>
+    <loc>http://localhost:4321/tags/biergondel/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/biergondel/</loc>
+    <loc>http://localhost:4321/artikel/biergondel/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/</loc>
+    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/keggs/</loc>
+    <loc>http://localhost:4321/tags/keggs/</loc>
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/corona/</loc>
+    <loc>http://localhost:4321/artikel/corona/</loc>
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-<<<<<<< HEAD
   </url><url>
-    <loc>https://www.hannesbru.de/tags/corona/</loc>
-    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.hannesbru.de/artikel/corona/</loc>
-    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-=======
-  </url>
-  
-  <url>
-    <loc>https://www.hannesbru.de/tags/</loc>
-    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
->>>>>>> f26fe854355a0cfbb83096088a9a5c78adac15df
-    <loc>https://www.hannesbru.de/tags/gruesse/</loc>
+    <loc>http://localhost:4321/tags/gruesse/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/kesselpredigt/</loc>
+    <loc>http://localhost:4321/artikel/kesselpredigt/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/bilder/</loc>
+    <loc>http://localhost:4321/tags/bilder/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/bilder_190705/</loc>
+    <loc>http://localhost:4321/artikel/bilder_190705/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/stammtisch-am-16-05/</loc>
+    <loc>http://localhost:4321/artikel/stammtisch-am-16-05/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/ausschank/</loc>
+    <loc>http://localhost:4321/artikel/ausschank/</loc>
     <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/nachhaltigkeit/</loc>
+    <loc>http://localhost:4321/artikel/nachhaltigkeit/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/bier/</loc>
+    <loc>http://localhost:4321/tags/bier/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/hell/</loc>
+    <loc>http://localhost:4321/tags/hell/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/meehdsche/</loc>
+    <loc>http://localhost:4321/tags/meehdsche/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/verkostung/</loc>
+    <loc>http://localhost:4321/artikel/verkostung/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/suedhessen/</loc>
+    <loc>http://localhost:4321/artikel/suedhessen/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/presse/</loc>
+    <loc>http://localhost:4321/tags/presse/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/2018-09-20-email/</loc>
+    <loc>http://localhost:4321/artikel/2018-09-20-email/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/2018-09-18-einmaischen/</loc>
+    <loc>http://localhost:4321/artikel/2018-09-18-einmaischen/</loc>
     <lastmod>2018-09-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/2018-06-30-geraetschaften/</loc>
+    <loc>http://localhost:4321/artikel/2018-06-30-geraetschaften/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/umbau/</loc>
+    <loc>http://localhost:4321/tags/umbau/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/2018-04-01-polsinelli/</loc>
+    <loc>http://localhost:4321/artikel/2018-04-01-polsinelli/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/tags/reise/</loc>
+    <loc>http://localhost:4321/tags/reise/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/artikel/2018-01-01-bauarbeiten/</loc>
+    <loc>http://localhost:4321/artikel/2018-01-01-bauarbeiten/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.hannesbru.de/categories/</loc>
+    <loc>http://localhost:4321/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
