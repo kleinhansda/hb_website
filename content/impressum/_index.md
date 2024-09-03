@@ -20,6 +20,7 @@ Einsteinstraße 8
 Sende uns eine Nachricht! :)
 
 {{< form-contact action="https://formspree.io/info@xn--hannesbru-22a.de" >}}
+
 ## Newsletter
 
 Melde dich für den Newsletter an um über anstehende Termine und Aktionen auf dem laufenden zu bleiben.

@@ -12,7 +12,7 @@ Alternativ könnt ihr auch unseren {{< kalender >}} oder {{< newsletter_signup >
 
 ## Ausschank
 
-Unser Ausschank findet zwei-wöchentlich immer Freitags um 18 Uhr statt. Dort habt ihr die Möglichkeit unser Bier direkt von der Quelle, frisch gezapft zu genießen und HannesBräu _live_ zu erleben :)
+Unser Ausschank findet zwei-wöchentlich immer Freitags statt. Dort habt ihr die Möglichkeit unser Bier direkt von der Quelle, frisch gezapft zu genießen und HannesBräu _live_ zu erleben :)
 
 ## Bierbrau - Seminar
 
