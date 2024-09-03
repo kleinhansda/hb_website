@@ -6,7 +6,7 @@ type: page
 weight: 3
 ---
 
-{{< agenda >}}
+{{< agenda_styled >}}
 
 Alternativ könnt ihr auch unseren {{< kalender >}} oder {{< newsletter_signup >}} abbonieren um über anstehende Events auf dem laufenden zu bleiben.
 
