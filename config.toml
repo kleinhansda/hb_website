@@ -1,5 +1,5 @@
 title = "HannesBräu"
-baseURL = "https://www.hannesbru.de/"
+#baseURL = "https://www.hannesbru.de/"
 #baseURL = "C:/Hugo/Sites/hb_anake/public"
 #baseURL = "/media/data/Code/projects/hannesbraeu/hb_website/public"
 #baseURL = "//homeserver.local/server_ext_disks/Code/projects/hannesbraeu/hb_website/public"
@@ -7,7 +7,7 @@ baseURL = "https://www.hannesbru.de/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 #themesDir = "/themes"
-relativeURLs = false
+relativeURLs = true
 uglyURLs = false
 absURL = true
 
