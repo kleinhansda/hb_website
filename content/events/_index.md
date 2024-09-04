@@ -20,9 +20,7 @@ Gab es in Viernheim schonmal eine Brauerei?
 Wie wurde damals Bier hergestellt?
 Findet es heraus in unserem Bierseminar!
 
-Die Kurs-Termine sind im Veranstaltungskalender hinterlegt. Beginn ist jeweils um 17:30 Uhr.
-
-Die Anmeldung erfolgt direkt uns {{< send_email >}}.
+Die Termin-Absprache und Anmeldung erfolgt direkt über uns {{< send_email >}}.
 
 ## Private Veranstaltungen
 
