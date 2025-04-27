@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gruesse on HannesBräu</title>
+    <link>//localhost:4321/tags/gruesse/</link>
+    <description>Recent content in Gruesse on HannesBräu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/tags/gruesse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kessel-Predigt</title>
+      <link>//localhost:4321/artikel/kesselpredigt/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/artikel/kesselpredigt/</guid>
+      <description>Von drauss&amp;rsquo; vom HannesBräu komm ich her,&#xA;Ich muss euch sagen, dort schmeckt es mir sehr!&#xA;Allüberall an den Zapfhahnspitzen,&#xA;sah ich goldenen Gerstensaft blitzen;&#xA;Und zwischen den Maischebottischen aus des Sudhauses Tor,&#xA;trat mit vollem Glase der Braumeister hervor,&#xA;Und wie ich genoss, den edlen Hopfentrunk,&#xA;sprach mit tiefer Stimme er mich an:&#xA;Es Vernemmer Meehdsche! leischd mit Schoggo und Karamell,&#xA;odda doch liewer Vernemmer Klassisch Hell -</description>
+    </item>
+  </channel>
+</rss>

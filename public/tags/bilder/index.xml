@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bilder on HannesBräu</title>
+    <link>//localhost:4321/tags/bilder/</link>
+    <description>Recent content in Bilder on HannesBräu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/tags/bilder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bilder vom 05.07.</title>
+      <link>//localhost:4321/artikel/bilder_190705/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/artikel/bilder_190705/</guid>
+      <description>Vielen Dank an die zahlreichen Gäste und vielen Dank an die Musiker!!&#xA;Sieh dir diesen Beitrag auf Instagram an #bier #hannesbräu #liebe #musik #soulkitchen #viernheim&#xA;Ein Beitrag geteilt von HannesBräu (@didi.klein) am Jul 6, 2019 um 7:01 PDT</description>
+    </item>
+  </channel>
+</rss>
