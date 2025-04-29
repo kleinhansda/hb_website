@@ -14,4 +14,4 @@ description: ''
 Kaddevorverkauf beim Radhaus-Hofmann  CUBE Citystore und
 Büro Adler
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSek1iKKvRLreKKnemygKyeRyplV-QBdNYKV4KSPan6GLwGDlQ/viewform?usp=dialog" width=100% height="1242" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+{{< gdriveimg id="1lWLZvA4CYc8zMuhOsDkUai6PrdLs_gYF" alt="RICO BRAVO" >}}
