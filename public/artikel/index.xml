@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Naies on HannesBräu</title>
-    <link>//localhost:4321/artikel/</link>
+    <link>/artikel/</link>
     <description>Recent content in Naies on HannesBräu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/artikel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Events - Mai</title>
-      <link>//localhost:4321/artikel/2025-04-27-events-mai/</link>
+      <title>Events im Mai</title>
+      <link>/artikel/2025-04-27-events-mai/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2025-04-27-events-mai/</guid>
-      <description> </description>
+      <guid>/artikel/2025-04-27-events-mai/</guid>
+      <description>Kaddevorverkauf beim Radhaus-Hofmann CUBE Citystore und Büro Adler</description>
     </item>
     <item>
       <title>Einweihung Biergondel</title>
-      <link>//localhost:4321/artikel/biergondel/</link>
+      <link>/artikel/biergondel/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/biergondel/</guid>
+      <guid>/artikel/biergondel/</guid>
       <description>Am 01.05. haben wir endlich unsere Biergondel eingeweiht. Die Schank- und Kühl-Technik sowie die Arbeitsabläufe funktionieren einwandfrei. Vielen Dank an für alle die da waren! Es war ein sehr schöner Tag.</description>
     </item>
     <item>
       <title>Party Keggs wieder verfügbar</title>
-      <link>//localhost:4321/artikel/corona/</link>
+      <link>/artikel/corona/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/corona/</guid>
+      <guid>/artikel/corona/</guid>
       <description>Holt euch jetzt den HannesBräu Bier-Kegg für frischen HannesBräu Genuss für die ganze Runde!&#xA;Erhältlich direkt vor Ort in der Einsteinstraße 8 :)</description>
     </item>
     <item>
       <title>Kessel-Predigt</title>
-      <link>//localhost:4321/artikel/kesselpredigt/</link>
+      <link>/artikel/kesselpredigt/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/kesselpredigt/</guid>
+      <guid>/artikel/kesselpredigt/</guid>
       <description>Von drauss&amp;rsquo; vom HannesBräu komm ich her,&#xA;Ich muss euch sagen, dort schmeckt es mir sehr!&#xA;Allüberall an den Zapfhahnspitzen,&#xA;sah ich goldenen Gerstensaft blitzen;&#xA;Und zwischen den Maischebottischen aus des Sudhauses Tor,&#xA;trat mit vollem Glase der Braumeister hervor,&#xA;Und wie ich genoss, den edlen Hopfentrunk,&#xA;sprach mit tiefer Stimme er mich an:&#xA;Es Vernemmer Meehdsche! leischd mit Schoggo und Karamell,&#xA;odda doch liewer Vernemmer Klassisch Hell -</description>
     </item>
     <item>
       <title>Bilder vom 05.07.</title>
-      <link>//localhost:4321/artikel/bilder_190705/</link>
+      <link>/artikel/bilder_190705/</link>
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/bilder_190705/</guid>
+      <guid>/artikel/bilder_190705/</guid>
       <description>Vielen Dank an die zahlreichen Gäste und vielen Dank an die Musiker!!&#xA;Sieh dir diesen Beitrag auf Instagram an #bier #hannesbräu #liebe #musik #soulkitchen #viernheim&#xA;Ein Beitrag geteilt von HannesBräu (@didi.klein) am Jul 6, 2019 um 7:01 PDT</description>
     </item>
     <item>
       <title>Stammtisch am 16.05.</title>
-      <link>//localhost:4321/artikel/stammtisch-am-16-05/</link>
+      <link>/artikel/stammtisch-am-16-05/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/stammtisch-am-16-05/</guid>
+      <guid>/artikel/stammtisch-am-16-05/</guid>
       <description>Am Donnerstag den 16.05. hat die Stube wieder geöffnet!!&#xA;Zeit&#xA;18 - ca. 22 Uhr Angebot&#xA;BIER! Kadofflsubb mit Woschd unn Bauernbrot Weine: Rot, Weiß &amp;amp; Rose Bis dann!</description>
     </item>
     <item>
       <title>Ausschank am 27.04.</title>
-      <link>//localhost:4321/artikel/ausschank/</link>
+      <link>/artikel/ausschank/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/ausschank/</guid>
+      <guid>/artikel/ausschank/</guid>
       <description>das lange warten hat ein Ende!&#xA;Ab diesem Samstag (27.04.19) gibt es unser Bier in den Sorten Vernemmer Meehdsche, Vernemmer Buuh und Vernemmer Hell in 5 Liter Party-Keggs bei folgenden Adressen&amp;hellip;&#xA;Bei Andreas Hoffmann im Radhaus Viernheim (Rathausstraße 56) ab 10 Uhr morgens bis Ladenschluss (bzw. solange der Vorrat reicht😉)&#xA;Und natürlich bei HannesBräu selbst (Einsteinstraße 8) von 14 - 18 Uhr&#xA;Falls ihr uns direkt vor Ort besucht habt ihr außerdem die Möglichkeit unser Bier frisch gezapft zu verkosten.</description>
     </item>
     <item>
       <title>Ausschank am verkaufsoffenen Sonntag (19.05.)</title>
-      <link>//localhost:4321/artikel/nachhaltigkeit/</link>
+      <link>/artikel/nachhaltigkeit/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/nachhaltigkeit/</guid>
+      <guid>/artikel/nachhaltigkeit/</guid>
       <description>Im Rahmen des verkaufsoffenen Sonntags am 19.05. in der Viernheimer Innenstadt werden wir erstmals unser Bier anbieten und - zusammen mit euch - unsere offizielle Premiere feiern!&#xA;Datum: 19.05.19 Beginn: 13:00 Ende: 18:00 Organisator: Citygemeinschaft Viernheim Weitere Informationen folgen!!</description>
     </item>
     <item>
       <title>Verkostung</title>
-      <link>//localhost:4321/artikel/verkostung/</link>
+      <link>/artikel/verkostung/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/verkostung/</guid>
+      <guid>/artikel/verkostung/</guid>
       <description>Da wir unser Gebräu bald herausgeben wollen arbeiten wir derzeit fleißig daran unsere Vorräte aufzustocken. Heute wurde der Vernemmer Buuh gebraut und die schon in der Reifung befindlichen Biere (Vernemmer Hell und Vernemmer Meehdsche) verkostet.&#xA;HAMMER! :)&#xA;Sieh dir diesen Beitrag auf Instagram an #bier #genuss #trinität #bierismus #liebe #hannesbräu&#xA;Ein Beitrag geteilt von David Kleinhans (@didi.klein) am Mär 9, 2019 um 12:14 PST</description>
     </item>
     <item>
       <title>Portrait im Südhessen Morgen</title>
-      <link>//localhost:4321/artikel/suedhessen/</link>
+      <link>/artikel/suedhessen/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/suedhessen/</guid>
+      <guid>/artikel/suedhessen/</guid>
       <description>Um den Artikel kostenlos in voller Länge zu lesen besucht das morgenweb (registrierung erforderlich).</description>
     </item>
     <item>
       <title>Email Verteiler</title>
-      <link>//localhost:4321/artikel/2018-09-20-email/</link>
+      <link>/artikel/2018-09-20-email/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2018-09-20-email/</guid>
+      <guid>/artikel/2018-09-20-email/</guid>
       <description>Du möchtest über HannesBräu auf dem laufenden bleiben, willst aber keinen RSS Feed abbonieren und hast kein Instagram? Trage dich in unseren Email Verteiler ein!&#xA;Selbstverständlich werden wir eure Daten NICHT weiter geben!</description>
     </item>
     <item>
       <title>Es wurde eingemaischt!</title>
-      <link>//localhost:4321/artikel/2018-09-18-einmaischen/</link>
+      <link>/artikel/2018-09-18-einmaischen/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2018-09-18-einmaischen/</guid>
+      <guid>/artikel/2018-09-18-einmaischen/</guid>
       <description>Nach den langen Renovierungs und Umbauarbeiten wurde heute das erste mal in der neuen Anlage eingemaischt!</description>
     </item>
     <item>
       <title>Die Gerätschaften sind da!</title>
-      <link>//localhost:4321/artikel/2018-06-30-geraetschaften/</link>
+      <link>/artikel/2018-06-30-geraetschaften/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2018-06-30-geraetschaften/</guid>
+      <guid>/artikel/2018-06-30-geraetschaften/</guid>
       <description></description>
     </item>
     <item>
       <title>Besuch bei Polsinelli, Neapel</title>
-      <link>//localhost:4321/artikel/2018-04-01-polsinelli/</link>
+      <link>/artikel/2018-04-01-polsinelli/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2018-04-01-polsinelli/</guid>
+      <guid>/artikel/2018-04-01-polsinelli/</guid>
       <description></description>
     </item>
     <item>
       <title>Bauarbeiten sind im Gange</title>
-      <link>//localhost:4321/artikel/2018-01-01-bauarbeiten/</link>
+      <link>/artikel/2018-01-01-bauarbeiten/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2018-01-01-bauarbeiten/</guid>
+      <guid>/artikel/2018-01-01-bauarbeiten/</guid>
       <description>Die Arbeiten sind in vollem Gange!</description>
     </item>
   </channel>

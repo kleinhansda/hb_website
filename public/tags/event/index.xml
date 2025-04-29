@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event on HannesBräu</title>
-    <link>//localhost:4321/tags/event/</link>
+    <link>/tags/event/</link>
     <description>Recent content in Event on HannesBräu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Events - Mai</title>
-      <link>//localhost:4321/artikel/2025-04-27-events-mai/</link>
+      <title>Events im Mai</title>
+      <link>/artikel/2025-04-27-events-mai/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/artikel/2025-04-27-events-mai/</guid>
-      <description> </description>
+      <guid>/artikel/2025-04-27-events-mai/</guid>
+      <description>Kaddevorverkauf beim Radhaus-Hofmann CUBE Citystore und Büro Adler</description>
     </item>
   </channel>
 </rss>
