@@ -9,10 +9,13 @@
   <meta name="robots" content="{{ if $production }}index, follow{{ else }}noindex, nofollow{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+  {{ range .AllTranslations }}{{ if eq .Language.Lang "de" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
   <link rel="preload" href="{{ "fonts/alegreya/alegreya-latin-500-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "fonts/alegreya/alegreya-sans-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
   {{ partial "site-style.html" . }}
   {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+  {{- if .IsHome }}{{ partial "hb-schema.html" . }}{{ end }}
   <link rel="icon" type="image/png" href="{{ "images/main/logo.png" | relURL }}">
 </head>
 <body class="hb{{ if .IsHome }} hb--start{{ end }}">

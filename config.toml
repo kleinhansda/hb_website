@@ -1,5 +1,5 @@
 title = "HannesBräu"
-#baseURL = "https://www.hannesbru.de/"
+baseURL = "https://www.hannesbru.de/"
 #baseURL = "C:/Hugo/Sites/hb_anake/public"
 #baseURL = "/media/data/Code/projects/hannesbraeu/hb_website/public"
 #baseURL = "//homeserver.local/server_ext_disks/Code/projects/hannesbraeu/hb_website/public"
@@ -7,15 +7,12 @@ title = "HannesBräu"
 languageCode = "de"
 theme = "gohugo-theme-ananke"
 #themesDir = "/themes"
-relativeURLs = true
 uglyURLs = false
-absURL = true
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "UA-136382051-1"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
@@ -26,7 +23,8 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   favicon = ""
-  description = "Website HannesBräu"
+  description = "Mikrobrauerei HannesBräu in Viernheim: frisch, regional und naturbelassen gebrautes Bier, Ausschank mit Live-Musik und Brau-Seminare."
+  images = ["images/neu/banner-1400.jpg"]
   #site_logo = "images/main/logo.png"
   instagram = "https://www.instagram.com/hannesbraeu/"
   facebook = "https://www.facebook.com/HannesBr%C3%A4u-113490456706196/?view_public_for=113490456706196/"
