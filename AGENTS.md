@@ -37,7 +37,7 @@ Website der Mikrobrauerei Hannesbräu (www.hannesbru.de). Statische Seite mit Hu
 - Sprache der Seite: Deutsch. Datumsformat `TT.MM.JJJJ` im Text, im Frontmatter ISO `JJJJ-MM-TT`.
 - Bilder vor dem Einchecken verkleinern (Breite max. 1600 px), sprechende Dateinamen ohne Leerzeichen und Umlaute.
 - Keine personenbezogenen Daten Dritter, keine Tracking-Skripte oder externen Einbindungen ohne Rücksprache (DSGVO).
-- Der eingebettete Google-Kalender (Agenda) bleibt unverändert.
+- Termine kommen aus dem öffentlichen Google-Kalender (dort pflegen, nicht im Repo). Die Seite Veranstaltungen zeigt sie über `netlify/functions/termine.mjs` und den Shortcode `{{< termine >}}`.
 - Zwei Sprachen: Hochdeutsch und Kurpfälzisch. Kurpfälzische Texte nur von Uwe oder David, nicht selbst erfinden.
 - Hinweise für Entwürfe mit `{{< platzhalter >}}…{{< /platzhalter >}}`. Sie erscheinen nur in Deploy Previews, nie live.
 

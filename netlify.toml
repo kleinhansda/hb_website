@@ -12,3 +12,8 @@ command = "hugo -F -b $DEPLOY_PRIME_URL"
 [context.production]
 [context.production.environment]
 HUGO_ENV = "production"
+
+# Terminliste: Netlify-Funktion liest den öffentlichen Google-Kalender (netlify/functions/termine.mjs)
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

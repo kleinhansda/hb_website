@@ -28,3 +28,19 @@ other = "Stammwürze"
 other = "Malz"
 [hb_hopfen]
 other = "Hopfen"
+[hb_t_laedt]
+other = "Termine werden geladen. Alternativ:"
+[hb_t_kalender]
+other = "Kalender bei Google ansehen"
+[hb_t_abonnieren]
+other = "Kalender abonnieren"
+[hb_t_ganztag]
+other = "ganztägig"
+[hb_t_uhr]
+other = "Uhr"
+[hb_t_eintragen]
+other = "In meinen Kalender"
+[hb_t_leer]
+other = "Gerade stehen keine Termine fest. Abonniert den Kalender oder den Newsletter, dann verpasst ihr nichts."
+[hb_t_fehler]
+other = "Die Termine lassen sich gerade nicht laden."

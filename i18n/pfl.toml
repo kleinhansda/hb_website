@@ -28,3 +28,19 @@ other = "Stammwürze"
 other = "Malz"
 [hb_hopfen]
 other = "Hopfe"
+[hb_t_laedt]
+other = "Die Termine werre gelade. Odder:"
+[hb_t_kalender]
+other = "Kalenner bei Google aagucke"
+[hb_t_abonnieren]
+other = "Kalenner abonniere"
+[hb_t_ganztag]
+other = "de ganze Daag"
+[hb_t_uhr]
+other = "Uhr"
+[hb_t_eintragen]
+other = "In moin Kalenner"
+[hb_t_leer]
+other = "Grad stehe kä Termine fescht. Abonniert de Kalenner odder de Newsletter, dann verpasst'er nix."
+[hb_t_fehler]
+other = "Die Termine kenne grad ned gelade werre."

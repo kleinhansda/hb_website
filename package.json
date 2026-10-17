@@ -1,0 +1,9 @@
+{
+  "name": "hb-website",
+  "private": true,
+  "description": "Nur für die Netlify-Funktion (Terminliste). Die Website selbst baut Hugo.",
+  "type": "module",
+  "dependencies": {
+    "ical.js": "2.2.1"
+  }
+}
