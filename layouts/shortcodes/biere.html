@@ -1,0 +1,19 @@
+<ul class="hb-biere hb-biere--details">
+  {{ range site.Data.biere }}
+  <li class="hb-bier">
+    <img src="{{ .bild | relURL }}" alt="Ein Glas {{ .name }}" width="500" height="500" loading="lazy">
+    <div>
+      <span class="hb-bier__farbe" style="background:{{ .farbe | safeCSS }}"></span>
+      <h3>{{ .name }}</h3>
+      <p class="hb-bier__kurz">{{ .kurz }}</p>
+      <dl>
+        <dt>Art</dt><dd>{{ .art }}</dd>
+        <dt>Stammwürze</dt><dd>{{ .stammwuerze }}</dd>
+        <dt>Malz</dt><dd>{{ .malz }}</dd>
+        <dt>Hopfen</dt><dd>{{ .hopfen }}</dd>
+      </dl>
+      {{ if .bild_platzhalter }}{{ partial "hb-platzhalter.html" "Foto ist ein Platzhalter (Helles). Eigenes Foto vom Weehze fehlt." }}{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ul>

@@ -4,7 +4,7 @@ title = "HannesBräu"
 #baseURL = "/media/data/Code/projects/hannesbraeu/hb_website/public"
 #baseURL = "//homeserver.local/server_ext_disks/Code/projects/hannesbraeu/hb_website/public"
 #baseURL = "https://vibrant-mirzakhani-375433.netlify.app/"
-languageCode = "en-us"
+languageCode = "de"
 theme = "gohugo-theme-ananke"
 #themesDir = "/themes"
 relativeURLs = true
@@ -13,10 +13,11 @@ absURL = true
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "de"
-SectionPagesMenu = "main"
+defaultContentLanguageInSubdir = false
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-136382051-1"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [sitemap]
   changefreq = "monthly"
@@ -40,9 +41,57 @@ enableRobotsTXT = true
   #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
   custom_css = ["css/main.css"]
+  kontakt_email = "info@hannesbräu.de"
+  kontakt_email_href = "info@xn--hannesbru-22a.de"
+  kontakt_telefon = "0171 9520713"
+  kontakt_telefon_href = "+491719520713"
+  adresse = "Einsteinstraße 8, 68519 Viernheim"
   body_classes = "avenir bg-near-white"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Sprachen: Hochdeutsch (Standard) und Kurpfälzisch (pfl = Pfälzisch, ISO 639-3)
+[languages]
+  [languages.de]
+    languageName = "Hochdeutsch"
+    languageCode = "de"
+    weight = 1
+    [[languages.de.menus.main]]
+      name = "Über uns"
+      pageRef = "/ueber-uns"
+      weight = 1
+    [[languages.de.menus.main]]
+      name = "Veranstaltungen"
+      pageRef = "/veranstaltungen"
+      weight = 2
+    [[languages.de.menus.main]]
+      name = "Sonderbiere"
+      pageRef = "/sonderbiere"
+      weight = 3
+    [[languages.de.menus.main]]
+      name = "Leistungen"
+      pageRef = "/leistungen"
+      weight = 4
+  [languages.pfl]
+    languageName = "Kurpälzisch"
+    languageCode = "de-x-pfl"
+    weight = 2
+    [[languages.pfl.menus.main]]
+      name = "Iwwer uns"
+      pageRef = "/ueber-uns"
+      weight = 1
+    [[languages.pfl.menus.main]]
+      name = "Feschdle"
+      pageRef = "/veranstaltungen"
+      weight = 2
+    [[languages.pfl.menus.main]]
+      name = "Sunnerbier"
+      pageRef = "/sonderbiere"
+      weight = 3
+    [[languages.pfl.menus.main]]
+      name = "Was mer mache"
+      pageRef = "/leistungen"
+      weight = 4

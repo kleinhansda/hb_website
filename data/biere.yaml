@@ -1,0 +1,35 @@
+# Die klassischen Biere. Reihenfolge = Reihenfolge auf der Website.
+# farbe: Bierfarbe als Hex-Wert, wird als Farbstreifen angezeigt.
+- name: Vernemmer Buuh
+  kurz: Vollmundig, süffig, malzaromatisch
+  bild: /images/biere/buuh_kelch.jpg
+  farbe: "#C98A2E"
+  art: Untergärig
+  stammwuerze: "13,8 %"
+  malz: Pilsener, Münchner
+  hopfen: Hallertauer Perle, Cascade, Tettnanger
+- name: Vernemmer Meehdsche
+  kurz: Malzaromatisch, vollmundig, samtig
+  bild: /images/biere/meehdsche_kelch.jpg
+  farbe: "#8E3A1F"
+  art: Untergärig
+  stammwuerze: "12,5 %"
+  malz: Pilsener, Münchner, Caramünch
+  hopfen: Hallertauer Perle, Cascade, Tettnanger
+- name: Vernemmer Helles
+  kurz: Frisch, hopfenaromatisch, fruchtig
+  bild: /images/biere/hell_kelch.jpg
+  farbe: "#E3BE5C"
+  art: Untergärig, kalt gehopft
+  stammwuerze: "13,5 %"
+  malz: Pilsener
+  hopfen: Hallertauer Perle, Mandarina Bavaria
+- name: Vernemmer Weehze
+  kurz: Spritzig, frisch, vollmundig
+  bild: /images/biere/hell_kelch.jpg
+  bild_platzhalter: true
+  farbe: "#E8C98B"
+  art: Obergärig
+  stammwuerze: "14,5 %"
+  malz: Weizenmalz, Pilsener Malz
+  hopfen: Hallertauer Blanc

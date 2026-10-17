@@ -1,0 +1,21 @@
+<header class="hb-nav">
+  <div class="hb-nav__innen">
+    <a class="hb-nav__marke" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} – Startseite">
+      <img src="{{ "images/neu/wortmarke-weiss.png" | relURL }}" alt="{{ site.Title }}" width="1200" height="420">
+    </a>
+    <nav aria-label="Hauptmenü">
+      <ul class="hb-nav__menue">
+        {{ $current := . }}
+        {{ range site.Menus.main }}
+          {{ $aktiv := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+          <li><a href="{{ .URL }}"{{ if $aktiv }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ partial "hb-sprache.html" . }}
+  </div>
+  <div class="hb-flight" aria-hidden="true">
+    {{ range site.Data.biere }}<span style="background:{{ .farbe | safeCSS }}"></span>{{ end }}
+    {{ range site.Data.sonderbiere }}{{ with .farbe }}<span style="background:{{ . | safeCSS }}"></span>{{ end }}{{ end }}
+  </div>
+</header>

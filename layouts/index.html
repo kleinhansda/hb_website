@@ -1,0 +1,40 @@
+{{ define "header" }}
+<section class="hb-held">
+  <div class="hb-held__text">
+    <img class="hb-held__marke" src="{{ "images/neu/wortmarke-weiss.png" | relURL }}" alt="{{ site.Title }} Frischbier" width="1200" height="420">
+    <p class="hb-held__claim">{{ .Description }}</p>
+    {{ partial "hb-piktogramme.html" . }}
+  </div>
+  <picture class="hb-held__bild">
+    <source type="image/webp" srcset="{{ "images/neu/banner-800.webp" | relURL }} 800w, {{ "images/neu/banner-1400.webp" | relURL }} 1400w, {{ "images/neu/banner-2400.webp" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw">
+    <img src="{{ "images/neu/banner-1400.jpg" | relURL }}" srcset="{{ "images/neu/banner-800.jpg" | relURL }} 800w, {{ "images/neu/banner-1400.jpg" | relURL }} 1400w, {{ "images/neu/banner-2400.jpg" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw" alt="Drei Gläser HannesBräu: ein helles, ein dunkles und ein trübes Bier auf einem Holztisch" width="2400" height="1800" fetchpriority="high">
+  </picture>
+</section>
+{{ end }}
+{{ define "main" }}
+<section class="hb-abschnitt" aria-labelledby="biere-titel">
+  <div class="hb-breit">
+    <h2 id="biere-titel">Unsere Biere</h2>
+    <ul class="hb-biere hb-biere--kompakt">
+      {{ range site.Data.biere }}
+      <li class="hb-bier">
+        <a href="{{ "/ueber-uns/#unsere-biere" | relLangURL }}">
+          <img src="{{ .bild | relURL }}" alt="Ein Glas {{ .name }}" width="500" height="500" loading="lazy">
+          <span class="hb-bier__farbe" style="background:{{ .farbe | safeCSS }}"></span>
+          <span class="hb-bier__name">{{ .name }}</span>
+          <span class="hb-bier__kurz">{{ .kurz }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+<section class="hb-abschnitt hb-abschnitt--hell">
+  <div class="hb-schmal">
+    <h2>Frisch aus Viernheim</h2>
+    <p>Vater und Sohn brauen seit 2019 Vernemmer Frischbier: nicht pasteurisiert, naturbelassen trüb und handwerklich gebraut. Seit 2023 auch in der Bügelflasche.</p>
+    <p><a class="hb-knopf" href="{{ "/ueber-uns/" | relLangURL }}">Mehr über uns</a></p>
+  </div>
+</section>
+{{ with .Content }}<div class="hb-schmal hb-inhalt">{{ . }}</div>{{ end }}
+{{ end }}

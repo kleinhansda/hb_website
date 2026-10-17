@@ -1,5 +1,4 @@
 ---
-title: ""
-featured_image: "/images/main/header.gif"
-description: "FRISCH | REGIONAL | NATURBELASSEN"
+title: "HannesBräu"
+description: "Frisch, regional, naturbelassen. Handwerklich gebraut in Viernheim."
 ---

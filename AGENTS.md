@@ -10,20 +10,21 @@ Website der Mikrobrauerei Hannesbräu (www.hannesbru.de). Statische Seite mit Hu
 
 ## Aufbau
 
-- `content/artikel/` Beiträge und Events als Markdown mit YAML-Frontmatter, Dateiname `JJJJ-MM-TT-titel.md`
-- `content/events/`, `content/impressum/` Seiten
-- `static/` Bilder und feste Dateien
-- `assets/` Stylesheets und Ressourcen
-- `config.toml` Hugo-Konfiguration
+- `content/ueber-uns/`, `content/veranstaltungen/`, `content/sonderbiere/`, `content/leistungen/`, `content/impressum/` Seiten (`_index.md` Hochdeutsch, `_index.pfl.md` Kurpfälzisch)
+- `content/artikel/` alte Beiträge, ausgeblendet (werden nicht gebaut)
+- `data/biere.yaml` die klassischen Biere, `data/sonderbiere.yaml` Sonderbiere. Bier ändern = nur diese Dateien bearbeiten.
+- `layouts/` eigene Vorlagen (Gestaltung 2026), überschreiben das Theme
+- `static/css/main.css` Gestaltung, `static/images/neu/` Banner und Wortmarke, `static/fonts/` selbst gehostete Schriften (kein Google Fonts, DSGVO)
+- `config.toml` Hugo-Konfiguration inkl. Menüs je Sprache
 - `netlify.toml` Build und Deploy Previews
 
 ## Darf geändert werden
 
-- `content/**`, `static/**`
+- `content/**`, `data/**`, `static/images/**`
 
 ## Nur nach ausdrücklicher Anweisung ändern
 
-- `config.toml`, `netlify.toml`, `assets/**`
+- `config.toml`, `netlify.toml`, `assets/**`, `layouts/**`, `static/css/**`
 
 ## Nicht ändern
 
@@ -37,6 +38,8 @@ Website der Mikrobrauerei Hannesbräu (www.hannesbru.de). Statische Seite mit Hu
 - Bilder vor dem Einchecken verkleinern (Breite max. 1600 px), sprechende Dateinamen ohne Leerzeichen und Umlaute.
 - Keine personenbezogenen Daten Dritter, keine Tracking-Skripte oder externen Einbindungen ohne Rücksprache (DSGVO).
 - Der eingebettete Google-Kalender (Agenda) bleibt unverändert.
+- Zwei Sprachen: Hochdeutsch und Kurpfälzisch. Kurpfälzische Texte nur von Uwe oder David, nicht selbst erfinden.
+- Hinweise für Entwürfe mit `{{< platzhalter >}}…{{< /platzhalter >}}`. Sie erscheinen nur in Deploy Previews, nie live.
 
 ## Build
 

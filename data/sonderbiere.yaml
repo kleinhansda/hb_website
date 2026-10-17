@@ -1,0 +1,11 @@
+# Sonderbiere. ENTWURF: Namen aus EAN-Liste und altem Archiv, Beschreibungen fehlen noch.
+- name: Vernemmer Pils
+- name: Vernemmer Urbock
+- name: Vernemmer Geheimnis
+- name: Vernemmer Noigeblaggder
+- name: Vernemmer Urstoff
+  bild: /images/biere/urstoff_kelch.jpg
+  farbe: "#2B1A14"
+  art: Obergäriges Stout
+  stammwuerze: "12,5 %"
+  beschreibung: Weich, mit malzigen Röstaromen und karamellig-bananigem Charakter. Mild gehopft.
