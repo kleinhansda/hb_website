@@ -16,9 +16,9 @@ Einsteinstraße 8
 Telefon: {{< telefon >}}  
 E-Mail: {{< email >}}
 
-## Anschrift
+## Anfahrt
 
-{{< anfahrt_gmaps >}}
+{{< anfahrt >}}
 
 ## Newsletter
 

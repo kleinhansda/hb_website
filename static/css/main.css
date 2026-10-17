@@ -171,3 +171,4 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-termine__abo{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1.5rem;margin-top:1.25rem}
 .hb-knopf--leise{background:transparent;border:2px solid var(--amber);padding:.5rem 1.1rem}
 .hb-knopf--leise:hover{background:var(--amber)}
+.hb-anfahrt{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 0}
