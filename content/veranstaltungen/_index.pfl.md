@@ -1,6 +1,6 @@
 ---
 title: "Feschdle"
-description: "Ausschank, Live-Musik unn Feschdle in Vernem"
+description: "Ausschank mit Live-Musik in Vernem"
 ---
 
 {{< platzhalter >}}
@@ -9,14 +9,8 @@ Kurpfälzische Fassung als Entwurf geschrieben. Bitte von Uwe auf Vernemmer Plat
 
 ## Was demnäkscht los is
 
+Bei unserm Ausschank kann jeder kumme. Do trinkt'er unser Bier direkt vun de Quell, frisch gezappt unn meischdens mit Live-Musik.
+
 {{< termine >}}
 
 Iwwer de {{< newsletter_signup >}} kriegt'er aach mit, was demnäkscht los is.
-
-## Ausschank
-
-Unser Ausschank is alle zwää Woche freidaags ab 18 Uhr. Do gibt's unser Bier frisch gezappt, direkt vun de Quell.
-
-## Live-Musik im Saloon
-
-Bei unsre Feschdle spielt Live-Musik im Saloon mit Biergaade. Die Termine stehn owwe.

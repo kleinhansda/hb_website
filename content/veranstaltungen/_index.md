@@ -1,20 +1,14 @@
 ---
 title: "Veranstaltungen"
-description: "Ausschank, Live-Musik und Feste in Viernheim"
+description: "Ausschank mit Live-Musik in Viernheim"
 weight: 2
 aliases: ["/events/"]
 ---
 
 ## Nächste Termine
 
+Unsere Ausschank-Termine sind öffentlich. Ihr trinkt unser Bier direkt an der Quelle, frisch gezapft und meist mit Live-Musik.
+
 {{< termine >}}
 
 Über den {{< newsletter_signup >}} erfahrt ihr ebenfalls von anstehenden Terminen.
-
-## Ausschank
-
-Unser Ausschank findet alle zwei Wochen freitags ab 18 Uhr statt. Dort gibt es unser Bier frisch gezapft, direkt von der Quelle.
-
-## Live-Musik im Saloon
-
-Bei unseren Veranstaltungen spielt Live-Musik im Saloon mit Biergarten. Die Termine stehen oben.
