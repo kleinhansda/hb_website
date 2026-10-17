@@ -23,4 +23,4 @@ Ausgschenkt werd bei Feschdle mit Live-Musik im Saloon mit Biergaade unn in de k
 
 {{< biere >}}
 
-Zu bsundere Gelegeheide brauemer aach [Sunnerbier](/pfl/sonderbiere/).
+Zu bsonnere Ooläss unn weils Spass macht braue mer aachemo e [Sunnerbier](/pfl/sonderbiere/).
