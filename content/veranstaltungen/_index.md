@@ -11,4 +11,8 @@ Unsere Ausschank-Termine sind öffentlich. Ihr trinkt unser Bier direkt an der Q
 
 {{< termine >}}
 
-Über den {{< newsletter_signup >}} erfahrt ihr ebenfalls von anstehenden Terminen.
+## Newsletter
+
+Über unseren Newsletter erfahrt ihr von anstehenden Terminen und Aktionen.
+
+{{< newsletter >}}

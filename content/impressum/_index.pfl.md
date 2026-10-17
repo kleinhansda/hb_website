@@ -19,9 +19,3 @@ E-Mail: {{< email >}}
 ## Anfahrt
 
 {{< anfahrt >}}
-
-## Newsletter
-
-Melde dich für den Newsletter an und bleib über anstehende Termine und Aktionen auf dem Laufenden.
-
-{{< newsletter_anmeldung >}}

@@ -44,6 +44,3 @@ other = "In meinen Kalender"
 other = "Gerade stehen keine Termine fest. Abonniert den Kalender oder den Newsletter, dann verpasst ihr nichts."
 [hb_t_fehler]
 other = "Die Termine lassen sich gerade nicht laden."
-
-[hb_kontakt]
-other = "Kontakt"

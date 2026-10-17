@@ -172,3 +172,10 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-knopf--leise{background:transparent;border:2px solid var(--amber);padding:.5rem 1.1rem}
 .hb-knopf--leise:hover{background:var(--amber)}
 .hb-anfahrt{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 0}
+.hb-newsletter{display:grid;gap:.4rem;max-width:26rem;margin:1rem 0 2rem;position:relative}
+.hb-newsletter label{font-weight:700;margin-top:.4rem}
+.hb-newsletter input{font:inherit;padding:.6rem .7rem;border:1px solid #C9C3BC;border-radius:3px;background:#fff}
+.hb-newsletter input:focus{outline:2px solid var(--amber);outline-offset:1px}
+.hb-newsletter button{justify-self:start;margin-top:.8rem;border:0;cursor:pointer;font:inherit;font-weight:700}
+.hb-newsletter__frei{font-weight:400;color:var(--grau)}
+.hb-newsletter__hinweis{font-size:.9rem;color:var(--grau);margin:.6rem 0 0}

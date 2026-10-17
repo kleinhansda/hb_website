@@ -13,4 +13,8 @@ Bei unserm Ausschank kann jeder kumme. Do trinkt'er unser Bier direkt vun de Que
 
 {{< termine >}}
 
-Iwwer de {{< newsletter_signup >}} kriegt'er aach mit, was demnäkscht los is.
+## Newsletter
+
+Iwwer de Newsletter kriegt'er aach mit, was demnäkscht los is.
+
+{{< newsletter >}}
