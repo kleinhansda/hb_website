@@ -182,3 +182,6 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-newsletter button{justify-self:start;margin-top:.8rem;border:0;cursor:pointer;font:inherit;font-weight:700}
 .hb-newsletter__frei{font-weight:400;color:var(--grau)}
 .hb-newsletter__hinweis{font-size:.9rem;color:var(--grau);margin:.6rem 0 0}
+/* Kopfzeile: keine Unterstreichung, auch wenn Browser oder Erweiterungen Links unterstreichen wollen */
+.hb .hb-nav a,.hb .hb-nav a:link,.hb .hb-nav a:visited,.hb .hb-nav a:hover,.hb .hb-nav a:focus{text-decoration:none!important;text-decoration-line:none!important}
+.hb .hb-nav a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
