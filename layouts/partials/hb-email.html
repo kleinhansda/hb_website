@@ -15,5 +15,11 @@ if (!window.hbMail) { window.hbMail = true; document.addEventListener("DOMConten
     a.textContent = el.dataset.t || dec(el.dataset.a);
     el.replaceWith(a);
   });
+  document.querySelectorAll(".hb-tel").forEach(function (el) {
+    var a = document.createElement("a");
+    a.href = "tel:" + dec(el.dataset.h);
+    a.textContent = dec(el.dataset.n);
+    el.replaceWith(a);
+  });
 }); }
 </script>

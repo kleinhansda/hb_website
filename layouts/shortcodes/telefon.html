@@ -1,0 +1,3 @@
+{{- /* Telefonnummer leicht verschleiert (Base64, per JS zum tel-Link). Skript kommt aus hb-email.html. */ -}}
+{{- $n := site.Params.kontakt_telefon -}}
+<span class="hb-tel" data-h="{{ base64Encode site.Params.kontakt_telefon_href }}" data-n="{{ base64Encode $n }}">{{ replace $n " " " / " }}</span>
