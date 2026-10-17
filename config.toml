@@ -43,8 +43,6 @@ disableKinds = ["taxonomy", "term"]
   custom_css = ["css/main.css"]
   kontakt_email = "info@hannesbräu.de"
   kontakt_email_href = "info@xn--hannesbru-22a.de"
-  kontakt_telefon = "0171 9520713"
-  kontakt_telefon_href = "+491719520713"
   adresse = "Einsteinstraße 8, 68519 Viernheim"
   body_classes = "avenir bg-near-white"
 

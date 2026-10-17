@@ -1,0 +1,19 @@
+{{- /* E-Mail-Adresse leicht verschleiert: steht nur Base64-kodiert im HTML und wird
+     per JavaScript zum mailto-Link. Ohne JavaScript erscheint "info (at) … (punkt) de".
+     Aufruf: partial "hb-email.html" (dict "text" "E-Mail")  -- ohne text wird die Adresse angezeigt */ -}}
+{{- $adresse := site.Params.kontakt_email -}}
+{{- $href := site.Params.kontakt_email_href | default $adresse -}}
+{{- $teile := split $adresse "@" -}}
+{{- $lesbar := printf "%s (at) %s" (index $teile 0) (replace (index $teile 1) "." " (punkt) ") -}}
+<span class="hb-mail" data-m="{{ base64Encode $href }}" data-a="{{ base64Encode $adresse }}"{{ with .text }} data-t="{{ . }}"{{ end }}>{{ with .text }}{{ . }} ({{ $lesbar }}){{ else }}{{ $lesbar }}{{ end }}</span>
+<script>
+if (!window.hbMail) { window.hbMail = true; document.addEventListener("DOMContentLoaded", function () {
+  var dec = function (s) { return new TextDecoder().decode(Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); })); };
+  document.querySelectorAll(".hb-mail").forEach(function (el) {
+    var a = document.createElement("a");
+    a.href = "mailto:" + dec(el.dataset.m);
+    a.textContent = el.dataset.t || dec(el.dataset.a);
+    el.replaceWith(a);
+  });
+}); }
+</script>

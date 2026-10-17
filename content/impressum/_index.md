@@ -12,8 +12,11 @@ Uwe Kleinhans
 Einsteinstraße 8  
 68519 Viernheim
 
-Telefon: [0171 9520713](tel:+491719520713)  
-E-Mail: [info@hannesbräu.de](mailto:info@xn--hannesbru-22a.de)
+E-Mail: {{< email >}}
+
+{{< platzhalter >}}
+Handynummer entfernt. Festnetznummer hier eintragen (optional, gesetzlich nicht vorgeschrieben, solange E-Mail und Kontaktformular da sind).
+{{< /platzhalter >}}
 
 ## Anschrift
 

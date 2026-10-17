@@ -4,8 +4,7 @@
       <img class="hb-fuss__marke" src="{{ "images/neu/wortmarke-weiss.png" | relURL }}" alt="{{ site.Title }}" width="1200" height="420" loading="lazy">
       <address>
         {{ site.Params.adresse }}<br>
-        <a href="tel:{{ site.Params.kontakt_telefon_href }}">{{ site.Params.kontakt_telefon }}</a><br>
-        <a href="mailto:{{ site.Params.kontakt_email_href }}">{{ site.Params.kontakt_email }}</a>
+        <a href="{{ "/impressum/" | relLangURL }}#kontakt">{{ i18n "hb_kontakt" }}</a>
       </address>
     </div>
     <div class="hb-fuss__rechts">

@@ -44,3 +44,6 @@ other = "In moin Kalenner"
 other = "Grad stehe kä Termine fescht. Abonniert de Kalenner odder de Newsletter, dann verpasst'er nix."
 [hb_t_fehler]
 other = "Die Termine kenne grad ned gelade werre."
+
+[hb_kontakt]
+other = "Kontakt"

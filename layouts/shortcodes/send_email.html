@@ -1,1 +1,1 @@
-<a href="mailto:{{ site.Params.kontakt_email_href }}">E-Mail</a>
+{{- partial "hb-email.html" (dict "text" (.Get 0 | default "E-Mail")) -}}
