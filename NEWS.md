@@ -14,7 +14,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.
 - Biere und Sonderbiere kommen aus `data/biere.yaml` und `data/sonderbiere.yaml`.
-- „Bierbrau-Seminar“ heißt jetzt „Brau Seminar“.
+- „Bierbrau-Seminar“ heißt jetzt „Brau-Seminar“.
 - Sprachumschalter Hochdeutsch / Kurpälzisch. Die kurpfälzischen Texte sind ein Entwurf und müssen von Uwe geprüft werden.
 
 ### Gestaltung
