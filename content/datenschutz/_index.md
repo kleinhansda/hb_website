@@ -4,10 +4,6 @@ description: "Datenschutzerklärung von HannesBräu"
 weight: 6
 ---
 
-{{< platzhalter >}}
-Kein Rechtsrat. Bitte vor dem Livegang prüfen (z. B. mit dem Generator von e-recht24 abgleichen). Die markierten Stellen sind offen.
-{{< /platzhalter >}}
-
 ## Auf einen Blick
 
 Diese Website setzt keine Cookies, nutzt kein Tracking und keine Analyse-Werkzeuge. Schriften und Bilder liegen auf unserem eigenen Webspace. Daten an andere Anbieter gehen nur, wenn ihr selbst etwas absendet oder einen Link zu einem anderen Dienst anklickt.
@@ -24,11 +20,7 @@ E-Mail: {{< email >}}
 
 Die Website liegt bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA. Beim Aufruf einer Seite verarbeitet Netlify technisch notwendige Daten: IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browser und Betriebssystem sowie die zuvor besuchte Seite. Das ist nötig, um die Seite sicher und zuverlässig auszuliefern (Art. 6 Abs. 1 lit. f DSGVO).
 
-Netlify kann Daten in den USA verarbeiten. Netlify ist nach dem EU-US Data Privacy Framework zertifiziert. Mit Netlify besteht ein Auftragsverarbeitungsvertrag.
-
-{{< platzhalter >}}
-Prüfen: Auftragsverarbeitungsvertrag (DPA) mit Netlify im Netlify-Konto annehmen bzw. ablegen. Speicherdauer der Logs laut Netlify ergänzen.
-{{< /platzhalter >}}
+Netlify kann Daten in den USA verarbeiten. Netlify ist nach dem EU-US Data Privacy Framework zertifiziert. Der Auftragsverarbeitungsvertrag von Netlify ist Bestandteil der Nutzungsbedingungen. Wie lange Netlify die Protokolle speichert, legt Netlify fest. Wir selbst werten sie nicht aus.
 
 Die Verbindung ist per TLS (https) verschlüsselt.
 
@@ -43,10 +35,6 @@ Erst wenn ihr auf „Kalender abonnieren“ oder „Kalender bei Google ansehen�
 Für den Newsletter nutzen wir Mailchimp (The Rocket Science Group LLC, ein Unternehmen von Intuit, 675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Das Formular auf unserer Seite lädt nichts von Mailchimp. Erst beim Absenden werden eure E-Mail-Adresse und, falls angegeben, euer Vorname an Mailchimp übertragen. Grundlage ist eure Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ihr könnt euch jederzeit über den Link in jedem Newsletter abmelden. Danach löschen wir eure Daten aus dem Verteiler.
 
 Mailchimp wertet aus, ob ein Newsletter geöffnet und welche Links angeklickt wurden. Mailchimp kann Daten in den USA verarbeiten. Die Übermittlung stützt sich auf das EU-US Data Privacy Framework bzw. EU-Standardvertragsklauseln.
-
-{{< platzhalter >}}
-Prüfen: Ist in Mailchimp das Double-Opt-in aktiv (Bestätigungsmail)? Muss so sein. Auftragsverarbeitungsvertrag mit Mailchimp abschließen (im Mailchimp-Konto). Öffnungs- und Klick-Tracking ggf. abschalten, dann den Absatz dazu streichen.
-{{< /platzhalter >}}
 
 ## Kontakt per E-Mail oder Telefon
 

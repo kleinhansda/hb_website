@@ -41,7 +41,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
   (im Quelltext nur kodiert, damit Adress-Sammler sie schwerer finden).
 - Im Footer stehen nur noch die Adresse und der Link zum Impressum.
 - Das alte Kontaktformular (Formspree) ist entfernt.
-- Neue Seite Datenschutz (Entwurf), im Footer neben dem Impressum verlinkt.
+- Neue Seite Datenschutz (geprüft: Text abgeglichen, Mailchimp-Double-Opt-in und AV-Vertrag ok, Netlify-AVV gilt über die Nutzungsbedingungen), im Footer neben dem Impressum verlinkt.
 - Google Analytics, Mailchimp-Popup und Cookie-Banner (Netlify-Snippets) entfernt, auch live (17.10.2026).
   Die Seite setzt keine Cookies mehr. Die Google-Verifizierungscodes stehen jetzt im Repo.
 - Die eingebettete Google-Maps-Karte ist durch die Knöpfe „Route planen“ (Google Maps) und OpenStreetMap ersetzt.
@@ -55,5 +55,4 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Aktuelle Bierdaten (Stammwürze, Malz, Hopfen).
 - Party-Kegs und Biergondel als Leistungen?
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
-- Datenschutzerklärung prüfen (AV-Verträge mit Netlify und Mailchimp, Double-Opt-in).
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.
