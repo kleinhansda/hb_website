@@ -38,7 +38,8 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-nav{background:var(--holz);color:#fff;position:relative}
 .hb-nav__innen{max-width:var(--breite);margin:0 auto;padding:.75rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
 .hb-nav__marke img{height:2.6rem;width:auto}
-.hb-nav nav{margin-left:auto}
+.hb-nav__panel{margin-left:auto;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
+.hb-nav__knopf{display:none}
 .hb-nav__menue,.hb-sprache,.hb-pikto{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
 .hb-nav__menue{gap:.25rem 1.6rem}
 .hb .hb-nav__menue a{color:#fff;text-decoration:none;font-size:1.1rem;padding:.35rem 0;border-bottom:2px solid transparent}
@@ -110,6 +111,25 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-fuss__rechts p{margin:0}
 .hb-fuss__copy{font-size:.9rem;opacity:.7}
 
+/* Ausklappbares Menü auf kleinen Bildschirmen (Burger-Menü) */
+@media (max-width:760px){
+  .hb-nav__innen{flex-wrap:nowrap;justify-content:space-between}
+  .hb-nav--js .hb-nav__knopf{display:flex;align-items:center;gap:.6rem;background:none;border:0;color:#fff;font:inherit;font-size:1rem;padding:.6rem .25rem;cursor:pointer;min-height:44px}
+  .hb-nav__striche{display:grid;gap:5px;width:26px}
+  .hb-nav__striche span{display:block;height:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+  .hb-nav--offen .hb-nav__striche span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .hb-nav--offen .hb-nav__striche span:nth-child(2){opacity:0}
+  .hb-nav--offen .hb-nav__striche span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  /* Panel unter der Leiste: mit JS eingeklappt, ohne JS immer sichtbar */
+  .hb-nav__panel{position:absolute;left:0;right:0;top:100%;z-index:20;background:var(--holz);margin:0;padding:.5rem 1.25rem 1.25rem;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 12px 24px rgba(0,0,0,.25)}
+  .hb-nav:not(.hb-nav--js) .hb-nav__panel{position:static;box-shadow:none}
+  .hb-nav--js:not(.hb-nav--offen) .hb-nav__panel{display:none}
+  .hb-nav__menue{flex-direction:column;gap:0}
+  .hb .hb-nav__menue a{display:block;font-size:1.25rem;padding:.8rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+  .hb .hb-nav__menue a[aria-current]{border-bottom-color:rgba(255,255,255,.12);color:var(--amber)}
+  .hb-sprache{padding-top:1rem;gap:1.2rem;font-size:1rem}
+}
+
 /* Kleine Bildschirme */
 @media (max-width:900px){
   .hb-held{grid-template-columns:1fr;min-height:0}
@@ -120,9 +140,6 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 }
 @media (max-width:640px){
   body.hb{font-size:1.0625rem}
-  .hb-nav nav{margin-left:0;width:100%;order:3}
-  .hb-sprache{margin-left:auto}
-  .hb-nav__menue{gap:.25rem 1.1rem}
   .hb-biere--details .hb-bier{grid-template-columns:6rem 1fr;gap:1rem}
   .hb-fuss__rechts{align-items:flex-start}
 }
