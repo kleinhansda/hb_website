@@ -39,6 +39,7 @@ Website der Mikrobrauerei Hannesbräu (www.hannesbru.de). Statische Seite mit Hu
 - Keine personenbezogenen Daten Dritter, keine Tracking-Skripte oder externen Einbindungen ohne Rücksprache (DSGVO).
 - Termine kommen aus dem öffentlichen Google-Kalender (dort pflegen, nicht im Repo). Die Seite Veranstaltungen zeigt sie über `netlify/functions/termine.mjs` und den Shortcode `{{< termine >}}`.
 - Zwei Sprachen: Hochdeutsch und Kurpfälzisch. Kurpfälzische Texte nur von Uwe oder David, nicht selbst erfinden.
+- Die Stammwürze darf nicht auf der Website erscheinen (nicht in Daten, Texten oder Vorlagen).
 - Hinweise für Entwürfe mit `{{< platzhalter >}}…{{< /platzhalter >}}`. Sie erscheinen nur in Deploy Previews, nie live.
 
 ## Build

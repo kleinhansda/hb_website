@@ -6,7 +6,7 @@
       {{ with .farbe }}<span class="hb-bier__farbe" style="background:{{ . | safeCSS }}"></span>{{ end }}
       <h3>{{ .name }}</h3>
       {{ with .beschreibung }}<p class="hb-bier__kurz">{{ . }}</p>{{ end }}
-      {{ if .art }}<dl><dt>{{ i18n "hb_art" }}</dt><dd>{{ .art }}</dd>{{ with .stammwuerze }}<dt>{{ i18n "hb_stammwuerze" }}</dt><dd>{{ . }}</dd>{{ end }}</dl>{{ end }}
+      {{ if .art }}<dl><dt>{{ i18n "hb_art" }}</dt><dd>{{ .art }}</dd></dl>{{ end }}
     </div>
   </li>
   {{ end }}

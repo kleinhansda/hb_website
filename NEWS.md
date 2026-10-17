@@ -52,7 +52,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Kurpfälzische Texte und Menünamen prüfen (Uwe).
 - Welche Biere sind Sonderbiere, mit Beschreibung.
 - Eigenes Foto für das Weehze.
-- Aktuelle Bierdaten (Stammwürze, Malz, Hopfen).
+- Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
 - Party-Kegs und Biergondel als Leistungen?
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.
