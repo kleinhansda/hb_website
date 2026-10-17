@@ -36,15 +36,16 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 
 /* Navigation */
 .hb-nav{background:var(--holz);color:#fff;position:relative}
-.hb-nav__innen{max-width:var(--breite);margin:0 auto;padding:.75rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
+.hb-nav__innen{max-width:var(--breite);margin:0 auto;padding:1rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
 .hb-nav__marke img{height:3.6rem;width:auto}
 .hb-unsichtbar{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .hb-nav__panel{margin-left:auto;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
 .hb-nav__knopf{display:none}
 .hb-nav__menue,.hb-sprache,.hb-pikto{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
-.hb-nav__menue{gap:.25rem 1.6rem}
-.hb .hb-nav__menue a{color:#fff;text-decoration:none;font-size:1.1rem;padding:.35rem 0;border-bottom:2px solid transparent}
-.hb .hb-nav__menue a:hover,.hb .hb-nav__menue a[aria-current]{border-bottom-color:var(--amber)}
+.hb-nav__menue{gap:.25rem 2.2rem}
+.hb .hb-nav__menue a{color:#fff;text-decoration:none;font-family:var(--serif);font-weight:500;font-size:1.35rem;letter-spacing:.01em;padding:.45rem 0;border-bottom:3px solid transparent;transition:color .15s ease,border-color .15s ease}
+.hb .hb-nav__menue a:hover{color:var(--amber)}
+.hb .hb-nav__menue a[aria-current]{border-bottom-color:var(--amber)}
 /* Sprachumschalter: abgesetzt vom Menü, als Umschalter mit gefüllter aktiver Sprache */
 .hb-sprache{flex-wrap:nowrap;gap:0;font-size:.85rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px;margin-left:.5rem}
 .hb .hb-sprache a{display:block;color:rgba(255,255,255,.85);text-decoration:none;padding:.25rem .8rem;border-radius:999px;white-space:nowrap}
