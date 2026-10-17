@@ -1,7 +1,7 @@
 {{ define "header" }}
 <section class="hb-held">
   <div class="hb-held__text">
-    <img class="hb-held__marke" src="{{ "images/neu/wortmarke-weiss.png" | relURL }}" alt="{{ site.Title }} Frischbier" width="1200" height="420">
+    <h1 class="hb-unsichtbar">{{ site.Title }}</h1>
     <p class="hb-held__claim">{{ .Description }}</p>
     {{ partial "hb-piktogramme.html" . }}
   </div>
