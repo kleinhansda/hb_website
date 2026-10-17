@@ -20,12 +20,6 @@ E-Mail: {{< email >}}
 
 {{< anfahrt_gmaps >}}
 
-## Noch Fragen?
-
-Sende uns eine Nachricht! :)
-
-{{< form-contact action="https://formspree.io/info@xn--hannesbru-22a.de" >}}
-
 ## Newsletter
 
 Melde dich für den Newsletter an und bleib über anstehende Termine und Aktionen auf dem Laufenden.
