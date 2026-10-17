@@ -1,5 +1,5 @@
 {{/* Sprachumschalter Hochdeutsch / Kurpälzisch. Zeigt alle Sprachen; fehlt eine Übersetzung, führt der Link zur Startseite der Sprache. */}}
-<ul class="hb-sprache" aria-label="Sprache">
+<ul class="hb-sprache" aria-label="{{ i18n "hb_sprache" }}">
   {{ $page := . }}
   {{ range site.Languages }}
     {{ $lang := .Lang }}

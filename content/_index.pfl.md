@@ -1,5 +1,4 @@
 ---
 title: "HannesBräu"
-description: "Frisch, regional, naturbelassen. Handwerklich gebraut in Vernem."
+description: "Frisch, regional, naturbelasse. Vun Hand gebraut in Vernem."
 ---
-

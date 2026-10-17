@@ -10,7 +10,7 @@
     </div>
     <div class="hb-fuss__rechts">
       {{ partial "hb-piktogramme.html" . }}
-      <p><a href="{{ "/impressum/" | relLangURL }}">Impressum und Kontakt</a></p>
+      <p><a href="{{ "/impressum/" | relLangURL }}">{{ i18n "hb_impressum" }}</a></p>
       <p class="hb-fuss__copy">© {{ now.Format "2006" }} {{ site.Title }}</p>
     </div>
   </div>

@@ -1,12 +1,12 @@
 <ul class="hb-biere hb-biere--details">
   {{ range $b := site.Data.sonderbiere }}
   <li class="hb-bier{{ if not .bild }} hb-bier--ohnebild{{ end }}">
-    {{ with .bild }}<img src="{{ . | relURL }}" alt="Ein Glas {{ $b.name }}" width="500" height="500" loading="lazy">{{ end }}
+    {{ with .bild }}<img src="{{ . | relURL }}" alt="{{ i18n "hb_glas" }} {{ $b.name }}" width="500" height="500" loading="lazy">{{ end }}
     <div>
       {{ with .farbe }}<span class="hb-bier__farbe" style="background:{{ . | safeCSS }}"></span>{{ end }}
       <h3>{{ .name }}</h3>
       {{ with .beschreibung }}<p class="hb-bier__kurz">{{ . }}</p>{{ end }}
-      {{ if .art }}<dl><dt>Art</dt><dd>{{ .art }}</dd>{{ with .stammwuerze }}<dt>Stammwürze</dt><dd>{{ . }}</dd>{{ end }}</dl>{{ end }}
+      {{ if .art }}<dl><dt>{{ i18n "hb_art" }}</dt><dd>{{ .art }}</dd>{{ with .stammwuerze }}<dt>{{ i18n "hb_stammwuerze" }}</dt><dd>{{ . }}</dd>{{ end }}</dl>{{ end }}
     </div>
   </li>
   {{ end }}

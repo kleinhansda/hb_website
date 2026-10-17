@@ -16,7 +16,7 @@ Seit 2023 haben wir eine eigene Abfüllanlage. Vernemmer HannesBräu gibt es des
 
 Ausgeschenkt wird bei Veranstaltungen mit Live-Musik im Saloon mit Biergarten und in der kleinen Kneipe. Im Lebensmittelhandel gibt es unsere Biere ebenfalls.
 
-## Unsere Biere
+## Unsere Biere {#biere}
 
 {{< biere >}}
 

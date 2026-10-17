@@ -1,15 +1,15 @@
 <header class="hb-nav">
   <div class="hb-nav__innen">
     <a class="hb-nav__marke" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} – Startseite">
-      <img src="{{ "images/neu/logo-quadrat-weiss.png" | relURL }}" alt="{{ site.Title }} Verne" width="300" height="395">
+      <img src="{{ "images/neu/logo-quadrat-ohne-verne-weiss.png" | relURL }}" alt="{{ site.Title }}" width="300" height="300">
     </a>
     {{/* Menüknopf nur auf kleinen Bildschirmen sichtbar. Ohne JavaScript bleibt das Menü einfach offen. */}}
     <button class="hb-nav__knopf" type="button" aria-expanded="false" aria-controls="hb-menue" hidden>
       <span class="hb-nav__striche" aria-hidden="true"><span></span><span></span><span></span></span>
-      <span class="hb-nav__knopftext">Menü</span>
+      <span class="hb-nav__knopftext">{{ i18n "hb_menue" }}</span>
     </button>
     <div class="hb-nav__panel" id="hb-menue">
-      <nav aria-label="Hauptmenü">
+      <nav aria-label="{{ i18n "hb_hauptmenue" }}">
         <ul class="hb-nav__menue">
           {{ $current := . }}
           {{ range site.Menus.main }}

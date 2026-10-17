@@ -16,7 +16,7 @@
   <link rel="icon" type="image/png" href="{{ "images/main/logo.png" | relURL }}">
 </head>
 <body class="hb{{ if .IsHome }} hb--start{{ end }}">
-  <a class="hb-skip" href="#inhalt">Zum Inhalt springen</a>
+  <a class="hb-skip" href="#inhalt">{{ i18n "hb_skip" }}</a>
   {{ partial "hb-navigation.html" . }}
   {{ block "header" . }}{{ partial "hb-seitenkopf.html" . }}{{ end }}
   <main id="inhalt">
