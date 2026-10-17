@@ -17,6 +17,10 @@
   {{- template "_internal/twitter_cards.html" . -}}
   {{- if .IsHome }}{{ partial "hb-schema.html" . }}{{ end }}
   <link rel="icon" type="image/png" href="{{ "images/main/logo.png" | relURL }}">
+  <meta name="theme-color" content="#2E2622">
+  {{- /* Google Search Console (vorher als Netlify-Snippet) */}}
+  <meta name="google-site-verification" content="sNg7tYge8o3zpAPMqnMjOg9dZSD24UV0vpowBwq5QuE">
+  <meta name="google-site-verification" content="c2luju0ka7pTuaswhkgc1yqY-9LZuVWimNbUdwXr0hE">
 </head>
 <body class="hb{{ if .IsHome }} hb--start{{ end }}">
   <a class="hb-skip" href="#inhalt">{{ i18n "hb_skip" }}</a>
