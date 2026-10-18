@@ -22,7 +22,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Neues Design mit eigenen Farben (Holz, Lamelle, Amber) und selbst gehosteten Schriften (Alegreya).
 - Quadratisches Logo ohne „Verne“-Schriftzug oben links, kein großer Schriftzug mehr im Startbereich.
 - Ausklappbares Menü (Burger-Menü) auf dem Handy.
-- Piktogramme etwas kleiner und einheitlich: alle gefüllt und rund (Facebook, Instagram, Google, Shop, Merch). Das Shop-Piktogramm (SumUp-Shop) ist jetzt eine Ladenfront statt einer Flasche.
+- Piktogramme etwas kleiner und einheitlich: alle gefüllt und rund (Facebook, Instagram, Maps-Pin, Shop, Merch). Das Shop-Piktogramm (SumUp-Shop) ist jetzt eine Ladenfront statt einer Flasche.
 
 ### Veranstaltungen
 
