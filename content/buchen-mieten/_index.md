@@ -1,8 +1,8 @@
 ---
-title: "Angebote"
-description: "Brau-Seminar, private Feiern, Kühlanhänger und unser Online-Shop"
+title: "Buchen & Mieten"
+description: "Brau-Seminar und Feiern buchen, Kühlanhänger und Bier-Gondel mieten, dazu unser Online-Shop"
 weight: 4
-aliases: ["/leistungen/"]
+aliases: ["/leistungen/", "/angebote/"]
 ---
 
 {{< shop-knopf "Zum Online-Shop" >}}

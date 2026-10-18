@@ -1,7 +1,7 @@
 ---
-title: "Was mer mache"
+title: "Buche unn Miete"
 description: "Brau-Seminar, Feiern, Kiehlaahänger unn unser Online-Lade"
-aliases: ["/pfl/leistungen/"]
+aliases: ["/pfl/leistungen/", "/pfl/angebote/"]
 ---
 
 {{< shop-knopf "Zum Online-Lade" >}}

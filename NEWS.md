@@ -9,9 +9,9 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
-- Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Angebote
-  (früher „Leistungen“, die alte Adresse /leistungen/ leitet weiter).
-- Angebote: oben ein Knopf „Zum Online-Shop“ (SumUp), neu der Kühlanhänger (Details fehlen noch).
+- Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Buchen & Mieten
+  (früher „Leistungen“; die alten Adressen /leistungen/ und /angebote/ leiten weiter).
+- Buchen & Mieten: oben ein Knopf „Zum Online-Shop“ (SumUp), neu der Kühlanhänger (Details fehlen noch).
   Party-Kegs stehen nicht mehr auf der Seite, die gibt es im Shop.
 - Bier-Gondel (einheitlich so geschrieben wie auf der Zeichnung): technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
@@ -58,6 +58,6 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Welche Biere sind Sonderbiere, mit Beschreibung.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
-- Bier-Gondel als Angebot? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.
+- Bier-Gondel unter „Buchen & Mieten“ so richtig? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.

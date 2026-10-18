@@ -70,8 +70,8 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/sonderbiere"
       weight = 3
     [[languages.de.menus.main]]
-      name = "Angebote"
-      pageRef = "/angebote"
+      name = "Buchen & Mieten"
+      pageRef = "/buchen-mieten"
       weight = 4
   [languages.pfl]
     languageName = "Kurpälzisch"
@@ -90,6 +90,6 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/sonderbiere"
       weight = 3
     [[languages.pfl.menus.main]]
-      name = "Was mer mache"
-      pageRef = "/angebote"
+      name = "Buche unn Miete"
+      pageRef = "/buchen-mieten"
       weight = 4
