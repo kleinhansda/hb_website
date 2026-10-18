@@ -23,7 +23,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.
 - Biere und Sonderbiere kommen aus `data/biere.yaml` und `data/sonderbiere.yaml`.
-- Malz- und Hopfensorten aller Biere nach der Liste vom 18.10.2026, bei den Sonderbieren neu angezeigt (Urbock fehlt noch).
+- Malz- und Hopfensorten aller Biere nach der Liste vom 18.10.2026, bei den Sonderbieren neu angezeigt (Urbock wie Urstoff).
 - „Bierbrau-Seminar“ heißt jetzt „Bierseminare“.
 - Sprachumschalter Hochdeutsch / Kurpälzisch. Die kurpfälzischen Texte sind ein Entwurf und müssen von Uwe geprüft werden.
 
@@ -62,7 +62,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 - Kurpfälzische Texte und Menünamen prüfen (Uwe).
 - Sonderbiere: Tony, Dunkles Geheimnis und Noigeblaggder sind mit Beschreibung und Zutaten von den Etiketten übernommen.
-  Offen: Urstoff, Pils, Urbock (Beschreibung, Zutaten), Fotos für alle, Auswahl prüfen.
+  Urbock ist als Urstoff mit mehr Schüttung beschrieben. Offen: Zutaten von Urstoff, Pils, Urbock, Fotos für alle, Auswahl prüfen.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
 - Bier-Gondel unter „Buchen & Mieten“ so richtig? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.

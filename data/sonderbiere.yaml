@@ -1,7 +1,8 @@
 # Sonderbiere. Reihenfolge = Reihenfolge auf der Website.
 # Tony, Dunkles Geheimnis und Noigeblaggder: Texte von den Etiketten übernommen.
 # Pils und Urbock: Namen aus EAN-Liste und altem Archiv, Beschreibung fehlt noch.
-# Malz und Hopfen: Word-Dokument "Inhalte Malz u. Hopfensorten" (2026-10-18). Urbock dort: "Wie vor nur meeeehr", noch offen.
+# Malz und Hopfen: Word-Dokument "Inhalte Malz u. Hopfensorten" (2026-10-18).
+# Urbock = Urstoff mit mehr Schüttung pro Wasser (Bockbier, mind. 16 Grad Stammwürze, steht bewusst nicht auf der Seite). Malz/Hopfen wie Urstoff.
 - name: Tony
   farbe: "#D9892B"
   art: "IPA nach amerikanischer Art"
@@ -34,3 +35,8 @@
   malz: "Pilsener"
   hopfen: "Saazer"
 - name: Vernemmer Urbock
+  farbe: "#2B1A14"
+  art: "Bockbier-Variante des Urstoffs"
+  malz: "Pilsener, Münchner, Weizenmalz, Caramünch 2, Röstmalz"
+  hopfen: "Hallertauer Perle, Cascade, Hallertau Blanc"
+  beschreibung: "Wie der Urstoff, nur meeeehr: gleiches Rezept, aber mit mehr Malz im Verhältnis zum Wasser. Dadurch wird aus dem Ur-Stoff ein Ur-Bock, kräftiger und stärker."

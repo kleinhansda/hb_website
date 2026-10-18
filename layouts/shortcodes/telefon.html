@@ -1,5 +1,5 @@
-{{- /* Telefonnummer leicht verschleiert (Base64, per JS zum tel-Link). Skript kommt aus hb-email.html.
+{{- /* Telefonnummer leicht verschleiert (Base64, per JS zum tel-Link). Skript kommt aus hb-kontakt-skript.html.
      Optional: {{< telefon text="Anrufen:" klasse="hb-knopf" >}} */ -}}
 {{- $n := site.Params.kontakt_telefon -}}
 <span class="hb-tel" data-h="{{ base64Encode site.Params.kontakt_telefon_href }}" data-n="{{ base64Encode $n }}"{{ with .Get "text" }} data-t="{{ . }}"{{ end }}{{ with .Get "klasse" }} data-k="{{ . }}"{{ end }}>{{ with .Get "text" }}{{ . }} {{ end }}{{ replace $n " " " / " }}</span>
-{{- partial "hb-email.html" (dict) -}}
+{{- partial "hb-kontakt-skript.html" . -}}

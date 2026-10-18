@@ -1,0 +1,20 @@
+{{- /* Skript, das verschleierte E-Mail-Adressen und Telefonnummern zu Links macht. Läuft pro Seite nur einmal. */ -}}
+<script>
+if (!window.hbMail) { window.hbMail = true; document.addEventListener("DOMContentLoaded", function () {
+  var dec = function (s) { return new TextDecoder().decode(Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); })); };
+  document.querySelectorAll(".hb-mail").forEach(function (el) {
+    var a = document.createElement("a");
+    a.href = "mailto:" + dec(el.dataset.m);
+    a.textContent = el.dataset.t || dec(el.dataset.a);
+    if (el.dataset.k) a.className = el.dataset.k;
+    el.replaceWith(a);
+  });
+  document.querySelectorAll(".hb-tel").forEach(function (el) {
+    var a = document.createElement("a");
+    a.href = "tel:" + dec(el.dataset.h);
+    a.textContent = (el.dataset.t ? el.dataset.t + " " : "") + dec(el.dataset.n);
+    if (el.dataset.k) a.className = el.dataset.k;
+    el.replaceWith(a);
+  });
+}); }
+</script>{{- "" -}}
