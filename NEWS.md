@@ -17,9 +17,10 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Bierseminare: Kurzfassung mit Dauer (4 Stunden), Kosten (29 bis 39 € pro Person), Teilnehmerzahl (15 bis 30) und Termin
   direkt auf der Seite. Die ausführliche Beschreibung (Seminar und Frauen-Seminar mit Carola Humpe) steht hinter dem Knopf
   „Weitere Informationen“ in einem Fenster, dort wörtlich wie im Word-Dokument.
-  Neu: Kühlanhänger mit Zeichnung (Seiten- und Rückansicht, Klick vergrößert; Maße und Leistung sind in der Zeichnung noch Platzhalter, weitere Details fehlen noch). Party-Kegs stehen nicht mehr als eigener Abschnitt auf der Seite.
+  Neu: Kühl-Anhänger mit Zeichnung (Seiten- und Rückansicht, Klick vergrößert; Maße und Leistung sind in der Zeichnung noch Platzhalter, weitere Details fehlen noch). Party-Kegs stehen nicht mehr als eigener Abschnitt auf der Seite.
 - Bier-Gondel (einheitlich so geschrieben wie auf der Zeichnung): technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
   Darunter drei Live-Bilder als Vorschaubilder („Live Bilder. Zum Vergrößern anklicken.“); ein Klick öffnet eine Diashow mit Pfeilen, Tastatur und Wischen. Bilder bearbeitet (Tonwert, Rauschen, Schärfe), Kennzeichen unkenntlich gemacht.
+- Kühl-Anhänger (überall mit Bindestrich geschrieben): ein Live-Bild als Vorschau mit Vergrößerung unter der Zeichnung.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.
@@ -66,6 +67,6 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
   Urbock ist als Urstoff mit mehr Schüttung beschrieben. Offen: Zutaten von Urstoff, Pils, Urbock, Fotos für alle, Auswahl prüfen.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
-- Bier-Gondel unter „Buchen & Mieten“ so richtig? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.
+- Bier-Gondel unter „Buchen & Mieten“ so richtig? Kühl-Anhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.

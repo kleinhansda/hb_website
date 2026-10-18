@@ -202,13 +202,14 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-galerie figcaption{font-size:.9rem;color:var(--grau);margin-top:.5rem}
 .hb-show{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible}
 .hb-show::backdrop{background:rgba(20,16,14,.88)}
-.hb-show__bild{margin:0}
+.hb-show__bild{margin:0;display:table}
 .hb .hb-show__bild img{display:block;max-width:96vw;max-height:80vh;width:auto;height:auto;background:#fff;border-radius:4px}
-.hb-show__bild figcaption{color:#fff;font-size:.95rem;line-height:1.4;margin-top:.6rem;max-width:min(96vw,60rem)}
+.hb-show__bild figcaption{display:table-caption;caption-side:bottom;color:#fff;font-size:.95rem;line-height:1.4;padding-top:.6rem}
 .hb .hb-show__zu,.hb .hb-show__pfeil{position:absolute;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
 .hb .hb-show__zu{top:.5rem;right:.5rem}
 .hb .hb-show__pfeil{top:40%;font-size:2.2rem;padding-bottom:.25rem}
 .hb .hb-show__zurueck{left:.5rem}
+.hb .hb-show--einzeln .hb-show__pfeil{display:none}
 .hb .hb-show__weiter{right:.5rem}
 @media (max-width:30rem){.hb .hb-galerie__liste{gap:.4rem}}
 .hb-zoom{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible;cursor:zoom-out}

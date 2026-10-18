@@ -1,6 +1,6 @@
 ---
 title: "Buche unn Miete"
-description: "Bierseminare, Feiern, Kiehlaahänger unn unser Online-Lade"
+description: "Bierseminare, Feiern, Kiehl-Aahänger unn unser Online-Lade"
 aliases: ["/pfl/leistungen/", "/pfl/angebote/"]
 ---
 
@@ -49,11 +49,15 @@ Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden
 
 Fer Geburtsdaage, Firmefeiern unn annere Aaläss kennt'er unser Raim hawwe. Wieviel Leit, was es zu esse unn zu trinke gibt, bespreche mer mit eich.
 
-## Kiehlaahänger
+## Kiehl-Aahänger
 
-Fer eier Feier verleihe mer en Kiehlaahänger. Ob er frei is unn was er koscht, froht eifach aa.
+Fer eier Feier verleihe mer en Kiehl-Aahänger. Ob er frei is unn was er koscht, froht eifach aa.
 
 {{< zoombild gross="images/neu/kuehlanhaenger-zeichnung.webp" klein="images/neu/kuehlanhaenger-zeichnung-klein.webp" breite="640" hoehe="693" alt="Zeichnung vum HannesBräu Kiehl-Aahänger: Seite unn hinne, dezu die Aaschlüss (Strom iwwer blaue CEE-Stecker). Maße unn Leistung folge noch." text="Seite unn hinne. Fer grehßer druffdricke." >}}
+
+{{< galerie text="Live Bild. Fer grehßer druffdricke." >}}
+{{< galeriebild gross="images/neu/kuehlanhaenger-1.webp" klein="images/neu/kuehlanhaenger-1-klein.webp" breite="360" hoehe="480" alt="De Kiehl-Aahänger: geschlossener Aluminium-Aahänger mit zwei Achse unn HannesBräu-Logo, vorne links de Aufbau mit Lochblech" >}}
+{{< /galerie >}}
 
 ## Bier-Gondel
 

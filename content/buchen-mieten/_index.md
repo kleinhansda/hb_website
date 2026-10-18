@@ -1,6 +1,6 @@
 ---
 title: "Buchen & Mieten"
-description: "Bierseminare und Feiern buchen, Kühlanhänger und Bier-Gondel mieten, dazu unser Online-Shop"
+description: "Bierseminare und Feiern buchen, Kühl-Anhänger und Bier-Gondel mieten, dazu unser Online-Shop"
 weight: 4
 aliases: ["/leistungen/", "/angebote/"]
 ---
@@ -50,11 +50,15 @@ Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden
 
 Für Geburtstage, Firmenfeiern und andere Anlässe stehen unsere Räume zur Verfügung. Personenzahl, Speisen und Getränke besprechen wir individuell auf Anfrage.
 
-## Kühlanhänger
+## Kühl-Anhänger
 
-Für eure Feier verleihen wir einen Kühlanhänger. Verfügbarkeit und Preis auf Anfrage.
+Für eure Feier verleihen wir einen Kühl-Anhänger. Verfügbarkeit und Preis auf Anfrage.
 
 {{< zoombild gross="images/neu/kuehlanhaenger-zeichnung.webp" klein="images/neu/kuehlanhaenger-zeichnung-klein.webp" breite="640" hoehe="693" alt="Zeichnung des HannesBräu Kühl-Anhängers: Seitenansicht und Rückansicht, dazu die Anschlüsse (Strom über blauen CEE-Stecker). Maße und Leistung folgen noch." text="Seiten- und Rückansicht. Zum Vergrößern anklicken." >}}
+
+{{< galerie text="Live Bild. Zum Vergrößern anklicken." >}}
+{{< galeriebild gross="images/neu/kuehlanhaenger-1.webp" klein="images/neu/kuehlanhaenger-1-klein.webp" breite="360" hoehe="480" alt="Der Kühl-Anhänger: geschlossener Aluminium-Anhänger mit Doppelachse und HannesBräu-Logo, vorn links der Aufbau mit Lochblech" >}}
+{{< /galerie >}}
 
 ## Bier-Gondel
 
@@ -75,5 +79,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Bier-Gondel: Drei Live-Bilder als Vorschau mit Diashow (auf dem ersten ist ein Mitarbeiter zu sehen, das Kennzeichen ist unkenntlich gemacht, bitte bestätigen, dass das so passt). Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
+Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Bier-Gondel: Drei Live-Bilder als Vorschau mit Diashow (auf dem ersten ist ein Mitarbeiter zu sehen, das Kennzeichen ist unkenntlich gemacht, bitte bestätigen, dass das so passt). Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühl-Anhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}

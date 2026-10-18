@@ -20,12 +20,12 @@ document.addEventListener("DOMContentLoaded", function () {
   function zeige(n) {
     i = (n + liste.length) % liste.length;
     var a = liste[i], alt = a.querySelector("img").alt;
-    img.src = a.href; img.alt = alt; text.textContent = alt; zaehler.textContent = "(" + (i + 1) + " / " + liste.length + ")";
+    img.src = a.href; img.alt = alt; text.textContent = alt; zaehler.textContent = liste.length > 1 ? "(" + (i + 1) + " / " + liste.length + ")" : "";
   }
   document.querySelectorAll(".hb-galerie").forEach(function (g) {
     var links = [].slice.call(g.querySelectorAll(".hb-galerie__link"));
     links.forEach(function (a, k) {
-      a.addEventListener("click", function (e) { e.preventDefault(); liste = links; zeige(k); d.showModal(); });
+      a.addEventListener("click", function (e) { e.preventDefault(); liste = links; d.classList.toggle("hb-show--einzeln", links.length < 2); zeige(k); d.showModal(); });
     });
   });
   d.querySelector(".hb-show__zu").addEventListener("click", function () { d.close(); });
