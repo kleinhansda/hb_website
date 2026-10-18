@@ -196,7 +196,20 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-zoom{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible;cursor:zoom-out}
 .hb-zoom::backdrop{background:rgba(20,16,14,.85)}
 .hb .hb-zoom img{display:block;max-width:96vw;max-height:92vh;width:auto;height:auto;background:#fff;border-radius:4px}
-.hb .hb-zoom__zu{position:absolute;top:.5rem;right:.5rem;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.hb .hb-zoom__zu,.hb .hb-popup__zu{position:absolute;top:.5rem;right:.5rem;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
 .hb-kontakt-knoepfe{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 2.5rem}
 .hb .hb-knopf--leise{color:var(--holz)!important}
 .hb-shop{margin-top:2.5rem}
+
+/* Popup mit längerem Text (Shortcode popup). Ohne JavaScript steht der Text einfach unter dem Knopf. */
+.hb-popup-knopf{margin:1.25rem 0 0}
+.hb .hb-popup__auf{display:inline-block;font:inherit;font-weight:700;color:var(--holz);background:transparent;border:2px solid var(--amber);border-radius:3px;padding:.5rem 1.1rem;cursor:pointer}
+.hb .hb-popup__auf:hover,.hb .hb-popup__auf:focus-visible{background:var(--amber)}
+.hb-popup{width:min(42rem,92vw);max-height:90vh;padding:0;border:0;border-radius:6px;background:var(--grund);color:var(--holz);overflow:hidden}
+.hb-popup::backdrop{background:rgba(20,16,14,.75)}
+.hb-popup__inhalt{max-height:90vh;overflow:auto;padding:1.75rem 1.75rem 2rem}
+.hb-popup__inhalt > :first-child{margin-top:0;padding-right:2.5rem}
+.hb-popup h4{font-family:var(--serif);font-weight:500;font-size:1.25rem;line-height:1.2;margin:1.6em 0 .4em}
+html:not(.hb-js) .hb-popup{display:block;position:static;width:auto;max-height:none;margin:1.5rem 0;border:1px solid #E2DED9}
+html:not(.hb-js) .hb-popup__auf,html:not(.hb-js) .hb-popup__zu{display:none}
+html:not(.hb-js) .hb-popup-knopf{display:none}

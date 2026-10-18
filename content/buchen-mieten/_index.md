@@ -11,9 +11,30 @@ Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schn
 
 ## Brau-Seminar
 
-Gab es in Viernheim schon einmal eine Brauerei? Wie wurde damals Bier hergestellt? Im Brau-Seminar findet ihr es heraus und braut selbst mit.
+Ein Blick in Sudhaus und Produktionsanlagen, Wissenswertes zum Brauprozess und eine Verkostung unserer hausgebrauten Frischbiere. Das Lieblingsbier geht aufs Haus, für das leibliche Wohl ist gesorgt. Das Seminar leitet Biersommelier Uwe Kleinhans. Es gibt auch ein Seminar nur für Frauen mit Carola Humpe.
 
-Termine sprechen wir direkt mit euch ab.
+- **Dauer:** 4 Stunden
+- **Kosten:** 29 bis 39 € pro Person, je nach Speisenwünschen
+- **Teilnehmer:** mindestens 15, höchstens 30 Personen
+- **Termin:** nach Absprache
+
+{{< popup knopf="Weitere Informationen" titel="Bierseminar im HannesBräu mit Biersommelier Uwe Kleinhans" >}}
+#### Was erwartet euch im Seminar?
+
+Blick in die Produktionsanlagen und ins Sudhaus sowie Informationen und Wissenswertes zum Brauprozess. Für Einheimische gibt es bei Interesse einen kleinen geschichtlichen Hintergrund rund ums Bier, mit Bezug zur alten Viernheimer Brauerei. Bitte bei der Anmeldung angeben.
+
+In der Schankstube oder im Saloon werden die hausgebrauten Frischbiere verkostet und bewertet. Das Lieblingsbier geht aufs Haus! Für das leibliche Wohl wird gesorgt.
+
+#### Bierseminar nur für Frauen mit Carola Humpe, der Frau des Brauers
+
+Was ihr schon immer über Bier wissen wolltet, aber in der Männerrunde nicht gewagt habt zu fragen.
+
+Bierbrauen war früher Frauensache! Bei den Germanen gehörte es zum Haushalten wie Kochen und Backen. Ein Braukessel als Mitgift war damals nicht ungewöhnlich.
+
+Trumpft in der nächsten Männerrunde mit eurem Fachwissen rund ums Bier auf!
+
+Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden die Damen statt zum Kaffeekränzchen zum Bierkränzchen ein!
+{{< /popup >}}
 
 ## Private Veranstaltungen
 
@@ -36,5 +57,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen.
+Entwurf: Brau-Seminar aus dem Word-Dokument übernommen (Anrede „Sie“ zu „ihr“ geändert). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen.
 {{< /platzhalter >}}

@@ -10,9 +10,30 @@ Aafroge unn Buchunge gern per E-Mail odder telefonisch. Mer melde uns so schnell
 
 ## Brau-Seminar
 
-Hot's in Vernem schunn emol e Brauerei gewwe? Wie is frieher Bier gebraut worre? Im Brau-Seminar finnt'er's raus unn braut selwer mit.
+E Blick ins Sudhaus unn in die Braueaalage, Interessantes zum Braue unn e Verkostung vun unsere hausgebraute Frischbier. S Lieblingsbier geht aufs Haus, fer s leibliche Wohl is gsorgt. S Seminar leitet de Biersommelier Uwe Kleinhans. Es gibt aach e Seminar nur fer Fraue mit de Carola Humpe.
 
-Die Termine mache mer direkt mit eich aus.
+- **Dauer:** 4 Stunne
+- **Koschte:** 29 bis 39 € pro Person, je nachdem, was er zu esse wollt
+- **Teilnehmer:** mindestens 15, hechstens 30 Leit
+- **Termin:** nooch Absprach
+
+{{< popup knopf="Meh Infos" titel="Bierseminar im HannesBräu mit Biersommelier Uwe Kleinhans" >}}
+#### Was erwartet eich im Seminar?
+
+Blick in die Braueaalage unn ins Sudhaus, dezu Interessantes unn Wisswertes zum Braue. Fer Einheimische gibt's bei Interesse e klaa Gschicht rund ums Bier, mit Bezug zur alte Vernemer Brauerei. Bitte beim Aamelde sage.
+
+In de Schankstub odder im Saloon werre die hausgebraute Frischbier verkoschtet unn bewertet. S Lieblingsbier geht aufs Haus! Fer s leibliche Wohl wird gsorgt.
+
+#### Bierseminar nur fer Fraue mit de Carola Humpe, de Fraa vum Brauer
+
+Was ihr schun immer iwwer Bier wisse wollt, awwer in de Männerrund nie gfroht habt.
+
+Bierbraue war frieher Fraue-Sach! Bei de Germane hot's zum Haushalte ghert wie Koche unn Backe. E Braukessel als Mitgift war domols nix Ungewehnliches.
+
+Trumpft in de nechste Männerrund mit eierm Fachwisse rund ums Bier uff!
+
+S Seminar wird net bierernscht, sondern unnerhaltsam, denn schun frieher hawwe die Damme statt zum Kaffeekränzche zum Bierkränzche eigelaad!
+{{< /popup >}}
 
 ## Feiern
 
@@ -35,5 +56,5 @@ Im Online-Lade gibt's noch meh, zum Beispiel Gutscheine, Gläser mit unserm Logo
 {{< shop-knopf "Zum Online-Lade" >}}
 
 {{< platzhalter >}}
-Kurpfälzische Fassung als Entwurf geschrieben. Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
+Kurpfälzische Fassung als Entwurf geschrieben (auch das Brau-Seminar, "Meh Infos", "Koschte", "Teilnehmer"). Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
 {{< /platzhalter >}}
