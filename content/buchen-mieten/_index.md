@@ -62,6 +62,12 @@ Unsere Bier-Gondel mit eigener Schank- und Kühltechnik ist seit Mai 2024 im Ein
 
 {{< zoombild gross="images/neu/biergondel-zeichnung.webp" klein="images/neu/biergondel-zeichnung-klein.webp" breite="640" hoehe="689" alt="Zeichnung der HannesBräu Bier-Gondel: Seiten- und Rückansicht mit Maßen (Länge 5700 mm mit Deichsel, Breite 2400 mm, Höhe 2700 mm) und Anschlüssen (Strom 2 × 230 V, 3,0 kW Schuko; Frischwasser 1/2 oder 3/4 Zoll, Abwasser DN50)" text="Maße und Anschlüsse. Zum Vergrößern anklicken." >}}
 
+{{< galerie text="Live Bilder. Zum Vergrößern anklicken." >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-1.webp" klein="images/neu/biergondel/gondel-1-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel im Einsatz: Ausschank mit Kreidetafel „Vernemmer BIER“" >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-2.webp" klein="images/neu/biergondel/gondel-2-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel mit aufgeklappter Theke: Zapfanlage und Gläser, davor Bierbänke" >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-3.webp" klein="images/neu/biergondel/gondel-3-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel geschlossen, Seitenansicht mit HannesBräu-Logo und Schriftzug „Frischbier“" >}}
+{{< /galerie >}}
+
 ## Mehr im Online-Shop
 
 Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit HannesBräu-Logo, Party-Kegs und mehr.
@@ -69,5 +75,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
+Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Bier-Gondel: Drei Live-Bilder als Vorschau mit Diashow (auf dem ersten ist ein Mitarbeiter zu sehen, das Kennzeichen ist unkenntlich gemacht, bitte bestätigen, dass das so passt). Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}

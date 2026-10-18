@@ -19,6 +19,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
   „Weitere Informationen“ in einem Fenster, dort wörtlich wie im Word-Dokument.
   Neu: Kühlanhänger mit Zeichnung (Seiten- und Rückansicht, Klick vergrößert; Maße und Leistung sind in der Zeichnung noch Platzhalter, weitere Details fehlen noch). Party-Kegs stehen nicht mehr als eigener Abschnitt auf der Seite.
 - Bier-Gondel (einheitlich so geschrieben wie auf der Zeichnung): technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
+  Darunter drei Live-Bilder als Vorschaubilder („Live Bilder. Zum Vergrößern anklicken.“); ein Klick öffnet eine Diashow mit Pfeilen, Tastatur und Wischen. Bilder bearbeitet (Tonwert, Rauschen, Schärfe), Kennzeichen unkenntlich gemacht.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.

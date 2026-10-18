@@ -1,0 +1,46 @@
+{{- /* Vorschaubilder, bei Klick öffnet sich eine Diashow (Pfeile, Tastatur, Wischen). Ohne JavaScript öffnet ein Klick das große Bild.
+     Aufruf: {{< galerie text="Untertitel" >}}{{< galeriebild gross="…" klein="…" breite="480" hoehe="320" alt="…" >}}…{{< /galerie >}} */ -}}
+{{- $pfl := eq site.Language.Lang "pfl" -}}
+<figure class="hb-galerie">
+  <ul class="hb-galerie__liste">{{ .Inner }}</ul>
+  {{ with .Get "text" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{- if not (.Page.Scratch.Get "hbShow") }}{{ .Page.Scratch.Set "hbShow" true }}
+<dialog class="hb-show" id="hb-show" aria-label="{{ cond $pfl "Bilder" "Bildergalerie" }}">
+  <button type="button" class="hb-show__zu" aria-label="{{ cond $pfl "Zumache" "Schließen" }}">×</button>
+  <button type="button" class="hb-show__pfeil hb-show__zurueck" aria-label="{{ cond $pfl "Zerick" "Zurück" }}">‹</button>
+  <button type="button" class="hb-show__pfeil hb-show__weiter" aria-label="{{ cond $pfl "Weider" "Weiter" }}">›</button>
+  <figure class="hb-show__bild"><img alt=""><figcaption><span class="hb-show__text"></span> <span class="hb-show__zaehler"></span></figcaption></figure>
+</dialog>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var d = document.getElementById("hb-show"); if (!d || !d.showModal) return;
+  var img = d.querySelector("img"), text = d.querySelector(".hb-show__text"), zaehler = d.querySelector(".hb-show__zaehler");
+  var liste = [], i = 0, x0 = null;
+  function zeige(n) {
+    i = (n + liste.length) % liste.length;
+    var a = liste[i], alt = a.querySelector("img").alt;
+    img.src = a.href; img.alt = alt; text.textContent = alt; zaehler.textContent = "(" + (i + 1) + " / " + liste.length + ")";
+  }
+  document.querySelectorAll(".hb-galerie").forEach(function (g) {
+    var links = [].slice.call(g.querySelectorAll(".hb-galerie__link"));
+    links.forEach(function (a, k) {
+      a.addEventListener("click", function (e) { e.preventDefault(); liste = links; zeige(k); d.showModal(); });
+    });
+  });
+  d.querySelector(".hb-show__zu").addEventListener("click", function () { d.close(); });
+  d.querySelector(".hb-show__zurueck").addEventListener("click", function () { zeige(i - 1); });
+  d.querySelector(".hb-show__weiter").addEventListener("click", function () { zeige(i + 1); });
+  d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
+  d.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") zeige(i - 1); else if (e.key === "ArrowRight") zeige(i + 1);
+  });
+  d.addEventListener("touchstart", function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });
+  d.addEventListener("touchend", function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 50) zeige(dx < 0 ? i + 1 : i - 1);
+  }, { passive: true });
+});
+</script>
+{{- end }}

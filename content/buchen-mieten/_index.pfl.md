@@ -61,6 +61,12 @@ Unser Bier-Gondel mit eigener Schank- unn Kiehltechnik is seit Mai 2024 im Einsa
 
 {{< zoombild gross="images/neu/biergondel-zeichnung.webp" klein="images/neu/biergondel-zeichnung-klein.webp" breite="640" hoehe="689" alt="Zeichnung vun de HannesBräu Bier-Gondel: Seite unn hinne mit Maße (5700 mm lang mit Deichsel, 2400 mm breet, 2700 mm hoch) unn Aaschlüss (Strom 2 × 230 V, 3,0 kW Schuko; Frischwasser 1/2 odder 3/4 Zoll, Abwasser DN50)" text="Maße unn Aaschlüss. Fer grehßer druffdricke." >}}
 
+{{< galerie text="Live Bilder. Fer grehßer druffdricke." >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-1.webp" klein="images/neu/biergondel/gondel-1-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel im Einsatz: Ausschank mit Kreidetafel „Vernemmer BIER“" >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-2.webp" klein="images/neu/biergondel/gondel-2-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel mit aufgeklappter Theke: Zapfanlage und Gläser, davor Bierbänke" >}}
+{{< galeriebild gross="images/neu/biergondel/gondel-3.webp" klein="images/neu/biergondel/gondel-3-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel geschlossen, Seitenansicht mit HannesBräu-Logo und Schriftzug „Frischbier“" >}}
+{{< /galerie >}}
+
 ## Meh im Online-Lade
 
 Im Online-Lade gibt's noch meh, zum Beispiel Gutscheine, Gläser mit unserm Logo, Party-Kegg unn mehr.
