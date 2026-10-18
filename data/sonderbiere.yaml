@@ -1,25 +1,36 @@
 # Sonderbiere. Reihenfolge = Reihenfolge auf der Website.
 # Tony, Dunkles Geheimnis und Noigeblaggder: Texte von den Etiketten übernommen.
 # Pils und Urbock: Namen aus EAN-Liste und altem Archiv, Beschreibung fehlt noch.
+# Malz und Hopfen: Word-Dokument "Inhalte Malz u. Hopfensorten" (2026-10-18). Urbock dort: "Wie vor nur meeeehr", noch offen.
 - name: Tony
   farbe: "#D9892B"
   art: "IPA nach amerikanischer Art"
+  malz: "Pilsener, Münchner"
+  hopfen: "Hallertauer Perle, Mandarina Bavaria"
   beschreibung: "Intensive Hopfenaromen nach Aprikose, Pfirsich und Honigmelone, dazu ausgewogene Bitterkeit und ein vollmundiger Körper. Voller Geschmack auf kleinem Raum, geboren in Viernheim, genau wie unser Brauereihund Tony: charmant, verspielt und einfach zum Verlieben."
   zutaten: "Wasser, Gerstenmalz, Hopfen, Hefe"
 - name: Dunkles Geheimnis
   farbe: "#3B2418"
   art: "Editionsbier zur BestBrewChallenge 2026"
+  malz: "Weizenmalz hell, Weizenmalz dunkel, Pilsener, Münchner, Caramünch, Röstmalz"
+  hopfen: "Hallertau Blanc"
   beschreibung: "Vollmundig mit Karamell-, Schoko- und Fruchtnoten."
   zutaten: "Wasser, Weizenmalz, geröstetes Gerstenmalz, Hefe, Hopfen"
 - name: Noigeblaggder
   farbe: "#4A2A1A"
   art: "Dunkles Hopfenweizen"
+  malz: "Pilsener, Caramünch, Weizenmalz, Röstmalz"
+  hopfen: "Hallertau Blanc"
   beschreibung: "Fruchtig-hopfig, malzaromatisch und vollmundig."
   zutaten: "Wasser, Weizenmalz, Gerstenmalz, Hefe, Hopfen"
 - name: Vernemmer Urstoff
   bild: /images/biere/urstoff_kelch.jpg
   farbe: "#2B1A14"
   art: "Obergäriges Stout"
+  malz: "Pilsener, Münchner, Weizenmalz, Caramünch 2, Röstmalz"
+  hopfen: "Hallertauer Perle, Cascade, Hallertau Blanc"
   beschreibung: "Weich, mit malzigen Röstaromen und karamellig-bananigem Charakter. Mild gehopft."
 - name: Vernemmer Pils
+  malz: "Pilsener"
+  hopfen: "Saazer"
 - name: Vernemmer Urbock

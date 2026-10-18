@@ -5,27 +5,27 @@
   bild: /images/biere/buuh_kelch.jpg
   farbe: "#C98A2E"
   art: Untergärig
-  malz: Pilsener, Münchner
-  hopfen: Hallertauer Perle, Cascade, Tettnanger
+  malz: "Pilsener, Münchner"
+  hopfen: "Hallertauer Perle, Cascade, Tettnanger"
 - name: Vernemmer Meehdsche
   kurz: Malzaromatisch, vollmundig, samtig
   bild: /images/biere/meehdsche_kelch.jpg
   farbe: "#8E3A1F"
   art: Untergärig
-  malz: Pilsener, Münchner, Caramünch
-  hopfen: Hallertauer Perle, Cascade, Tettnanger
+  malz: "Pilsener, Münchner, Caramünch"
+  hopfen: "Hallertauer Perle, Cascade, Hallertau Blanc"
 - name: Vernemmer Helles
   kurz: Frisch, hopfenaromatisch, fruchtig
   bild: /images/biere/hell_kelch.jpg
   farbe: "#E3BE5C"
   art: Untergärig, kalt gehopft
-  malz: Pilsener
-  hopfen: Hallertauer Perle, Mandarina Bavaria
+  malz: "Pilsener"
+  hopfen: "Hallertauer Perle, Mandarina Bavaria, Hallertau Blanc"
 - name: Vernemmer Weehze
   kurz: Spritzig, frisch, vollmundig
   bild: /images/biere/hell_kelch.jpg
   bild_platzhalter: true
   farbe: "#E8C98B"
   art: Obergärig
-  malz: Weizenmalz, Pilsener Malz
-  hopfen: Hallertauer Blanc
+  malz: "Weizenmalz hell, Weizenmalz dunkel, Pilsener, Caramünch"
+  hopfen: "Hallertau Blanc"
