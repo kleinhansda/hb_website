@@ -70,8 +70,8 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/sonderbiere"
       weight = 3
     [[languages.de.menus.main]]
-      name = "Leistungen"
-      pageRef = "/leistungen"
+      name = "Angebote"
+      pageRef = "/angebote"
       weight = 4
   [languages.pfl]
     languageName = "Kurpälzisch"
@@ -91,5 +91,5 @@ disableKinds = ["taxonomy", "term"]
       weight = 3
     [[languages.pfl.menus.main]]
       name = "Was mer mache"
-      pageRef = "/leistungen"
+      pageRef = "/angebote"
       weight = 4

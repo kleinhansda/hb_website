@@ -10,7 +10,7 @@ Website der Mikrobrauerei Hannesbräu (www.hannesbru.de). Statische Seite mit Hu
 
 ## Aufbau
 
-- `content/ueber-uns/`, `content/veranstaltungen/`, `content/sonderbiere/`, `content/leistungen/`, `content/impressum/` Seiten (`_index.md` Hochdeutsch, `_index.pfl.md` Kurpfälzisch)
+- `content/ueber-uns/`, `content/veranstaltungen/`, `content/sonderbiere/`, `content/angebote/`, `content/impressum/` Seiten (`_index.md` Hochdeutsch, `_index.pfl.md` Kurpfälzisch)
 - `content/artikel/` alte Beiträge, ausgeblendet (werden nicht gebaut)
 - `data/biere.yaml` die klassischen Biere, `data/sonderbiere.yaml` Sonderbiere. Bier ändern = nur diese Dateien bearbeiten.
 - `layouts/` eigene Vorlagen (Gestaltung 2026), überschreiben das Theme

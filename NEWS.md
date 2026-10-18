@@ -9,7 +9,9 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
-- Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Leistungen.
+- Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Angebote
+  (früher „Leistungen“, die alte Adresse /leistungen/ leitet weiter).
+- Angebote: neu der Kühlanhänger (Details fehlen noch) und ein Link zum Online-Shop bei SumUp.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.
@@ -20,7 +22,8 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 ### Gestaltung
 
 - Neues Design mit eigenen Farben (Holz, Lamelle, Amber) und selbst gehosteten Schriften (Alegreya).
-- Quadratisches Logo ohne „Verne“-Schriftzug oben links, kein großer Schriftzug mehr im Startbereich.
+- Quadratisches Logo ohne „Verne“-Schriftzug oben links. Der große Schriftzug „HannesBräu Frischbier“
+  steht nur auf großen Bildschirmen links über dem Claim, auf dem Handy nicht.
 - Ausklappbares Menü (Burger-Menü) auf dem Handy.
 - Piktogramme etwas kleiner und einheitlich: alle gefüllt und rund (Facebook, Instagram, Maps-Pin, Shop, Merch). Das Shop-Piktogramm (SumUp-Shop) ist jetzt eine Ladenfront statt einer Flasche.
 
@@ -53,6 +56,6 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Welche Biere sind Sonderbiere, mit Beschreibung.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
-- Party-Kegs und Biergondel als Leistungen?
+- Party-Kegs und Biergondel als Angebote? Kühlanhänger: Größe, Preis, Abholung.
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.

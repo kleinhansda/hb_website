@@ -1,6 +1,7 @@
 ---
 title: "Was mer mache"
-description: "Brau-Seminar, Feiern unn Bier fer eier Rund"
+description: "Brau-Seminar, Feiern, Kiehlaahänger unn Bier fer eier Rund"
+aliases: ["/pfl/leistungen/"]
 ---
 
 {{< platzhalter >}}
@@ -20,6 +21,14 @@ Fer Geburtsdaage, Firmefeiern unn annere Aaläss kennt'er unser Raim hawwe. Wiev
 ## Party-Kegs
 
 De HannesBräu-Kegg gibt's fer frisch Bier in de ganze Rund. Abhole direkt bei uns in de Einsteinstroß 8.
+
+## Kiehlaahänger
+
+Fer eier Feier verleihe mer en Kiehlaahänger. Ob er frei is unn was er koscht, schreibt uns e {{< send_email >}}.
+
+## Online-Lade
+
+Bstelle unn bezahle kennt'er aach in unserm [Online-Lade bei SumUp](https://hannesbraeu.sumup.link/).
 
 ## Biergondel
 
