@@ -1,6 +1,6 @@
 ---
 title: "Buche unn Miete"
-description: "Brau-Seminar, Feiern, Kiehlaahänger unn unser Online-Lade"
+description: "Bierseminare, Feiern, Kiehlaahänger unn unser Online-Lade"
 aliases: ["/pfl/leistungen/", "/pfl/angebote/"]
 ---
 
@@ -8,7 +8,7 @@ Aafroge unn Buchunge gern per E-Mail odder telefonisch. Mer melde uns so schnell
 
 {{< kontakt-knoepfe >}}
 
-## Brau-Seminar
+## Bierseminare
 
 E Blick ins Sudhaus unn in die Braueaalage, Interessantes zum Braue unn e Verkostung vun unsere hausgebraute Frischbier. S Lieblingsbier geht aufs Haus, fer s leibliche Wohl is gsorgt. S Seminar leitet de Biersommelier Uwe Kleinhans. Es gibt aach e Seminar nur fer Fraue mit de Carola Humpe.
 
@@ -68,5 +68,5 @@ Im Online-Lade gibt's noch meh, zum Beispiel Gutscheine, Gläser mit unserm Logo
 {{< shop-knopf "Zum Online-Lade" >}}
 
 {{< platzhalter >}}
-Kurpfälzische Fassung als Entwurf geschrieben (auch das Brau-Seminar, "Meh Infos", "Koschte", "Teilnehmer"). Im Fenster "Meh Infos" steht der Originaltext aus dem Word-Dokument auf Hochdeutsch. Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
+Kurpfälzische Fassung als Entwurf geschrieben (auch die Bierseminare, "Meh Infos", "Koschte", "Teilnehmer"). Im Fenster "Meh Infos" steht der Originaltext aus dem Word-Dokument auf Hochdeutsch. Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
 {{< /platzhalter >}}

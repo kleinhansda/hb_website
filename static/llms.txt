@@ -1,6 +1,6 @@
 # HannesBräu
 
-> Mikrobrauerei in Viernheim (Südhessen, Kurpfalz). Vater und Sohn brauen seit 2019 frisches, regionales, unpasteurisiertes und naturtrübes Bier, die „Vernemmer Frischbiere“. Abfüllung in Bügelflaschen (1,0 l, 0,5 l, 0,33 l), Ausschank mit Live-Musik im Saloon mit Biergarten, Brau-Seminare und Bier für Feiern.
+> Mikrobrauerei in Viernheim (Südhessen, Kurpfalz). Vater und Sohn brauen seit 2019 frisches, regionales, unpasteurisiertes und naturtrübes Bier, die „Vernemmer Frischbiere“. Abfüllung in Bügelflaschen (1,0 l, 0,5 l, 0,33 l), Ausschank mit Live-Musik im Saloon mit Biergarten, Bierseminare und Bier für Feiern.
 
 Adresse: Einsteinstraße 8, 68519 Viernheim. Kontakt: siehe Impressum.
 
@@ -9,7 +9,7 @@ Adresse: Einsteinstraße 8, 68519 Viernheim. Kontakt: siehe Impressum.
 - [Über uns](https://www.hannesbru.de/ueber-uns/): Geschichte der Brauerei, Frischbier und die klassischen Biere (Buuh, Meehdsche, Helles, Weehze)
 - [Veranstaltungen](https://www.hannesbru.de/veranstaltungen/): aktuelle Ausschank-Termine aus dem Kalender, Newsletter
 - [Sonderbiere](https://www.hannesbru.de/sonderbiere/): Biere zu besonderen Anlässen
-- [Buchen & Mieten](https://www.hannesbru.de/buchen-mieten/): Brau-Seminar (4 Stunden, 29 bis 39 € pro Person, 15 bis 30 Teilnehmer, auch als Frauen-Seminar) und private Feiern buchen, Kühlanhänger und Bier-Gondel mieten, Link zum Online-Shop (https://hannesbraeu.sumup.link/)
+- [Buchen & Mieten](https://www.hannesbru.de/buchen-mieten/): Bierseminare (4 Stunden, 29 bis 39 € pro Person, 15 bis 30 Teilnehmer, auch als Frauen-Seminar) und private Feiern buchen, Kühlanhänger und Bier-Gondel mieten, Link zum Online-Shop (https://hannesbraeu.sumup.link/)
 - [Impressum](https://www.hannesbru.de/impressum/): Kontakt und Anfahrt
 
 ## Optional

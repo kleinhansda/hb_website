@@ -23,7 +23,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   favicon = ""
-  description = "Mikrobrauerei HannesBräu in Viernheim: frisch, regional und naturbelassen gebrautes Bier, Ausschank mit Live-Musik und Brau-Seminare."
+  description = "Mikrobrauerei HannesBräu in Viernheim: frisch, regional und naturbelassen gebrautes Bier, Ausschank mit Live-Musik und Bierseminare."
   images = ["images/neu/banner-1400.jpg"]
   #site_logo = "images/main/logo.png"
   instagram = "https://www.instagram.com/hannesbraeu/"

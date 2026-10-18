@@ -1,6 +1,6 @@
 ---
 title: "Buchen & Mieten"
-description: "Brau-Seminar und Feiern buchen, Kühlanhänger und Bier-Gondel mieten, dazu unser Online-Shop"
+description: "Bierseminare und Feiern buchen, Kühlanhänger und Bier-Gondel mieten, dazu unser Online-Shop"
 weight: 4
 aliases: ["/leistungen/", "/angebote/"]
 ---
@@ -9,7 +9,7 @@ Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schn
 
 {{< kontakt-knoepfe >}}
 
-## Brau-Seminar
+## Bierseminare
 
 Ein Blick in Sudhaus und Produktionsanlagen, Wissenswertes zum Brauprozess und eine Verkostung unserer hausgebrauten Frischbiere. Das Lieblingsbier geht aufs Haus, für das leibliche Wohl ist gesorgt. Das Seminar leitet Biersommelier Uwe Kleinhans. Es gibt auch ein Seminar nur für Frauen mit Carola Humpe.
 
@@ -69,5 +69,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Brau-Seminar: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
+Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}
