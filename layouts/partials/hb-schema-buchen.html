@@ -1,0 +1,9 @@
+{{- /* Strukturierte Daten Buchen & Mieten: nur belegte Angaben, keine Preise für Verleih. */ -}}
+{{- $anbieter := dict "@type" "Brewery" "name" site.Title "url" site.Home.Permalink -}}
+{{- $ort := dict "@type" "City" "name" "Viernheim" -}}
+{{- $d := dict "@context" "https://schema.org" "@graph" (slice
+  (dict "@type" "Service" "name" "Bier-Gondel mieten (mobile Schankanlage)" "serviceType" "Verleih mobile Schankanlage" "provider" $anbieter "areaServed" $ort "url" (printf "%s#bier-gondel-mobile-schankanlage-mieten" .Permalink))
+  (dict "@type" "Service" "name" "Kühl-Anhänger (Kühlwagen) mieten" "serviceType" "Verleih Kühlanhänger" "provider" $anbieter "areaServed" $ort "url" (printf "%s#kühl-anhänger-kühlwagen-mieten" .Permalink))
+  (dict "@type" "Service" "name" "Bierseminar in Viernheim" "serviceType" "Bierseminar mit Verkostung" "provider" $anbieter "areaServed" $ort "url" (printf "%s#bierseminar-in-viernheim" .Permalink) "offers" (dict "@type" "AggregateOffer" "lowPrice" "29" "highPrice" "39" "priceCurrency" "EUR"))
+) -}}
+<script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>

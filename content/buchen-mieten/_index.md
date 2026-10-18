@@ -1,15 +1,16 @@
 ---
 title: "Buchen & Mieten"
-description: "Bierseminare und Feiern buchen, Kühl-Anhänger und Bier-Gondel mieten, dazu unser Online-Shop"
+seotitel: "Bier-Gondel & Kühlwagen mieten, Bierseminar in Viernheim"
+description: "Bier-Gondel (mobile Schankanlage) und Kühl-Anhänger mieten, Bierseminare und Feiern bei der Mikrobrauerei HannesBräu in Viernheim"
 weight: 4
 aliases: ["/leistungen/", "/angebote/"]
 ---
 
-Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schnell wie möglich.
+Die Mikrobrauerei HannesBräu in Viernheim bietet Bierseminare, Räume für Feiern sowie eine mobile Schankanlage (Bier-Gondel) und einen Kühl-Anhänger (Kühlwagen) zur Miete. Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schnell wie möglich.
 
 {{< kontakt-knoepfe >}}
 
-## Bierseminare
+## Bierseminar in Viernheim
 
 Ein Blick in Sudhaus und Produktionsanlagen, Wissenswertes zum Brauprozess und eine Verkostung unserer hausgebrauten Frischbiere. Das Lieblingsbier geht aufs Haus, für das leibliche Wohl ist gesorgt. Das Seminar leitet Biersommelier Uwe Kleinhans. Es gibt auch ein Seminar nur für Frauen mit Carola Humpe.
 
@@ -46,13 +47,13 @@ Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden
 **Teilnehmer:** mind. 15, max. 30 Personen
 {{< /popup >}}
 
-## Private Veranstaltungen
+## Feiern und private Veranstaltungen
 
 Für Geburtstage, Firmenfeiern und andere Anlässe stehen unsere Räume zur Verfügung. Personenzahl, Speisen und Getränke besprechen wir individuell auf Anfrage.
 
-## Kühl-Anhänger
+## Kühl-Anhänger (Kühlwagen) mieten
 
-Für eure Feier verleihen wir einen Kühl-Anhänger. Verfügbarkeit und Preis auf Anfrage.
+Für eure Feier verleihen wir einen Kühl-Anhänger, auch Kühlwagen genannt. Verfügbarkeit und Preis auf Anfrage.
 
 {{< zoombild gross="images/neu/kuehlanhaenger-zeichnung.webp" klein="images/neu/kuehlanhaenger-zeichnung-klein.webp" breite="640" hoehe="693" alt="Zeichnung des HannesBräu Kühl-Anhängers: Seitenansicht und Rückansicht, dazu die Anschlüsse (Strom über blauen CEE-Stecker). Maße und Leistung folgen noch." text="Seiten- und Rückansicht. Zum Vergrößern anklicken." >}}
 
@@ -60,9 +61,9 @@ Für eure Feier verleihen wir einen Kühl-Anhänger. Verfügbarkeit und Preis au
 {{< galeriebild gross="images/neu/kuehlanhaenger-1.webp" klein="images/neu/kuehlanhaenger-1-klein.webp" breite="360" hoehe="480" alt="Der Kühl-Anhänger: geschlossener Aluminium-Anhänger mit Doppelachse und HannesBräu-Logo, vorn links der Aufbau mit Lochblech" >}}
 {{< /galerie >}}
 
-## Bier-Gondel
+## Bier-Gondel (mobile Schankanlage) mieten
 
-Unsere Bier-Gondel mit eigener Schank- und Kühltechnik ist seit Mai 2024 im Einsatz.
+Unsere Bier-Gondel, ein mobiler Schankwagen mit eigener Schank- und Kühltechnik, ist seit Mai 2024 im Einsatz.
 
 {{< zoombild gross="images/neu/biergondel-zeichnung.webp" klein="images/neu/biergondel-zeichnung-klein.webp" breite="640" hoehe="689" alt="Zeichnung der HannesBräu Bier-Gondel: Seiten- und Rückansicht mit Maßen (Länge 5700 mm mit Deichsel, Breite 2400 mm, Höhe 2700 mm) und Anschlüssen (Strom 2 × 230 V, 3,0 kW Schuko; Frischwasser 1/2 oder 3/4 Zoll, Abwasser DN50)" text="Maße und Anschlüsse. Zum Vergrößern anklicken." >}}
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ site.Title }} – Vernemmer Frischbier{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ site.Title }} – Vernemmer Frischbier{{ else }}{{ with .Params.seotitel }}{{ . }}{{ else }}{{ .Title }}{{ end }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   {{ $production := eq (getenv "HUGO_ENV") "production" }}
   <meta name="robots" content="{{ if $production }}index, follow{{ else }}noindex, nofollow{{ end }}">
@@ -16,6 +16,7 @@
   {{- template "_internal/opengraph.html" . -}}
   {{- template "_internal/twitter_cards.html" . -}}
   {{- if .IsHome }}{{ partial "hb-schema.html" . }}{{ end }}
+  {{- if and (eq .Section "buchen-mieten") .IsSection (eq .Language.Lang "de") }}{{ partial "hb-schema-buchen.html" . }}{{ end }}
   <link rel="icon" type="image/png" href="{{ "images/main/logo.png" | relURL }}">
   <meta name="theme-color" content="#2E2622">
   {{- /* Google Search Console (vorher als Netlify-Snippet) */}}
