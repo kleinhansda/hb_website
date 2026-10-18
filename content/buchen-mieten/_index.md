@@ -10,6 +10,8 @@ Die Mikrobrauerei HannesBräu in Viernheim bietet Bierseminare, Räume für Feie
 
 {{< kontakt-knoepfe >}}
 
+{{< sprungmarken >}}
+
 ## Bierseminar in Viernheim
 
 Ein Blick in Sudhaus und Produktionsanlagen, Wissenswertes zum Brauprozess und eine Verkostung unserer hausgebrauten Frischbiere. Das Lieblingsbier geht aufs Haus, für das leibliche Wohl ist gesorgt. Das Seminar leitet Biersommelier Uwe Kleinhans. Es gibt auch ein Seminar nur für Frauen mit Carola Humpe.

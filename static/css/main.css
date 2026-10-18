@@ -232,3 +232,7 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 html:not(.hb-js) .hb-popup{display:block;position:static;width:auto;max-height:none;margin:1.5rem 0;border:1px solid #E2DED9}
 html:not(.hb-js) .hb-popup__auf,html:not(.hb-js) .hb-popup__zu{display:none}
 html:not(.hb-js) .hb-popup-knopf{display:none}
+.hb-sprung{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.5rem}
+.hb .hb-sprung a{display:inline-block;border:1px solid var(--amber);border-radius:2rem;padding:.3rem .9rem;text-decoration:none;color:var(--holz)}
+.hb .hb-sprung a:hover,.hb .hb-sprung a:focus-visible{background:var(--amber)}
+html{scroll-padding-top:5rem}

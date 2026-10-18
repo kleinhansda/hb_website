@@ -8,6 +8,8 @@ Aafroge unn Buchunge gern per E-Mail odder telefonisch. Mer melde uns so schnell
 
 {{< kontakt-knoepfe >}}
 
+{{< sprungmarken >}}
+
 ## Bierseminare
 
 E Blick ins Sudhaus unn in die Braueaalage, Interessantes zum Braue unn e Verkostung vun unsere hausgebraute Frischbier. S Lieblingsbier geht aufs Haus, fer s leibliche Wohl is gsorgt. S Seminar leitet de Biersommelier Uwe Kleinhans. Es gibt aach e Seminar nur fer Fraue mit de Carola Humpe.

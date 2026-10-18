@@ -1,0 +1,4 @@
+<nav class="hb-sprung" aria-label="{{ cond (eq site.Language.Lang "pfl") "Uff dere Seit" "Auf dieser Seite" }}">
+  {{- $roh := .Page.RawContent -}}
+  {{- range findRE `(?m)^## [^\n]+` $roh }}{{ $t := trim (strings.TrimPrefix "##" .) " \r\n" }}<a href="#{{ anchorize $t }}">{{ replaceRE `\s*\(.*?\)` "" $t }}</a>{{ end -}}
+</nav>
