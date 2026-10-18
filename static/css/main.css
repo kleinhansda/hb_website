@@ -186,3 +186,4 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 /* Kopfzeile: keine Unterstreichung, auch wenn Browser oder Erweiterungen Links unterstreichen wollen */
 .hb .hb-nav a,.hb .hb-nav a:link,.hb .hb-nav a:visited,.hb .hb-nav a:hover,.hb .hb-nav a:focus{text-decoration:none!important;text-decoration-line:none!important}
 .hb .hb-nav a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.hb-shop-knopf{margin:0 0 2.5rem}

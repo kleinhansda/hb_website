@@ -1,0 +1,2 @@
+{{- /* Knopf zum Online-Shop (SumUp), Adresse aus params.shop. Aufruf: {{< shop-knopf "Text" >}} */ -}}
+<p class="hb-shop-knopf"><a class="hb-knopf" href="{{ site.Params.shop }}" target="_blank" rel="noopener">{{ .Get 0 | default "Zum Online-Shop" }}</a></p>

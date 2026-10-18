@@ -11,7 +11,8 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 - Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Angebote
   (früher „Leistungen“, die alte Adresse /leistungen/ leitet weiter).
-- Angebote: neu der Kühlanhänger (Details fehlen noch) und ein Link zum Online-Shop bei SumUp.
+- Angebote: oben ein Knopf „Zum Online-Shop“ (SumUp), neu der Kühlanhänger (Details fehlen noch).
+  Party-Kegs stehen nicht mehr auf der Seite, die gibt es im Shop.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.
@@ -56,6 +57,6 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 - Welche Biere sind Sonderbiere, mit Beschreibung.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
-- Party-Kegs und Biergondel als Angebote? Kühlanhänger: Größe, Preis, Abholung.
+- Biergondel als Angebot? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.
 - Ausschank-Termine als Serie im Google-Kalender eintragen.
 - Nach dem Livegang die beiden Verifizierungs-Snippets in Netlify löschen.

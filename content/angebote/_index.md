@@ -1,9 +1,11 @@
 ---
 title: "Angebote"
-description: "Brau-Seminar, private Feiern, Kühlanhänger und Bier für eure Runde"
+description: "Brau-Seminar, private Feiern, Kühlanhänger und unser Online-Shop"
 weight: 4
 aliases: ["/leistungen/"]
 ---
+
+{{< shop-knopf "Zum Online-Shop" >}}
 
 ## Brau-Seminar
 
@@ -15,22 +17,14 @@ Termine sprechen wir direkt mit euch ab. Schreibt uns eine {{< send_email >}}.
 
 Für Geburtstage, Firmenfeiern und andere Anlässe stehen unsere Räume zur Verfügung. Personenzahl, Speisen und Getränke besprechen wir individuell auf Anfrage.
 
-## Party-Kegs
-
-Den HannesBräu-Kegg gibt es für frisches Bier in der ganzen Runde. Abholung direkt vor Ort in der Einsteinstraße 8.
-
 ## Kühlanhänger
 
 Für eure Feier verleihen wir einen Kühlanhänger. Verfügbarkeit und Preis auf Anfrage, schreibt uns eine {{< send_email >}}.
-
-## Online-Shop
-
-Bestellen und bezahlen könnt ihr auch in unserem [Online-Shop bei SumUp](https://hannesbraeu.sumup.link/).
 
 ## Biergondel
 
 Unsere Biergondel mit eigener Schank- und Kühltechnik ist seit Mai 2024 im Einsatz.
 
 {{< platzhalter >}}
-Entwurf: Party-Kegs und Biergondel stammen aus älteren Beiträgen. Bitte prüfen, ob beides so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen.
+Entwurf: Die Biergondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen.
 {{< /platzhalter >}}

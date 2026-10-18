@@ -9,7 +9,7 @@ Adresse: Einsteinstraße 8, 68519 Viernheim. Kontakt: siehe Impressum.
 - [Über uns](https://www.hannesbru.de/ueber-uns/): Geschichte der Brauerei, Frischbier und die klassischen Biere (Buuh, Meehdsche, Helles, Weehze)
 - [Veranstaltungen](https://www.hannesbru.de/veranstaltungen/): aktuelle Ausschank-Termine aus dem Kalender, Newsletter
 - [Sonderbiere](https://www.hannesbru.de/sonderbiere/): Biere zu besonderen Anlässen
-- [Angebote](https://www.hannesbru.de/angebote/): Brau-Seminar, private Feiern, Kühlanhänger, Online-Shop, Bier für eure Runde
+- [Angebote](https://www.hannesbru.de/angebote/): Brau-Seminar, private Feiern, Kühlanhänger, Link zum Online-Shop (https://hannesbraeu.sumup.link/)
 - [Impressum](https://www.hannesbru.de/impressum/): Kontakt und Anfahrt
 
 ## Optional
