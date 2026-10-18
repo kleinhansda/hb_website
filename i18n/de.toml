@@ -45,3 +45,5 @@ other = "Die Termine lassen sich gerade nicht laden."
 
 [hb_datenschutz]
 other = "Datenschutz"
+[hb_zutaten]
+other = "Zutaten"

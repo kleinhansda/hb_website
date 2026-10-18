@@ -1,10 +1,25 @@
-# Sonderbiere. ENTWURF: Namen aus EAN-Liste und altem Archiv, Beschreibungen fehlen noch.
-- name: Vernemmer Pils
-- name: Vernemmer Urbock
-- name: Vernemmer Geheimnis
-- name: Vernemmer Noigeblaggder
+# Sonderbiere. Reihenfolge = Reihenfolge auf der Website.
+# Tony, Dunkles Geheimnis und Noigeblaggder: Texte von den Etiketten übernommen.
+# Pils und Urbock: Namen aus EAN-Liste und altem Archiv, Beschreibung fehlt noch.
+- name: Tony
+  farbe: "#D9892B"
+  art: "IPA nach amerikanischer Art"
+  beschreibung: "Intensive Hopfenaromen nach Aprikose, Pfirsich und Honigmelone, dazu ausgewogene Bitterkeit und ein vollmundiger Körper. Voller Geschmack auf kleinem Raum, geboren in Viernheim, genau wie unser Brauereihund Tony: charmant, verspielt und einfach zum Verlieben."
+  zutaten: "Wasser, Gerstenmalz, Hopfen, Hefe"
+- name: Dunkles Geheimnis
+  farbe: "#3B2418"
+  art: "Editionsbier zur BestBrewChallenge 2026"
+  beschreibung: "Vollmundig mit Karamell-, Schoko- und Fruchtnoten."
+  zutaten: "Wasser, Weizenmalz, geröstetes Gerstenmalz, Hefe, Hopfen"
+- name: Noigeblaggder
+  farbe: "#4A2A1A"
+  art: "Dunkles Hopfenweizen"
+  beschreibung: "Fruchtig-hopfig, malzaromatisch und vollmundig."
+  zutaten: "Wasser, Weizenmalz, Gerstenmalz, Hefe, Hopfen"
 - name: Vernemmer Urstoff
   bild: /images/biere/urstoff_kelch.jpg
   farbe: "#2B1A14"
-  art: Obergäriges Stout
-  beschreibung: Weich, mit malzigen Röstaromen und karamellig-bananigem Charakter. Mild gehopft.
+  art: "Obergäriges Stout"
+  beschreibung: "Weich, mit malzigen Röstaromen und karamellig-bananigem Charakter. Mild gehopft."
+- name: Vernemmer Pils
+- name: Vernemmer Urbock

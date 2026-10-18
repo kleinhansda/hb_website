@@ -57,7 +57,8 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 ### Offen
 
 - Kurpfälzische Texte und Menünamen prüfen (Uwe).
-- Welche Biere sind Sonderbiere, mit Beschreibung.
+- Sonderbiere: Tony, Dunkles Geheimnis und Noigeblaggder sind mit Beschreibung und Zutaten von den Etiketten übernommen.
+  Offen: Urstoff, Pils, Urbock (Beschreibung, Zutaten), Fotos für alle, Auswahl prüfen.
 - Eigenes Foto für das Weehze.
 - Aktuelle Bierdaten (Art, Malz, Hopfen). Die Stammwürze steht bewusst nicht auf der Website.
 - Bier-Gondel unter „Buchen & Mieten“ so richtig? Kühlanhänger: Größe, Preis, Abholung. Party-Kegs im SumUp-Shop anlegen.

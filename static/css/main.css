@@ -149,6 +149,7 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 @media (max-width:640px){
   body.hb{font-size:1.0625rem}
   .hb-biere--details .hb-bier{grid-template-columns:6rem 1fr;gap:1rem}
+  .hb-biere--details .hb-bier--ohnebild{grid-template-columns:1fr}
   .hb-fuss__rechts{align-items:flex-start}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
