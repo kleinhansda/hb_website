@@ -187,3 +187,12 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb .hb-nav a,.hb .hb-nav a:link,.hb .hb-nav a:visited,.hb .hb-nav a:hover,.hb .hb-nav a:focus{text-decoration:none!important;text-decoration-line:none!important}
 .hb .hb-nav a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
 .hb-shop-knopf{margin:0 0 2.5rem}
+/* Zoombild: kleines Vorschaubild, groß im Dialog */
+.hb-zoombild{margin:1.5rem 0;max-width:18rem}
+.hb-zoombild__link{display:block;border:1px solid #E2DED9;border-radius:4px;overflow:hidden;cursor:zoom-in;transition:box-shadow .15s ease}
+.hb-zoombild__link:hover,.hb-zoombild__link:focus-visible{box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hb-zoombild figcaption{font-size:.9rem;color:var(--grau);margin-top:.5rem}
+.hb-zoom{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible;cursor:zoom-out}
+.hb-zoom::backdrop{background:rgba(20,16,14,.85)}
+.hb .hb-zoom img{display:block;max-width:96vw;max-height:92vh;width:auto;height:auto;background:#fff;border-radius:4px}
+.hb .hb-zoom__zu{position:absolute;top:.5rem;right:.5rem;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}

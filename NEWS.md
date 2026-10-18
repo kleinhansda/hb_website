@@ -13,6 +13,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
   (früher „Leistungen“, die alte Adresse /leistungen/ leitet weiter).
 - Angebote: oben ein Knopf „Zum Online-Shop“ (SumUp), neu der Kühlanhänger (Details fehlen noch).
   Party-Kegs stehen nicht mehr auf der Seite, die gibt es im Shop.
+- Biergondel: technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
   darunter „Unsere Biere“ mit Fotos.

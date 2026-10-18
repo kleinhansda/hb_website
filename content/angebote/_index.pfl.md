@@ -27,3 +27,5 @@ Fer eier Feier verleihe mer en Kiehlaahänger. Ob er frei is unn was er koscht, 
 ## Biergondel
 
 Unser Biergondel mit eigener Schank- unn Kiehltechnik is seit Mai 2024 im Einsatz.
+
+{{< zoombild gross="images/neu/biergondel-zeichnung.webp" klein="images/neu/biergondel-zeichnung-klein.webp" breite="640" hoehe="689" alt="Zeichnung vun de HannesBräu Bier-Gondel: Seite unn hinne mit Maße (5700 mm lang mit Deichsel, 2400 mm breet, 2700 mm hoch) unn Aaschlüss (Strom 2 × 230 V, 3,0 kW Schuko; Frischwasser 1/2 odder 3/4 Zoll, Abwasser DN50)" text="Maße unn Aaschlüss. Fer grehßer druffdricke." >}}
