@@ -196,3 +196,6 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 .hb-zoom::backdrop{background:rgba(20,16,14,.85)}
 .hb .hb-zoom img{display:block;max-width:96vw;max-height:92vh;width:auto;height:auto;background:#fff;border-radius:4px}
 .hb .hb-zoom__zu{position:absolute;top:.5rem;right:.5rem;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.hb-kontakt-knoepfe{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 2.5rem}
+.hb .hb-knopf--leise{color:var(--holz)!important}
+.hb-shop{margin-top:2.5rem}

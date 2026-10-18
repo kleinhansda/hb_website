@@ -11,8 +11,10 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 - Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Buchen & Mieten
   (früher „Leistungen“; die alten Adressen /leistungen/ und /angebote/ leiten weiter).
-- Buchen & Mieten: oben ein Knopf „Zum Online-Shop“ (SumUp), neu der Kühlanhänger (Details fehlen noch).
-  Party-Kegs stehen nicht mehr auf der Seite, die gibt es im Shop.
+- Buchen & Mieten: oben der Hinweis, dass Anfragen per E-Mail oder Telefon willkommen sind, mit zwei Knöpfen
+  (Nummer und Adresse leicht verschleiert). Die E-Mail-Links im Fließtext sind entfallen.
+  Unten „Mehr im Online-Shop“ (SumUp) mit Verweis auf Gutscheine, Gläser mit Logo, Party-Kegs.
+  Neu: Kühlanhänger (Details fehlen noch). Party-Kegs stehen nicht mehr als eigener Abschnitt auf der Seite.
 - Bier-Gondel (einheitlich so geschrieben wie auf der Zeichnung): technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.
 - Startseite: Bannerfoto mit den drei Gläsern (enger auf die Gläser geschnitten), Claim, Piktogramme,
