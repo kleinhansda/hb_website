@@ -16,7 +16,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
   Unten „Mehr im Online-Shop“ (SumUp) mit Verweis auf Gutscheine, Gläser mit Logo, Party-Kegs.
 - Brau-Seminar: Kurzfassung mit Dauer (4 Stunden), Kosten (29 bis 39 € pro Person), Teilnehmerzahl (15 bis 30) und Termin
   direkt auf der Seite. Die ausführliche Beschreibung (Seminar und Frauen-Seminar mit Carola Humpe) steht hinter dem Knopf
-  „Weitere Informationen“ in einem Fenster. Texte aus dem Word-Dokument, „Sie“ zu „ihr“ angepasst.
+  „Weitere Informationen“ in einem Fenster, dort wörtlich wie im Word-Dokument.
   Neu: Kühlanhänger mit Zeichnung (Seiten- und Rückansicht, Klick vergrößert; Maße und Leistung sind in der Zeichnung noch Platzhalter, weitere Details fehlen noch). Party-Kegs stehen nicht mehr als eigener Abschnitt auf der Seite.
 - Bier-Gondel (einheitlich so geschrieben wie auf der Zeichnung): technische Zeichnung (Maße, Anschlüsse) als kleines Bild, vergrößert sich beim Anklicken.
   Der alte Bereich „Naies“ (Artikel) ist ausgeblendet, die Beiträge bleiben im Repo.

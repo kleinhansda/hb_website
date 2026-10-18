@@ -18,21 +18,31 @@ E Blick ins Sudhaus unn in die Braueaalage, Interessantes zum Braue unn e Verkos
 - **Termin:** nooch Absprach
 
 {{< popup knopf="Meh Infos" titel="Bierseminar im HannesBräu mit Biersommelier Uwe Kleinhans" >}}
-#### Was erwartet eich im Seminar?
+#### Was erwartet Sie im Seminar?
 
-Blick in die Braueaalage unn ins Sudhaus, dezu Interessantes unn Wisswertes zum Braue. Fer Einheimische gibt's bei Interesse e klaa Gschicht rund ums Bier, mit Bezug zur alte Vernemer Brauerei. Bitte beim Aamelde sage.
+Blick in die Produktionsanlagen und Sudhaus, sowie Informationen und Wissenswertes zum Brauprozess (für &quot;Einheimische&quot; und bei Interesse, kleiner geschichtlicher Hintergrund rund ums Bier mit historischem Bezug zur alten Viernheimer Brauerei- bitte anmelden).
 
-In de Schankstub odder im Saloon werre die hausgebraute Frischbier verkoschtet unn bewertet. S Lieblingsbier geht aufs Haus! Fer s leibliche Wohl wird gsorgt.
+In der Schankstube oder im Saloon werden die hausgebrauten Frischbiere verkostet und bewertet. Das Lieblingsbier geht aufs Haus! Für das leibliche Wohl wird gesorgt.
 
-#### Bierseminar nur fer Fraue mit de Carola Humpe, de Fraa vum Brauer
+#### Bierseminar nur für Frauen mit des Brauers Frau Carola Humpe
 
-Was ihr schun immer iwwer Bier wisse wollt, awwer in de Männerrund nie gfroht habt.
+Was SIE schon immer über Bier wissen wollten, aber in der Männerrunde nicht gewagt haben zu fragen.
 
-Bierbraue war frieher Fraue-Sach! Bei de Germane hot's zum Haushalte ghert wie Koche unn Backe. E Braukessel als Mitgift war domols nix Ungewehnliches.
+Bierbrauen war früher Frauensache! Bei den Germanen gehörte es zum Haushalten wie Kochen und Backen; ein Braukessel als Mitgift war damals nicht ungewöhnlich.
 
-Trumpft in de nechste Männerrund mit eierm Fachwisse rund ums Bier uff!
+Trumpfen SIE in der nächsten Männerrunde mit Ihrem Fachwissen rund ums Bier auf!
 
-S Seminar wird net bierernscht, sondern unnerhaltsam, denn schun frieher hawwe die Damme statt zum Kaffeekränzche zum Bierkränzche eigelaad!
+Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden die Damen statt zum Kaffeekränzchen zum Bierkränzchen ein!
+
+---
+
+**Dauer der Seminare:** 4 Stunden
+
+**Terminvereinbarung** nach Absprache
+
+**Kosten:** zwischen 29,- € und 39,-€ p. P. (je nach Speisenwünschen)
+
+**Teilnehmer:** mind. 15, max. 30 Personen
 {{< /popup >}}
 
 ## Feiern
@@ -58,5 +68,5 @@ Im Online-Lade gibt's noch meh, zum Beispiel Gutscheine, Gläser mit unserm Logo
 {{< shop-knopf "Zum Online-Lade" >}}
 
 {{< platzhalter >}}
-Kurpfälzische Fassung als Entwurf geschrieben (auch das Brau-Seminar, "Meh Infos", "Koschte", "Teilnehmer"). Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
+Kurpfälzische Fassung als Entwurf geschrieben (auch das Brau-Seminar, "Meh Infos", "Koschte", "Teilnehmer"). Im Fenster "Meh Infos" steht der Originaltext aus dem Word-Dokument auf Hochdeutsch. Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
 {{< /platzhalter >}}

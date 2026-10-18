@@ -19,21 +19,31 @@ Ein Blick in Sudhaus und Produktionsanlagen, Wissenswertes zum Brauprozess und e
 - **Termin:** nach Absprache
 
 {{< popup knopf="Weitere Informationen" titel="Bierseminar im HannesBräu mit Biersommelier Uwe Kleinhans" >}}
-#### Was erwartet euch im Seminar?
+#### Was erwartet Sie im Seminar?
 
-Blick in die Produktionsanlagen und ins Sudhaus sowie Informationen und Wissenswertes zum Brauprozess. Für Einheimische gibt es bei Interesse einen kleinen geschichtlichen Hintergrund rund ums Bier, mit Bezug zur alten Viernheimer Brauerei. Bitte bei der Anmeldung angeben.
+Blick in die Produktionsanlagen und Sudhaus, sowie Informationen und Wissenswertes zum Brauprozess (für &quot;Einheimische&quot; und bei Interesse, kleiner geschichtlicher Hintergrund rund ums Bier mit historischem Bezug zur alten Viernheimer Brauerei- bitte anmelden).
 
 In der Schankstube oder im Saloon werden die hausgebrauten Frischbiere verkostet und bewertet. Das Lieblingsbier geht aufs Haus! Für das leibliche Wohl wird gesorgt.
 
-#### Bierseminar nur für Frauen mit Carola Humpe, der Frau des Brauers
+#### Bierseminar nur für Frauen mit des Brauers Frau Carola Humpe
 
-Was ihr schon immer über Bier wissen wolltet, aber in der Männerrunde nicht gewagt habt zu fragen.
+Was SIE schon immer über Bier wissen wollten, aber in der Männerrunde nicht gewagt haben zu fragen.
 
-Bierbrauen war früher Frauensache! Bei den Germanen gehörte es zum Haushalten wie Kochen und Backen. Ein Braukessel als Mitgift war damals nicht ungewöhnlich.
+Bierbrauen war früher Frauensache! Bei den Germanen gehörte es zum Haushalten wie Kochen und Backen; ein Braukessel als Mitgift war damals nicht ungewöhnlich.
 
-Trumpft in der nächsten Männerrunde mit eurem Fachwissen rund ums Bier auf!
+Trumpfen SIE in der nächsten Männerrunde mit Ihrem Fachwissen rund ums Bier auf!
 
 Das Seminar wird nicht bierernst, sondern unterhaltsam, denn schon früher luden die Damen statt zum Kaffeekränzchen zum Bierkränzchen ein!
+
+---
+
+**Dauer der Seminare:** 4 Stunden
+
+**Terminvereinbarung** nach Absprache
+
+**Kosten:** zwischen 29,- € und 39,-€ p. P. (je nach Speisenwünschen)
+
+**Teilnehmer:** mind. 15, max. 30 Personen
 {{< /popup >}}
 
 ## Private Veranstaltungen
@@ -59,5 +69,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Brau-Seminar aus dem Word-Dokument übernommen (Anrede „Sie“ zu „ihr“ geändert). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
+Entwurf: Brau-Seminar: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}
