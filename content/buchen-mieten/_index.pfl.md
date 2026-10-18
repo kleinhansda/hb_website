@@ -43,6 +43,8 @@ Fer Geburtsdaage, Firmefeiern unn annere Aaläss kennt'er unser Raim hawwe. Wiev
 
 Fer eier Feier verleihe mer en Kiehlaahänger. Ob er frei is unn was er koscht, froht eifach aa.
 
+{{< zoombild gross="images/neu/kuehlanhaenger-zeichnung.webp" klein="images/neu/kuehlanhaenger-zeichnung-klein.webp" breite="640" hoehe="693" alt="Zeichnung vum HannesBräu Kiehl-Aahänger: Seite unn hinne, dezu die Aaschlüss (Strom iwwer blaue CEE-Stecker). Maße unn Leistung folge noch." text="Seite unn hinne. Fer grehßer druffdricke." >}}
+
 ## Bier-Gondel
 
 Unser Bier-Gondel mit eigener Schank- unn Kiehltechnik is seit Mai 2024 im Einsatz.

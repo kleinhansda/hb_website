@@ -44,6 +44,8 @@ Für Geburtstage, Firmenfeiern und andere Anlässe stehen unsere Räume zur Verf
 
 Für eure Feier verleihen wir einen Kühlanhänger. Verfügbarkeit und Preis auf Anfrage.
 
+{{< zoombild gross="images/neu/kuehlanhaenger-zeichnung.webp" klein="images/neu/kuehlanhaenger-zeichnung-klein.webp" breite="640" hoehe="693" alt="Zeichnung des HannesBräu Kühl-Anhängers: Seitenansicht und Rückansicht, dazu die Anschlüsse (Strom über blauen CEE-Stecker). Maße und Leistung folgen noch." text="Seiten- und Rückansicht. Zum Vergrößern anklicken." >}}
+
 ## Bier-Gondel
 
 Unsere Bier-Gondel mit eigener Schank- und Kühltechnik ist seit Mai 2024 im Einsatz.
@@ -57,5 +59,5 @@ Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit Ha
 {{< shop-knopf "Zum Online-Shop" >}}
 
 {{< platzhalter >}}
-Entwurf: Brau-Seminar aus dem Word-Dokument übernommen (Anrede „Sie“ zu „ihr“ geändert). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen.
+Entwurf: Brau-Seminar aus dem Word-Dokument übernommen (Anrede „Sie“ zu „ihr“ geändert). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühlanhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}
