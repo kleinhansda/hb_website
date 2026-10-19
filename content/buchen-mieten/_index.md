@@ -6,7 +6,7 @@ weight: 4
 aliases: ["/leistungen/", "/angebote/"]
 ---
 
-Die Mikrobrauerei HannesBräu in Viernheim bietet Bierseminare, Räume für Feiern sowie eine mobile Schankanlage (Bier-Gondel) und einen Kühl-Anhänger (Kühlwagen) zur Miete. Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schnell wie möglich.
+Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schnell wie möglich.
 
 {{< kontakt-knoepfe >}}
 
