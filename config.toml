@@ -70,7 +70,7 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/sonderbiere"
       weight = 3
     [[languages.de.menus.main]]
-      name = "Buchen & Mieten"
+      name = "Mieten & Shop"
       pageRef = "/buchen-mieten"
       weight = 4
   [languages.pfl]
@@ -90,6 +90,6 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/sonderbiere"
       weight = 3
     [[languages.pfl.menus.main]]
-      name = "Buche unn Miete"
+      name = "Miete unn Lade"
       pageRef = "/buchen-mieten"
       weight = 4

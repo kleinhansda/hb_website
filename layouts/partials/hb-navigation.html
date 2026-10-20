@@ -20,8 +20,6 @@
       </nav>
       {{ partial "hb-sprache.html" . }}
     </div>
-    {{/* Shop-Knopf: Aufruf zum Handeln, kein Menüpunkt. Bleibt auch auf dem Handy neben dem Menüknopf sichtbar. */}}
-    <a class="hb-nav__shop" href="{{ site.Params.shop }}" target="_blank" rel="noopener">{{ cond (eq site.Language.Lang "pfl") "Online-Lade" "Online-Shop" }}<span class="hb-unsichtbar"> ({{ cond (eq site.Language.Lang "pfl") "neies Fenschder" "öffnet in neuem Tab" }})</span></a>
   </div>
   <div class="hb-flight" aria-hidden="true">
     {{ range site.Data.biere }}<span style="background:{{ .farbe | safeCSS }}"></span>{{ end }}
