@@ -35,10 +35,10 @@
   bild: /images/biere/hell_kelch.jpg
   bild_platzhalter: true
   farbe: "#EBCB6A"
-  art: Untergärig
+  art: Untergärig, kalt gehopft
   malz: "Pilsener"
   hopfen: "Saazer, Hallertauer Perle"
-  sommelier: "Hellgolden und schlank. Saazer Hopfen gibt ihm eine feine, würzig-krautige Note mit Anklängen von Heu und Thymian, Perle einen Hauch Zitrus und Pfeffer, das Pilsener Malz eine zarte Honignote. Erfrischend, mit angenehm herbem Abgang."
+  sommelier: "Hellgolden und schlank. Die Kalthopfung hebt die Aromen von Saazer und Perle frisch ins Glas: würzig-krautig mit Heu und Thymian, dazu ein Hauch Zitrus und Pfeffer über zarter Honignote vom Pilsener Malz. Erfrischend, mit angenehm herbem Abgang."
   profil_malz: [pilsner]
   profil_hopfen: [saazer, perle]
 - name: Vernemmer Weehze
