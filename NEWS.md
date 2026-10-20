@@ -9,6 +9,8 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
+- Online-Shop-Knopf in der Navigation (20.10.2026): Auf jeder Seite oben rechts ein auffälliger Knopf „Online-Shop“
+  (kurpfälzisch „Online-Lade“), auf dem Handy neben dem Menüknopf. Das Menü selbst bleibt bei vier Punkten.
 - Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer und Hallertauer Perle, kalt gehopft, „Erfrischend & angenehm herb“) ist kein
   Sonderbier mehr und steht jetzt unter Über uns, Unsere Biere (Foto noch Platzhalter). Jedes Bier hat eine kurze
   Sommelier-Beschreibung und einen Knopf „Charakterprofil“: ein Fenster mit Netzdiagrammen der Malz- und Hopfensorten
