@@ -269,7 +269,8 @@ html{scroll-padding-top:5rem}
 .hb .hb-nav__shop{display:inline-block;background:var(--amber);color:var(--holz);font-weight:700;font-size:1rem;line-height:1;white-space:nowrap;padding:.6rem 1.1rem;border-radius:3px}
 .hb .hb-nav__shop:hover{background:#B67A22;color:var(--holz)}
 @media (max-width:760px){
-  .hb .hb-nav__shop{margin-left:auto;margin-right:.75rem;padding:.55rem .9rem;font-size:.95rem}
+  .hb .hb-nav__shop{order:1;margin-left:auto;margin-right:.5rem;padding:.55rem .9rem;font-size:.95rem}
+  .hb-nav--js .hb-nav__knopf{order:2}
 }
 @media (min-width:761px) and (max-width:1100px){
   .hb-nav__innen{flex-wrap:nowrap;gap:.5rem 1rem}
