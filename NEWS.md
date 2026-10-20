@@ -9,7 +9,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
-- Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer Hopfen, „Erfrischend & angenehm herb“) ist kein
+- Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer und Hallertauer Perle, „Erfrischend & angenehm herb“) ist kein
   Sonderbier mehr und steht jetzt unter Über uns, Unsere Biere (Foto noch Platzhalter). Jedes Bier hat eine kurze
   Sommelier-Beschreibung und einen Knopf „Charakterprofil“: ein Fenster mit Netzdiagrammen der Malz- und Hopfensorten
   (eigene Darstellung nach Weyermann® Malz Aroma Rad und BarthHaas Hop Harvest Guide 2021, mit Quellenangabe) und den
