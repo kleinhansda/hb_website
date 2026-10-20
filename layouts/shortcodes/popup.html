@@ -3,20 +3,7 @@
      Aufruf: {{< popup knopf="Weitere Informationen" titel="Überschrift" >}}Text{{< /popup >}} */ -}}
 {{- $id := printf "hb-popup-%d" .Ordinal -}}
 {{- $zu := cond (eq site.Language.Lang "pfl") "Zumache" "Schließen" -}}
-{{- if not (.Page.Scratch.Get "hbPopup") }}{{ .Page.Scratch.Set "hbPopup" true }}
-<script>
-if (window.HTMLDialogElement) document.documentElement.classList.add("hb-js");
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("[data-hb-popup]").forEach(function (b) {
-    var d = document.getElementById(b.getAttribute("data-hb-popup"));
-    if (!d || !d.showModal) return;
-    b.addEventListener("click", function () { d.showModal(); });
-    d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
-    d.querySelector(".hb-popup__zu").addEventListener("click", function () { d.close(); });
-  });
-});
-</script>
-{{- end }}
+{{- partial "hb-popup-skript.html" .Page }}
 <p class="hb-popup-knopf"><button type="button" class="hb-popup__auf" data-hb-popup="{{ $id }}" aria-haspopup="dialog">{{ .Get "knopf" }}</button></p>
 <dialog class="hb-popup" id="{{ $id }}" aria-labelledby="{{ $id }}-titel">
   <div class="hb-popup__inhalt">

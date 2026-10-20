@@ -1,0 +1,39 @@
+{{- /* Knopf + Popup "Charakterprofil" für ein Bier. Aufruf: partial "hb-bier-profil.html" (dict "bier" . "seite" $.Page) */ -}}
+{{- $b := .bier -}}
+{{- $r := site.Data.rohstoffe -}}
+{{- $pfl := eq site.Language.Lang "pfl" -}}
+{{- $farben := slice "#C98A2E" "#8E3A1F" "#4F7A3A" "#3F6E8C" "#7A4E7E" "#2E2622" -}}
+{{- $id := printf "hb-profil-%s" (anchorize $b.name) -}}
+{{- partial "hb-popup-skript.html" .seite -}}
+{{- if or $b.profil_malz $b.profil_hopfen }}
+<p class="hb-popup-knopf"><button type="button" class="hb-popup__auf" data-hb-popup="{{ $id }}" aria-haspopup="dialog">{{ cond $pfl "Was drin is" "Charakterprofil" }}</button></p>
+<dialog class="hb-popup hb-profil" id="{{ $id }}" aria-labelledby="{{ $id }}-titel">
+  <div class="hb-popup__inhalt">
+    <h3 id="{{ $id }}-titel">{{ $b.name }}</h3>
+    {{ with $b.sommelier }}<p class="hb-profil__text">{{ . }}</p>{{ end }}
+
+    {{- with $b.profil_malz }}
+    {{- $serien := slice }}{{ $liste := slice }}
+    {{- range $i, $k := . }}{{ with index $r.malz $k }}{{ $serien = $serien | append (dict "name" .name "werte" .werte "farbe" (index $farben (mod $i 6))) }}{{ $liste = $liste | append . }}{{ end }}{{ end }}
+    <h4>Malz</h4>
+    {{ partial "hb-netz.html" (dict "achsen" $r.achsen_malz "serien" $serien "max" 5 "ringe" (slice 1 2 3 4 5) "titel" (printf "Aromaprofil der Malze im %s" $b.name)) }}
+    <dl class="hb-profil__liste">
+      {{- range $liste }}<dt>{{ .name }}</dt><dd>{{ .besonderheit }}</dd>{{ end }}
+    </dl>
+    {{- end }}
+
+    {{- with $b.profil_hopfen }}
+    {{- $serien := slice }}{{ $liste := slice }}
+    {{- range $k := . }}{{ with index $r.hopfen $k }}{{ if .werte }}{{ $serien = $serien | append (dict "name" .name "werte" .werte "farbe" (index $farben (mod (len $serien) 6))) }}{{ end }}{{ $liste = $liste | append . }}{{ end }}{{ end }}
+    <h4>Hopfen</h4>
+    {{ with $serien }}{{ partial "hb-netz.html" (dict "achsen" $r.achsen_hopfen "serien" . "max" 70 "ringe" (slice 10 20 30 40 50 60 70) "titel" (printf "Aromaprofil der Hopfen im %s" $b.name)) }}{{ end }}
+    <dl class="hb-profil__liste">
+      {{- range $liste }}<dt>{{ .name }}</dt><dd>{{ .besonderheit }}</dd>{{ end }}
+    </dl>
+    {{- end }}
+
+    <p class="hb-profil__quelle">Eigene Darstellung, nachgestellt nach: Weyermann® Malz Aroma Rad (Würze), © Weyermann® Specialty Malts, Skala 0 bis 5; BarthHaas Hop Harvest Guide 2021, durchschnittliche Schlüsselaromen seit 2018, relative Skala. Die Diagramme zeigen typische Profile der Rohstoffe, keine Messwerte unseres Bieres. Antippen der Sorte hebt sie hervor.</p>
+  </div>
+  <button type="button" class="hb-popup__zu" aria-label="{{ cond $pfl "Zumache" "Schließen" }}">×</button>
+</dialog>
+{{- end }}

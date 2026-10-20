@@ -1,5 +1,5 @@
 <ul class="hb-biere hb-biere--details">
-  {{ range $b := site.Data.sonderbiere }}
+  {{ $seite := .Page }}{{ range $b := site.Data.sonderbiere }}
   <li class="hb-bier{{ if not .bild }} hb-bier--ohnebild{{ end }}">
     {{ with .bild }}<img src="{{ . | relURL }}" alt="{{ i18n "hb_glas" }} {{ $b.name }}" width="500" height="500" loading="lazy">{{ end }}
     <div>
@@ -12,6 +12,7 @@
         {{ with .hopfen }}<dt>{{ i18n "hb_hopfen" }}</dt><dd>{{ . }}</dd>{{ end }}
         {{ with .zutaten }}<dt>{{ i18n "hb_zutaten" }}</dt><dd>{{ . }}</dd>{{ end }}
       </dl>{{ end }}
+      {{ partial "hb-bier-profil.html" (dict "bier" . "seite" $seite) }}
     </div>
   </li>
   {{ end }}

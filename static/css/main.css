@@ -88,7 +88,7 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 
 /* Biere */
 .hb-biere{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;gap:2rem}
-.hb-biere--kompakt{grid-template-columns:repeat(4,1fr)}
+.hb-biere--kompakt{grid-template-columns:repeat(5,1fr);gap:1.5rem}
 .hb-biere--kompakt a{display:block;text-decoration:none;color:var(--holz)}
 .hb-biere--kompakt img{aspect-ratio:1;object-fit:cover;width:100%}
 .hb-bier__farbe{display:block;height:8px;width:100%;margin:.9rem 0 .7rem}
@@ -236,3 +236,31 @@ html:not(.hb-js) .hb-popup-knopf{display:none}
 .hb .hb-sprung a{display:inline-block;border:1px solid var(--amber);border-radius:2rem;padding:.3rem .9rem;text-decoration:none;color:var(--holz)}
 .hb .hb-sprung a:hover,.hb .hb-sprung a:focus-visible{background:var(--amber)}
 html{scroll-padding-top:5rem}
+/* Bier-Sommeliertext und Charakterprofil (Netzdiagramme) */
+.hb-bier__sommelier{margin:.6rem 0 0;font-size:1rem;line-height:1.5}
+.hb-profil{width:min(46rem,94vw)}
+.hb-profil__text{font-family:var(--serif);font-style:italic;font-size:1.15rem;line-height:1.5;margin:.25rem 0 0}
+.hb-netz{margin:.25rem 0 0}
+.hb-netz svg{display:block;width:100%;height:auto;max-width:34rem;margin:0 auto;overflow:visible}
+.hb-netz__ring{fill:none;stroke:#E2DED9;stroke-width:.7}
+.hb-netz__ring:last-of-type{stroke:#C9C2BC}
+.hb-netz__achse{stroke:#E2DED9;stroke-width:.7}
+.hb-netz text{font-family:var(--sans);font-size:10px;fill:var(--grau)}
+.hb-netz__serie polygon{fill:var(--c);fill-opacity:.12;stroke:var(--c);stroke-width:1.6;stroke-linejoin:round}
+.hb-netz__serie circle{fill:var(--c)}
+.hb-netz__serie{transition:opacity .2s}
+.hb-netz--fokus .hb-netz__serie{opacity:.12}
+.hb-netz--fokus .hb-netz__serie.ist-aktiv{opacity:1}
+.hb-netz--fokus .hb-netz__serie.ist-aktiv polygon{fill-opacity:.25;stroke-width:2.2}
+.hb-netz__legende{list-style:none;margin:.5rem 0 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:.35rem .5rem}
+.hb .hb-netz__legende button{font:inherit;font-size:.9rem;color:var(--holz);background:transparent;border:1px solid #E2DED9;border-radius:2rem;padding:.2rem .7rem .2rem .55rem;cursor:pointer;display:inline-flex;align-items:center;gap:.4rem}
+.hb-netz__legende button::before{content:"";width:.75rem;height:.75rem;border-radius:50%;background:var(--c)}
+.hb .hb-netz__legende button[aria-pressed="true"]{border-color:var(--c);background:var(--deckel)}
+.hb .hb-profil__liste{display:block;margin:1rem 0 0;font-size:.95rem;line-height:1.45}
+.hb-profil__liste dt{font-weight:700;margin-top:.5rem}
+.hb-profil__liste dd{margin:0}
+.hb-profil__quelle{margin:1.5rem 0 0;padding-top:.75rem;border-top:1px solid #E2DED9;font-size:.8rem;color:var(--grau);line-height:1.4}
+@media (max-width:640px){
+  .hb-popup__inhalt{padding:1.25rem 1rem 1.5rem}
+  .hb-netz text{font-size:11.5px}
+}

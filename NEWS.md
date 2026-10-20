@@ -9,6 +9,11 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
+- Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer Hopfen, „Erfrischend & angenehm herb“) ist kein
+  Sonderbier mehr und steht jetzt unter Über uns, Unsere Biere (Foto noch Platzhalter). Jedes Bier hat eine kurze
+  Sommelier-Beschreibung und einen Knopf „Charakterprofil“: ein Fenster mit Netzdiagrammen der Malz- und Hopfensorten
+  (eigene Darstellung nach Weyermann® Malz Aroma Rad und BarthHaas Hop Harvest Guide 2021, mit Quellenangabe) und den
+  Besonderheiten der Rohstoffe. Startseite zeigt fünf Biere nebeneinander.
 - Neue, schlankere Struktur mit vier Menüpunkten: Über uns, Veranstaltungen, Sonderbiere, Buchen & Mieten
   (früher „Leistungen“; die alten Adressen /leistungen/ und /angebote/ leiten weiter).
 - Buchen & Mieten: oben der Hinweis, dass Anfragen per E-Mail oder Telefon willkommen sind, mit zwei Knöpfen
