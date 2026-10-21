@@ -4,6 +4,9 @@
 #   "referenz" = Weyermann-Sorte, die als Referenz dient (unser Lieferant/genaue Sorte ggf. anders).
 #   Röstmalz: Annahme CARAFA® (nicht bestätigt).
 # Hopfen: Werte = "Durchschnittliche Schlüsselaromen seit 2018" aus dem BarthHaas Hop Harvest Guide 2021 (relative Skala).
+#   Tettnanger: nicht im Guide. Werte aus dem "Aromaprofil" der BarthHaas-Webseite (Typisches Aromaprofil), Blattlängen vom Screenshot
+#   gemessen (Länge / Ringradius x 100, auf ganze Zahlen gerundet). Gleiche Skala wie der Guide: gleiche Messung ergibt für Perle die Guide-Werte.
+#   Die Webseite zeigt ein typisches Profil, der Guide den Durchschnitt seit 2018. Nicht identisch definiert, daher Näherung.
 # dx/dy in den Achsen = Richtung der Achse (sin/cos), vorberechnet, weil Hugo 0.125 keine Winkelfunktionen hat.
 achsen_malz:
 - name: Kaffee
@@ -394,4 +397,18 @@ hopfen:
     besonderheit: 'Alte tschechische Landsorte, die das Original-Pilsener geprägt hat. Würzig, holzig und krautig, mit Heu, Thymian und einem Hauch Geranie. Sehr mild: Alphasäure 3,4 bis 5,6 %.'
   tettnanger:
     name: Tettnanger
-    besonderheit: Traditionelle Aromasorte vom Bodensee. Im Hop Harvest Guide 2021 ist kein Profil enthalten, daher hier ohne Diagramm.
+    referenz: Tettnanger
+    werte:
+    - 34
+    - 35
+    - 27
+    - 24
+    - 23
+    - 25
+    - 32
+    - 15
+    - 32
+    - 25
+    - 36
+    - 21
+    besonderheit: Traditionelle Aromasorte vom Bodensee. Vorne stehen grasig-heuige, zitrusartige und blumige Noten, dazu krautige und holzige Töne.
