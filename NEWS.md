@@ -10,8 +10,9 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 ### Aufbau und Inhalt
 
 - Mieten & Shop (21.10.2026): Die Seite heißt jetzt wie der Menüpunkt. Ganz oben stehen zwei Wege nebeneinander (auf dem Handy untereinander): „Anfragen per E-Mail oder Telefon“ (Bierseminare, Feiern, Kühl-Anhänger, Bier-Gondel) mit den beiden Knöpfen, und „Direkt im Online-Shop kaufen“ (dunkle Karte) mit dem Shop-Knopf. Der frühere Abschnitt „Mehr im Online-Shop“ am Seitenende entfällt.
+- Bier-Gondel (21.10.2026): Auf dem ersten Foto ist der Mitarbeiter wegretuschiert (Inhaltsbewusstes Füllen in PhotoCraft).
 - Startseite auf dem Handy: eigener Bildausschnitt des Banners im Format 6:5 mit Rand um die Gläser (600/900/1200 px, WebP und JPG) statt des verkleinerten Querformats. Desktop unverändert.
-- Menüpunkt heißt jetzt „Mieten & Shop“ (kurpfälzisch „Miete unn Lade“), ohne eigenen Shop-Knopf in der Navigation.
+- Menüpunkt heißt jetzt „Mieten & Shop“ (Vernemerisch „Miete unn Lade“), ohne eigenen Shop-Knopf in der Navigation.
 - Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer und Hallertauer Perle, kalt gehopft, „Erfrischend & angenehm herb“) ist kein
   Sonderbier mehr und steht jetzt unter Über uns, Unsere Biere (Foto noch Platzhalter). Jedes Bier hat eine kurze
   Sommelier-Beschreibung und einen Knopf „Charakterprofil“: ein Fenster mit Netzdiagrammen der Malz- und Hopfensorten
