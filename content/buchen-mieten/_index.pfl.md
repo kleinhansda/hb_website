@@ -71,12 +71,6 @@ Unser Bier-Gondel mit eigener Schank- unn Kiehltechnik is seit Mai 2024 im Einsa
 {{< galeriebild gross="images/neu/biergondel/gondel-3.webp" klein="images/neu/biergondel/gondel-3-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel geschlossen, Seitenansicht mit HannesBräu-Logo und Schriftzug „Frischbier“" >}}
 {{< /galerie >}}
 
-## Meh im Online-Lade
-
-Im Online-Lade gibt's noch meh, zum Beispiel Gutscheine, Gläser mit unserm Logo, Party-Kegg unn mehr.
-
-{{< shop-knopf "Zum Online-Lade" >}}
-
 {{< platzhalter >}}
 Kurpfälzische Fassung als Entwurf geschrieben (auch die Bierseminare, "Meh Infos", "Koschte", "Teilnehmer"). Im Fenster "Meh Infos" steht der Originaltext aus dem Word-Dokument auf Hochdeutsch. Bitte von Uwe auf Vernemmer Platt prüfen und korrigieren lassen.
 {{< /platzhalter >}}

@@ -73,12 +73,6 @@ Unsere Bier-Gondel, ein mobiler Schankwagen mit eigener Schank- und Kühltechnik
 {{< galeriebild gross="images/neu/biergondel/gondel-3.webp" klein="images/neu/biergondel/gondel-3-klein.webp" breite="480" hoehe="320" alt="Die Bier-Gondel geschlossen, Seitenansicht mit HannesBräu-Logo und Schriftzug „Frischbier“" >}}
 {{< /galerie >}}
 
-## Mehr im Online-Shop
-
-Im Online-Shop gibt es weitere Angebote, zum Beispiel Gutscheine, Gläser mit HannesBräu-Logo, Party-Kegs und mehr.
-
-{{< shop-knopf "Zum Online-Shop" >}}
-
 {{< platzhalter >}}
 Entwurf: Bierseminare: Text im Fenster „Weitere Informationen“ wörtlich aus dem Word-Dokument, die Kurzfassung darüber ist neu formuliert (Anrede „ihr“ wie auf der übrigen Seite). Bitte bestätigen, dass Dauer, Kosten und Teilnehmerzahl für beide Seminare gelten. Bier-Gondel: Drei Live-Bilder als Vorschau mit Diashow (auf dem ersten ist ein Mitarbeiter zu sehen, das Kennzeichen ist unkenntlich gemacht, bitte bestätigen, dass das so passt). Die Bier-Gondel stammt aus einem älteren Beitrag. Bitte prüfen, ob sie so angeboten wird. Kühl-Anhänger: Details (Größe, Preis, Abholung) ergänzen. In der Zeichnung stehen die Maße noch als Platzhalter (XXXX) und die Leistung als „folgt“. Bitte die Zeichnung vervollständigen, dann binde ich sie neu ein.
 {{< /platzhalter >}}
