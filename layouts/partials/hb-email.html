@@ -1,0 +1,8 @@
+{{- /* E-Mail-Adresse leicht verschleiert: steht nur Base64-kodiert im HTML und wird
+     per JavaScript zum mailto-Link. Ohne JavaScript erscheint "info (at) … (punkt) de".
+     Aufruf: partial "hb-email.html" (dict "text" "E-Mail")  -- ohne text wird die Adresse angezeigt */ -}}
+{{- $adresse := site.Params.kontakt_email -}}
+{{- $href := site.Params.kontakt_email_href | default $adresse -}}
+{{- $teile := split $adresse "@" -}}
+{{- $lesbar := printf "%s (at) %s" (index $teile 0) (replace (index $teile 1) "." " (punkt) ") -}}
+<span class="hb-mail" data-m="{{ base64Encode $href }}" data-a="{{ base64Encode $adresse }}"{{ with .text }} data-t="{{ . }}"{{ end }}{{ with .klasse }} data-k="{{ . }}"{{ end }}>{{ with .text }}{{ . }} ({{ $lesbar }}){{ else }}{{ $lesbar }}{{ end }}</span>{{- partial "hb-kontakt-skript.html" . -}}

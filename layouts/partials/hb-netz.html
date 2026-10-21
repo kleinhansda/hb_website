@@ -1,0 +1,27 @@
+{{- /* Netzdiagramm als SVG (eigene Darstellung).
+   dict "achsen" (Liste name/x/y/anker) "serien" (Liste dict name/werte/farbe) "max" Zahl "ringe" (Liste) "titel" "quelle" */ -}}
+{{- $R := 100.0 -}}
+{{- $max := float .max -}}
+{{- $achsen := .achsen -}}
+<figure class="hb-netz">
+  <svg viewBox="-172 -124 344 250" role="img" aria-label="{{ .titel }}">
+    {{- range .ringe }}{{ $f := div (float .) $max }}
+    <polygon class="hb-netz__ring" points="{{ range $achsen }}{{ mul (mul $f $R) .dx }},{{ mul (mul $f $R) .dy }} {{ end }}"/>
+    {{- end }}
+    {{- range $achsen }}<line class="hb-netz__achse" x1="0" y1="0" x2="{{ mul $R .dx }}" y2="{{ mul $R .dy }}"/>{{ end }}
+    {{- range $i, $s := .serien }}
+    <g class="hb-netz__serie" data-i="{{ $i }}" style="--c:{{ $s.farbe | safeCSS }}">
+      <polygon points="{{ range $k, $a := $achsen }}{{ $v := div (float (index $s.werte $k)) $max }}{{ mul (mul $v $R) $a.dx }},{{ mul (mul $v $R) $a.dy }} {{ end }}"/>
+      {{- range $k, $a := $achsen }}{{ $v := div (float (index $s.werte $k)) $max }}<circle r="2.2" cx="{{ mul (mul $v $R) $a.dx }}" cy="{{ mul (mul $v $R) $a.dy }}"><title>{{ $s.name }}: {{ $a.name }} {{ lang.FormatNumber 1 (index $s.werte $k) }}</title></circle>{{ end }}
+    </g>
+    {{- end }}
+    {{- range $achsen }}{{ $tx := mul (add $R 8) .dx }}{{ $ty := add (mul (add $R 8) .dy) (mul 3.5 (add 1 .dy)) }}{{ $w := split .name " " }}
+    {{- if and (eq (len $w) 2) (gt (len .name) 9) }}<text x="{{ $tx }}" y="{{ sub $ty 5 }}" text-anchor="{{ .anker }}"><tspan>{{ index $w 0 }}</tspan><tspan x="{{ $tx }}" dy="1.1em">{{ index $w 1 }}</tspan></text>
+    {{- else }}<text x="{{ $tx }}" y="{{ $ty }}" text-anchor="{{ .anker }}">{{ .name }}</text>{{ end }}{{ end }}
+  </svg>
+  <figcaption>
+    <ul class="hb-netz__legende">
+      {{- range $i, $s := .serien }}<li><button type="button" data-i="{{ $i }}" aria-pressed="false" style="--c:{{ $s.farbe | safeCSS }}">{{ $s.name }}</button></li>{{ end }}
+    </ul>
+  </figcaption>
+</figure>

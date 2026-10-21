@@ -1,0 +1,11 @@
+{{/* Sprachumschalter Hochdeutsch / Vernemerisch. Zeigt alle Sprachen; fehlt eine Übersetzung, führt der Link zur Startseite der Sprache. */}}
+<ul class="hb-sprache" aria-label="{{ i18n "hb_sprache" }}">
+  {{ $page := . }}
+  {{ range site.Languages }}
+    {{ $lang := .Lang }}
+    {{ $ziel := "" }}
+    {{ range $page.AllTranslations }}{{ if eq .Language.Lang $lang }}{{ $ziel = .RelPermalink }}{{ end }}{{ end }}
+    {{ if not $ziel }}{{ $ziel = cond (eq $lang site.Home.Language.Lang) "/" (printf "/%s/" $lang) }}{{ end }}
+    <li><a href="{{ $ziel }}" hreflang="{{ .LanguageCode }}" lang="{{ .LanguageCode }}"{{ if eq $lang $page.Language.Lang }} aria-current="true"{{ end }}>{{ .LanguageName }}</a></li>
+  {{ end }}
+</ul>

@@ -1,0 +1,14 @@
+{{- /* Zwei Wege ganz oben auf Mieten & Shop: Anfrage per E-Mail/Telefon (Seminar, Feiern, Verleih) und direkter Kauf im Online-Shop. */ -}}
+{{- $pfl := eq site.Language.Lang "pfl" -}}
+<div class="hb-zugaenge">
+  <section class="hb-zugang" aria-labelledby="zugang-anfrage">
+    <h2 id="zugang-anfrage" class="hb-zugang__titel">{{ cond $pfl "Aafroge per E-Mail odder Telefon" "Anfragen per E-Mail oder Telefon" }}</h2>
+    <p>{{ cond $pfl "Für Bierseminare, Feiern, Kiehl-Aahänger unn Bier-Gondel. Mer melde uns so schnell wie meeglich." "Für Bierseminare, Feiern, Kühl-Anhänger und Bier-Gondel. Wir melden uns so schnell wie möglich." }}</p>
+    {{ partial "hb-kontakt-knoepfe.html" . }}
+  </section>
+  <section class="hb-zugang hb-zugang--shop" aria-labelledby="zugang-shop">
+    <h2 id="zugang-shop" class="hb-zugang__titel">{{ cond $pfl "Direkt im Online-Lade kaafe" "Direkt im Online-Shop kaufen" }}</h2>
+    <p>{{ cond $pfl "Gutscheine, Gläser mit unserm Logo, Party-Kegg unn mehr. Gleich bestelle unn zahle, ohne Aafroge." "Gutscheine, Gläser mit HannesBräu-Logo, Party-Kegs und mehr. Gleich bestellen und bezahlen, ohne Anfrage." }}</p>
+    <p class="hb-zugang__knopf"><a class="hb-knopf" href="{{ site.Params.shop }}" target="_blank" rel="noopener">{{ cond $pfl "Zum Online-Lade" "Zum Online-Shop" }}</a></p>
+  </section>
+</div>

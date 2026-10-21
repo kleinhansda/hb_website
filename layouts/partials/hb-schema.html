@@ -1,0 +1,20 @@
+{{- /* Strukturierte Daten für Suchmaschinen und KI (schema.org Brewery). Bewusst ohne Telefon/E-Mail. */ -}}
+{{- $sameAs := slice -}}
+{{- range slice "instagram" "facebook" "google" "shop" -}}{{ with index site.Params . }}{{ $sameAs = $sameAs | append . }}{{ end }}{{- end -}}
+{{- $biere := slice -}}
+{{- range site.Data.biere -}}{{ $biere = $biere | append (dict "@type" "Offer" "itemOffered" (dict "@type" "Product" "name" .name "description" (.kurz | default "") "category" "Bier")) }}{{- end -}}
+{{- $d := dict
+  "@context" "https://schema.org"
+  "@type" "Brewery"
+  "name" site.Title
+  "alternateName" "Hannes Bräu"
+  "description" site.Params.description
+  "url" site.Home.Permalink
+  "logo" ("images/neu/logo-quadrat-ohne-verne-schwarz.png" | absURL)
+  "image" ("images/neu/banner-1400.jpg" | absURL)
+  "address" (dict "@type" "PostalAddress" "streetAddress" "Einsteinstraße 8" "postalCode" "68519" "addressLocality" "Viernheim" "addressRegion" "Hessen" "addressCountry" "DE")
+  "areaServed" "Viernheim und Umgebung"
+  "sameAs" $sameAs
+  "makesOffer" $biere
+-}}
+<script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>

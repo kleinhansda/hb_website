@@ -1,0 +1,2 @@
+{{/* Hinweis für Entwürfe. Erscheint nur in Deploy Previews, nie im Produktions-Build. */}}
+{{ if ne (getenv "HUGO_ENV") "production" }}<aside class="hb-platzhalter" role="note"><strong>Entwurf:</strong> {{ . }}</aside>{{ end }}

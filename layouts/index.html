@@ -1,0 +1,44 @@
+{{ define "header" }}
+<section class="hb-held">
+  <div class="hb-held__text">
+    <h1 class="hb-unsichtbar">{{ site.Title }}</h1>
+    <img class="hb-held__marke" src="{{ "images/neu/wortmarke-weiss.png" | relURL }}" alt="" width="1200" height="420">
+    <p class="hb-held__claim">{{ .Description }}</p>
+    {{ partial "hb-piktogramme.html" . }}
+  </div>
+  <picture class="hb-held__bild">
+    {{- /* Handy: quadratischer Ausschnitt, alle drei Gläser bleiben im Bild */ -}}
+    <source media="(max-width: 760px)" type="image/webp" srcset="{{ "images/neu/banner-mobil-600.webp" | relURL }} 600w, {{ "images/neu/banner-mobil-900.webp" | relURL }} 900w, {{ "images/neu/banner-mobil-1200.webp" | relURL }} 1200w" sizes="100vw">
+    <source media="(max-width: 760px)" type="image/jpeg" srcset="{{ "images/neu/banner-mobil-600.jpg" | relURL }} 600w, {{ "images/neu/banner-mobil-900.jpg" | relURL }} 900w, {{ "images/neu/banner-mobil-1200.jpg" | relURL }} 1200w" sizes="100vw">
+    <source type="image/webp" srcset="{{ "images/neu/banner-800.webp" | relURL }} 800w, {{ "images/neu/banner-1400.webp" | relURL }} 1400w, {{ "images/neu/banner-2400.webp" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw">
+    <img src="{{ "images/neu/banner-1400.jpg" | relURL }}" srcset="{{ "images/neu/banner-800.jpg" | relURL }} 800w, {{ "images/neu/banner-1400.jpg" | relURL }} 1400w, {{ "images/neu/banner-2400.jpg" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw" alt="{{ i18n "hb_bannertext" }}" width="2400" height="1800" fetchpriority="high">
+  </picture>
+</section>
+{{ end }}
+{{ define "main" }}
+<section class="hb-abschnitt" aria-labelledby="biere-titel">
+  <div class="hb-breit">
+    <h2 id="biere-titel">{{ i18n "hb_biere" }}</h2>
+    <ul class="hb-biere hb-biere--kompakt">
+      {{ range site.Data.biere }}
+      <li class="hb-bier">
+        <a href="{{ "/ueber-uns/#biere" | relLangURL }}">
+          <img src="{{ .bild | relURL }}" alt="{{ i18n "hb_glas" }} {{ .name }}" width="500" height="500" loading="lazy">
+          <span class="hb-bier__farbe" style="background:{{ .farbe | safeCSS }}"></span>
+          <span class="hb-bier__name">{{ .name }}</span>
+          <span class="hb-bier__kurz">{{ .kurz }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+<section class="hb-abschnitt hb-abschnitt--hell">
+  <div class="hb-schmal">
+    <h2>{{ i18n "hb_intro_titel" }}</h2>
+    <p>{{ i18n "hb_intro_text" }}</p>
+    <p><a class="hb-knopf" href="{{ "/ueber-uns/" | relLangURL }}">{{ i18n "hb_mehr_ueber_uns" }}</a></p>
+  </div>
+</section>
+{{ with .Content }}<div class="hb-schmal hb-inhalt">{{ . }}</div>{{ end }}
+{{ end }}

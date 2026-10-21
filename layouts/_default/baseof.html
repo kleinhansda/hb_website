@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "de" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }} – Vernemmer Frischbier{{ else }}{{ with .Params.seotitel }}{{ . }}{{ else }}{{ .Title }}{{ end }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{ $production := eq (getenv "HUGO_ENV") "production" }}
+  <meta name="robots" content="{{ if $production }}index, follow{{ else }}noindex, nofollow{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+  {{ range .AllTranslations }}{{ if eq .Language.Lang "de" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
+  <link rel="preload" href="{{ "fonts/alegreya/alegreya-latin-500-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/alegreya/alegreya-sans-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{ partial "site-style.html" . }}
+  {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+  {{- if .IsHome }}{{ partial "hb-schema.html" . }}{{ end }}
+  {{- if and (eq .Section "buchen-mieten") .IsSection (eq .Language.Lang "de") }}{{ partial "hb-schema-buchen.html" . }}{{ end }}
+  <link rel="icon" type="image/png" href="{{ "images/main/logo.png" | relURL }}">
+  <meta name="theme-color" content="#2E2622">
+  {{- /* Google Search Console (vorher als Netlify-Snippet) */}}
+  <meta name="google-site-verification" content="sNg7tYge8o3zpAPMqnMjOg9dZSD24UV0vpowBwq5QuE">
+  <meta name="google-site-verification" content="c2luju0ka7pTuaswhkgc1yqY-9LZuVWimNbUdwXr0hE">
+</head>
+<body class="hb{{ if .IsHome }} hb--start{{ end }}">
+  <a class="hb-skip" href="#inhalt">{{ i18n "hb_skip" }}</a>
+  {{ partial "hb-navigation.html" . }}
+  {{ block "header" . }}{{ partial "hb-seitenkopf.html" . }}{{ end }}
+  <main id="inhalt">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "hb-fuss.html" . }}
+</body>
+</html>

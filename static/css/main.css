@@ -1,5 +1,277 @@
-@import '_tachyons';
-@import '_code';
-@import '_hugo-internal-templates';
-@import '_social-icons';
-@import '_styles';
+/* HannesBräu – Gestaltung 2026
+   Farben aus dem Bannerfoto: Lamellenwand, Holztisch, Bierfarben. */
+@font-face{font-family:"Alegreya";src:url("../fonts/alegreya/alegreya-latin-500-normal.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Alegreya";src:url("../fonts/alegreya/alegreya-latin-700-normal.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Alegreya";src:url("../fonts/alegreya/alegreya-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Alegreya Sans";src:url("../fonts/alegreya/alegreya-sans-latin-400-normal.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Alegreya Sans";src:url("../fonts/alegreya/alegreya-sans-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Alegreya Sans";src:url("../fonts/alegreya/alegreya-sans-latin-700-normal.woff2") format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --holz:#2E2622;        /* Tischplatte: Text, Navigation, Fuß */
+  --lamelle:#6B1C21;     /* rote Lamellenwand: Startbereich */
+  --rot-text:#8A2A30;    /* Links auf Weiß */
+  --amber:#C98A2E;       /* Buuh: Knöpfe, Markierungen */
+  --grund:#FFFFFF;
+  --deckel:#F2F0ED;      /* Bierdeckel: ruhige Flächen */
+  --grau:#5E5550;
+  --serif:"Alegreya",Georgia,serif;
+  --sans:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+  --breite:72rem;
+  --schmal:40rem;
+}
+
+/* Grundlage: überschreibt die Ananke-Vorgaben */
+body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--sans);font-size:1.1875rem;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hb h1,.hb h2,.hb h3{font-family:var(--serif);font-weight:500;line-height:1.15;color:var(--holz);margin:0 0 .5em}
+.hb h1{font-size:clamp(2.3rem,5vw,3.5rem)}
+.hb h2{font-size:clamp(1.65rem,3vw,2.1rem);margin-top:1.8em}
+.hb h3{font-size:1.4rem}
+.hb a{color:var(--rot-text);text-decoration-thickness:1px;text-underline-offset:.18em}
+.hb a:hover{text-decoration-thickness:2px}
+.hb :focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.hb img{max-width:100%;height:auto;display:block}
+.hb-skip{position:absolute;left:-999px;top:.5rem;background:var(--amber);color:var(--holz)!important;padding:.5rem 1rem;z-index:10}
+.hb-skip:focus{left:.5rem}
+
+/* Navigation */
+.hb-nav{background:var(--holz);color:#fff;position:relative}
+.hb-nav__innen{max-width:var(--breite);margin:0 auto;padding:1rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
+.hb-nav__marke img{height:3.6rem;width:auto}
+.hb-unsichtbar{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hb-nav__panel{margin-left:auto;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 2rem}
+.hb-nav__knopf{display:none}
+.hb-nav__menue,.hb-sprache,.hb-pikto{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
+.hb-nav__menue{gap:.25rem 2.2rem}
+.hb .hb-nav__menue a{color:#fff;text-decoration:none;font-family:var(--serif);font-weight:500;font-size:1.35rem;letter-spacing:.01em;padding:.45rem 0;border-bottom:3px solid transparent;transition:color .15s ease,border-color .15s ease}
+.hb .hb-nav__menue a:hover{color:var(--amber)}
+.hb .hb-nav__menue a[aria-current]{border-bottom-color:var(--amber)}
+/* Sprachumschalter: abgesetzt vom Menü, als Umschalter mit gefüllter aktiver Sprache */
+.hb-sprache{flex-wrap:nowrap;gap:0;font-size:.85rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px;margin-left:.5rem}
+.hb .hb-sprache a{display:block;color:rgba(255,255,255,.85);text-decoration:none;padding:.25rem .8rem;border-radius:999px;white-space:nowrap}
+.hb .hb-sprache a:hover{color:#fff;background:rgba(255,255,255,.12)}
+.hb .hb-sprache a[aria-current]{background:var(--amber);color:var(--holz);font-weight:700}
+/* Probierbrett: ein Farbstreifen je Bier, in der Farbe des Biers */
+.hb-flight{display:flex;height:6px}
+.hb-flight span{flex:1}
+
+/* Startbereich: Text auf der Farbe der Lamellenwand, daneben das Bannerfoto */
+.hb-held{display:grid;grid-template-columns:minmax(18rem,2fr) 3fr;background:var(--lamelle);color:#fff;min-height:min(78vh,46rem)}
+.hb-held__text{display:flex;flex-direction:column;justify-content:center;padding:3rem clamp(1.25rem,4vw,4rem)}
+.hb-held__marke{display:block;width:min(100%,22rem);height:auto;margin:0 0 1.75rem}
+.hb-held__claim{font-family:var(--serif);font-style:italic;font-size:clamp(1.5rem,2.8vw,2.1rem);line-height:1.3;margin:0 0 2rem;max-width:20ch}
+.hb-held__bild{display:block;overflow:hidden}
+.hb-held__bild img{width:100%;height:100%;object-fit:cover;object-position:50% 45%;transform:scale(1.3);transform-origin:50% 38%}
+.hb-pikto{gap:.9rem}
+.hb .hb-pikto a{display:block;color:rgba(255,255,255,.85)}
+.hb .hb-pikto a:hover{color:#fff}
+.hb-pikto svg{width:1.7rem;height:1.7rem;fill:currentColor;display:block}
+
+/* Seitenkopf der Unterseiten */
+.hb-kopf{background:var(--deckel);border-bottom:1px solid #E2DED9}
+.hb-kopf__innen{max-width:var(--schmal);margin:0 auto;padding:3rem 1.25rem 2rem}
+.hb-kopf h1{margin:0}
+.hb-kopf p{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--grau);margin:.6rem 0 0}
+
+/* Inhalt */
+.hb-breit{max-width:var(--breite);margin:0 auto;padding:0 1.25rem}
+.hb-schmal{max-width:var(--schmal);margin:0 auto;padding:0 1.25rem}
+.hb-inhalt{padding-top:2rem;padding-bottom:4rem}
+.hb-inhalt p,.hb-inhalt li{max-width:68ch}
+.hb-inhalt > h2:first-child{margin-top:.5em}
+.hb-inhalt iframe{max-width:100%}
+.hb-abschnitt{padding:3.5rem 0}
+.hb-abschnitt h2{margin-top:0}
+.hb-abschnitt--hell{background:var(--deckel)}
+.hb-knopf{display:inline-block;background:var(--amber);color:var(--holz)!important;text-decoration:none!important;font-weight:700;padding:.65rem 1.3rem;border-radius:3px}
+.hb-knopf:hover{background:#B67A22}
+
+/* Biere */
+.hb-biere{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;gap:2rem}
+.hb-biere--kompakt{grid-template-columns:repeat(5,1fr);gap:1.5rem}
+.hb-biere--kompakt a{display:block;text-decoration:none;color:var(--holz)}
+.hb-biere--kompakt img{aspect-ratio:1;object-fit:cover;width:100%}
+.hb-bier__farbe{display:block;height:8px;width:100%;margin:.9rem 0 .7rem}
+.hb-bier__name{display:block;font-family:var(--serif);font-size:1.35rem;font-weight:500}
+.hb-bier__kurz{display:block;color:var(--grau);font-style:italic;margin:.15rem 0 0}
+.hb-biere--kompakt a:hover .hb-bier__name{text-decoration:underline;text-decoration-color:var(--amber)}
+.hb-biere--details .hb-bier{display:grid;grid-template-columns:9rem 1fr;gap:1.5rem;align-items:start}
+.hb-biere--details .hb-bier--ohnebild{grid-template-columns:1fr}
+.hb-biere--details .hb-bier__farbe{margin-top:0;width:4rem}
+.hb-biere--details h3{margin:0 0 .1rem}
+.hb-biere dl{display:grid;grid-template-columns:auto 1fr;gap:.15rem 1rem;margin:.8rem 0 0;font-size:1rem}
+.hb-biere dt{font-weight:700}
+.hb-biere dd{margin:0}
+
+/* Entwurfshinweise (nur in Deploy Previews) */
+.hb-platzhalter{border:2px dashed var(--amber);background:#FFF7E8;padding:.75rem 1rem;margin:1rem 0;font-size:1rem}
+
+/* Fuß */
+.hb-fuss{background:var(--holz);color:rgba(255,255,255,.85);margin-top:0}
+.hb-fuss__innen{max-width:var(--breite);margin:0 auto;padding:2.5rem 1.25rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:2rem}
+.hb-fuss__marke{width:12rem;margin-bottom:1rem}
+.hb-fuss address{font-style:normal;line-height:1.7}
+.hb .hb-fuss a{color:#fff}
+.hb-fuss__rechts{display:flex;flex-direction:column;align-items:flex-end;gap:.5rem}
+.hb-fuss__rechts p{margin:0}
+.hb-fuss__copy{font-size:.9rem;opacity:.7}
+
+/* Ausklappbares Menü auf kleinen Bildschirmen (Burger-Menü) */
+@media (max-width:760px){
+  .hb-nav__innen{flex-wrap:nowrap;justify-content:space-between}
+  .hb-nav--js .hb-nav__knopf{display:flex;align-items:center;gap:.6rem;background:none;border:0;color:#fff;font:inherit;font-size:1rem;padding:.6rem .25rem;cursor:pointer;min-height:44px}
+  .hb-nav__striche{display:grid;gap:5px;width:26px}
+  .hb-nav__striche span{display:block;height:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+  .hb-nav--offen .hb-nav__striche span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .hb-nav--offen .hb-nav__striche span:nth-child(2){opacity:0}
+  .hb-nav--offen .hb-nav__striche span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  /* Panel unter der Leiste: mit JS eingeklappt, ohne JS immer sichtbar */
+  .hb-nav__panel{position:absolute;left:0;right:0;top:100%;z-index:20;background:var(--holz);margin:0;padding:.5rem 1.25rem 1.25rem;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 12px 24px rgba(0,0,0,.25)}
+  .hb-nav:not(.hb-nav--js) .hb-nav__panel{position:static;box-shadow:none}
+  .hb-nav--js:not(.hb-nav--offen) .hb-nav__panel{display:none}
+  .hb-nav__menue{flex-direction:column;gap:0}
+  .hb .hb-nav__menue a{display:block;font-size:1.25rem;padding:.8rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+  .hb .hb-nav__menue a[aria-current]{border-bottom-color:rgba(255,255,255,.12);color:var(--amber)}
+  .hb-sprache{align-self:flex-start;margin:1.25rem 0 0;font-size:.95rem}
+}
+
+/* Kleine Bildschirme */
+@media (max-width:900px){
+  .hb-held{grid-template-columns:1fr;min-height:0}
+  .hb-held__bild{order:-1}
+  .hb-held__bild img{aspect-ratio:6/5;height:auto;transform:none}
+  .hb-held__text{padding:1.75rem 1.25rem 2rem}
+  .hb .hb-held__marke{display:none}
+  .hb-held__claim{margin-bottom:1.5rem}
+  .hb-nav__marke img{height:3rem}
+  .hb-biere--kompakt{grid-template-columns:repeat(2,1fr);gap:1.5rem 1rem}
+}
+@media (max-width:640px){
+  body.hb{font-size:1.0625rem}
+  .hb-biere--details .hb-bier{grid-template-columns:6rem 1fr;gap:1rem}
+  .hb-biere--details .hb-bier--ohnebild{grid-template-columns:1fr}
+  .hb-fuss__rechts{align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Formulare (Kontakt, Newsletter) an die Gestaltung angleichen */
+.hb-inhalt input,.hb-inhalt textarea,.hb-inhalt button{font-family:var(--sans);font-size:1rem}
+.hb-inhalt input[type=text],.hb-inhalt input[type=email],.hb-inhalt textarea{border:1px solid #CFC9C3;background:#fff;padding:.5rem .6rem}
+.hb-inhalt button,.hb-inhalt input[type=submit]{background:var(--amber);color:var(--holz);border:0;font-weight:700;padding:.65rem 1.3rem;border-radius:3px;cursor:pointer}
+
+/* Terminliste (Veranstaltungen) */
+.hb-termine{margin:1rem 0 2rem}
+.hb-termine__liste{list-style:none;margin:0;padding:0}
+.hb-termin{display:grid;grid-template-columns:4.5rem 1fr;gap:1.25rem;padding:1.25rem 0;border-bottom:1px solid #E2DED9}
+.hb-termin:first-child{border-top:1px solid #E2DED9}
+.hb-termin__datum{display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--lamelle);color:#fff;border-radius:3px;padding:.5rem 0;align-self:start;border-bottom:5px solid var(--amber)}
+.hb-termin__tag{font-family:var(--serif);font-weight:500;font-size:2rem;line-height:1}
+.hb-termin__monat{font-size:.95rem;margin-top:.2rem}
+.hb .hb-termin__titel{margin:0 0 .2rem;font-size:1.35rem}
+.hb-termin__wann{margin:0;font-weight:700}
+.hb-termin__ort,.hb-termin__text{margin:.2rem 0 0;color:var(--grau)}
+.hb-termin__text{white-space:pre-line}
+.hb .hb-termin__ics{display:inline-block;margin-top:.5rem;font-size:1rem}
+.hb-termine__status{color:var(--grau)}
+.hb-termine__abo{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1.5rem;margin-top:1.25rem}
+.hb-knopf--leise{background:transparent;border:2px solid var(--amber);padding:.5rem 1.1rem}
+.hb-knopf--leise:hover{background:var(--amber)}
+.hb-anfahrt{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 0}
+.hb-newsletter{display:grid;gap:.4rem;max-width:26rem;margin:1rem 0 2rem;position:relative}
+.hb-newsletter label{font-weight:700;margin-top:.4rem}
+.hb-newsletter input{font:inherit;padding:.6rem .7rem;border:1px solid #C9C3BC;border-radius:3px;background:#fff}
+.hb-newsletter input:focus{outline:2px solid var(--amber);outline-offset:1px}
+.hb-newsletter button{justify-self:start;margin-top:.8rem;border:0;cursor:pointer;font:inherit;font-weight:700}
+.hb-newsletter__frei{font-weight:400;color:var(--grau)}
+.hb-newsletter__hinweis{font-size:.9rem;color:var(--grau);margin:.6rem 0 0}
+/* Kopfzeile: keine Unterstreichung, auch wenn Browser oder Erweiterungen Links unterstreichen wollen */
+.hb .hb-nav a,.hb .hb-nav a:link,.hb .hb-nav a:visited,.hb .hb-nav a:hover,.hb .hb-nav a:focus{text-decoration:none!important;text-decoration-line:none!important}
+.hb .hb-nav a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.hb-shop-knopf{margin:0 0 2.5rem}
+/* Zoombild: kleines Vorschaubild, groß im Dialog */
+.hb-zoombild{margin:1.5rem 0;max-width:18rem}
+.hb-zoombild__link{display:block;border:1px solid #E2DED9;border-radius:4px;overflow:hidden;cursor:zoom-in;transition:box-shadow .15s ease}
+.hb-zoombild__link:hover,.hb-zoombild__link:focus-visible{box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hb-zoombild figcaption{font-size:.9rem;color:var(--grau);margin-top:.5rem}
+.hb-galerie{margin:1.5rem 0;max-width:40rem}
+.hb .hb-galerie__liste{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}
+.hb .hb-galerie__liste li{margin:0;padding:0}
+.hb-galerie__link{display:block;border:1px solid #E2DED9;border-radius:4px;overflow:hidden;cursor:zoom-in;transition:box-shadow .15s ease}
+.hb-galerie__link:hover,.hb-galerie__link:focus-visible{box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hb .hb-galerie__link img{display:block;width:100%;height:auto}
+.hb-galerie figcaption{font-size:.9rem;color:var(--grau);margin-top:.5rem}
+.hb-show{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible}
+.hb-show::backdrop{background:rgba(20,16,14,.88)}
+.hb-show__bild{margin:0;display:table}
+.hb .hb-show__bild img{display:block;max-width:96vw;max-height:80vh;width:auto;height:auto;background:#fff;border-radius:4px}
+.hb-show__bild figcaption{display:table-caption;caption-side:bottom;color:#fff;font-size:.95rem;line-height:1.4;padding-top:.6rem}
+.hb .hb-show__zu,.hb .hb-show__pfeil{position:absolute;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.hb .hb-show__zu{top:.5rem;right:.5rem}
+.hb .hb-show__pfeil{top:40%;font-size:2.2rem;padding-bottom:.25rem}
+.hb .hb-show__zurueck{left:.5rem}
+.hb .hb-show--einzeln .hb-show__pfeil{display:none}
+.hb .hb-show__weiter{right:.5rem}
+@media (max-width:30rem){.hb .hb-galerie__liste{gap:.4rem}}
+.hb-zoom{padding:0;border:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible;cursor:zoom-out}
+.hb-zoom::backdrop{background:rgba(20,16,14,.85)}
+.hb .hb-zoom img{display:block;max-width:96vw;max-height:92vh;width:auto;height:auto;background:#fff;border-radius:4px}
+.hb .hb-zoom__zu,.hb .hb-popup__zu{position:absolute;top:.5rem;right:.5rem;width:2.6rem;height:2.6rem;padding:0;border-radius:50%;border:0;background:var(--holz);color:#fff;font:400 1.8rem/1 sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.hb-kontakt-knoepfe{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 2.5rem}
+.hb .hb-knopf--leise{color:var(--holz)!important}
+.hb-shop{margin-top:2.5rem}
+
+/* Popup mit längerem Text (Shortcode popup). Ohne JavaScript steht der Text einfach unter dem Knopf. */
+.hb-popup-knopf{margin:1.25rem 0 0}
+.hb .hb-popup__auf{display:inline-block;font:inherit;font-weight:700;color:var(--holz);background:transparent;border:2px solid var(--amber);border-radius:3px;padding:.5rem 1.1rem;cursor:pointer}
+.hb .hb-popup__auf:hover,.hb .hb-popup__auf:focus-visible{background:var(--amber)}
+.hb-popup{width:min(42rem,92vw);max-height:90vh;padding:0;border:0;border-radius:6px;background:var(--grund);color:var(--holz);overflow:hidden}
+.hb-popup::backdrop{background:rgba(20,16,14,.75)}
+.hb-popup__inhalt{max-height:90vh;overflow:auto;padding:1.75rem 1.75rem 2rem}
+.hb-popup__inhalt > :first-child{margin-top:0;padding-right:2.5rem}
+.hb-popup h4{font-family:var(--serif);font-weight:500;font-size:1.25rem;line-height:1.2;margin:1.6em 0 .4em}
+html:not(.hb-js) .hb-popup{display:block;position:static;width:auto;max-height:none;margin:1.5rem 0;border:1px solid #E2DED9}
+html:not(.hb-js) .hb-popup__auf,html:not(.hb-js) .hb-popup__zu{display:none}
+html:not(.hb-js) .hb-popup-knopf{display:none}
+.hb-sprung{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 2.5rem}
+.hb .hb-sprung a{display:inline-block;border:1px solid var(--amber);border-radius:2rem;padding:.3rem .9rem;text-decoration:none;color:var(--holz)}
+.hb .hb-sprung a:hover,.hb .hb-sprung a:focus-visible{background:var(--amber)}
+html{scroll-padding-top:5rem}
+/* Bier-Sommeliertext und Charakterprofil (Netzdiagramme) */
+.hb-bier__sommelier{margin:.6rem 0 0;font-size:1rem;line-height:1.5}
+.hb-profil{width:min(46rem,94vw)}
+.hb-profil__text{font-family:var(--serif);font-style:italic;font-size:1.15rem;line-height:1.5;margin:.25rem 0 0}
+.hb-netz{margin:.25rem 0 0}
+.hb-netz svg{display:block;width:100%;height:auto;max-width:34rem;margin:0 auto;overflow:visible}
+.hb-netz__ring{fill:none;stroke:#E2DED9;stroke-width:.7}
+.hb-netz__ring:last-of-type{stroke:#C9C2BC}
+.hb-netz__achse{stroke:#E2DED9;stroke-width:.7}
+.hb-netz text{font-family:var(--sans);font-size:10px;fill:var(--grau)}
+.hb-netz__serie polygon{fill:var(--c);fill-opacity:.12;stroke:var(--c);stroke-width:1.6;stroke-linejoin:round}
+.hb-netz__serie circle{fill:var(--c)}
+.hb-netz__serie{transition:opacity .2s}
+.hb-netz--fokus .hb-netz__serie{opacity:.12}
+.hb-netz--fokus .hb-netz__serie.ist-aktiv{opacity:1}
+.hb-netz--fokus .hb-netz__serie.ist-aktiv polygon{fill-opacity:.25;stroke-width:2.2}
+.hb-netz__legende{list-style:none;margin:.5rem 0 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:.35rem .5rem}
+.hb .hb-netz__legende button{font:inherit;font-size:.9rem;color:var(--holz);background:transparent;border:1px solid #E2DED9;border-radius:2rem;padding:.2rem .7rem .2rem .55rem;cursor:pointer;display:inline-flex;align-items:center;gap:.4rem}
+.hb-netz__legende button::before{content:"";width:.75rem;height:.75rem;border-radius:50%;background:var(--c)}
+.hb .hb-netz__legende button[aria-pressed="true"]{border-color:var(--c);background:var(--deckel)}
+.hb .hb-profil__liste{display:block;margin:1rem 0 0;font-size:.95rem;line-height:1.45}
+.hb-profil__liste dt{font-weight:700;margin-top:.5rem}
+.hb-profil__liste dd{margin:0}
+.hb-profil__quelle{margin:1.5rem 0 0;padding-top:.75rem;border-top:1px solid #E2DED9;font-size:.8rem;color:var(--grau);line-height:1.4}
+@media (max-width:640px){
+  .hb-popup__inhalt{padding:1.25rem 1rem 1.5rem}
+  .hb-netz text{font-size:11.5px}
+}
+
+/* Zwei Wege oben auf Mieten & Shop */
+.hb-zugaenge{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:0 0 2.5rem}
+.hb-zugang{background:var(--deckel);border-radius:4px;padding:1.4rem 1.5rem 1.6rem}
+.hb .hb-zugang__titel{font-family:var(--serif);font-weight:500;font-size:1.4rem;line-height:1.2;margin:0 0 .5rem}
+.hb-zugang p{margin:0 0 1rem}
+.hb-zugang .hb-kontakt-knoepfe{margin:0}
+.hb-zugang--shop{background:var(--holz);color:#fff}
+.hb .hb-zugang--shop .hb-zugang__titel{color:#fff}
+.hb-zugang__knopf{margin:0!important}
+@media (max-width:760px){.hb-zugaenge{grid-template-columns:1fr}}

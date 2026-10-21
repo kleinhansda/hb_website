@@ -1,0 +1,75 @@
+{{/* Terminliste aus dem Google-Kalender, über die Netlify-Funktion /.netlify/functions/termine.
+     Ohne JavaScript oder bei einem Fehler erscheint der Link zum Kalender. */}}
+{{ $kal := "https://calendar.google.com/calendar/embed?src=hannesbr%C3%A4u.de_fcn3gg6i3i0n1bom0jvodkk5r0%40group.calendar.google.com&ctz=Europe%2FBerlin" }}
+{{ $abo := "https://calendar.google.com/calendar/ical/hannesbr%C3%A4u.de_fcn3gg6i3i0n1bom0jvodkk5r0%40group.calendar.google.com/public/basic.ics" }}
+<section class="hb-termine" data-quelle="/.netlify/functions/termine"
+  data-lang="{{ site.Language.LanguageCode }}"
+  data-t-ganztag="{{ i18n "hb_t_ganztag" }}"
+  data-t-uhr="{{ i18n "hb_t_uhr" }}"
+  data-t-eintragen="{{ i18n "hb_t_eintragen" }}"
+  data-t-leer="{{ i18n "hb_t_leer" }}"
+  data-t-fehler="{{ i18n "hb_t_fehler" }}"
+  data-kalender="{{ $kal }}"
+  aria-live="polite">
+  <ol class="hb-termine__liste" hidden></ol>
+  <p class="hb-termine__status">{{ i18n "hb_t_laedt" }} <a href="{{ $kal }}">{{ i18n "hb_t_kalender" }}</a></p>
+  <p class="hb-termine__abo">
+    <a class="hb-knopf hb-knopf--leise" href="{{ $abo | replaceRE "^https" "webcal" }}">{{ i18n "hb_t_abonnieren" }}</a>
+    <a href="{{ $kal }}">{{ i18n "hb_t_kalender" }}</a>
+  </p>
+</section>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling;
+  var liste = box.querySelector('.hb-termine__liste');
+  var status = box.querySelector('.hb-termine__status');
+  var d = box.dataset;
+  var tz = 'Europe/Berlin';
+  var loc = 'de-DE';
+  function fmt(datum, opt) { return new Intl.DateTimeFormat(loc, Object.assign({ timeZone: tz }, opt)).format(datum); }
+  function alsDatum(t, wert) { return t.ganztag ? new Date(wert + 'T12:00:00Z') : new Date(wert); }
+  function icsZeit(t, wert) {
+    if (t.ganztag) return ';VALUE=DATE:' + wert.replace(/-/g, '');
+    return ':' + new Date(wert).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  }
+  function icsText(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1'); }
+  function icsLink(t) {
+    var ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//HannesBraeu//Termine//DE', 'BEGIN:VEVENT',
+      'UID:' + t.beginn + '-' + encodeURIComponent(t.titel) + '@hannesbru.de',
+      'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''),
+      'DTSTART' + icsZeit(t, t.beginn), 'DTEND' + icsZeit(t, t.ende),
+      'SUMMARY:' + icsText(t.titel), t.ort ? 'LOCATION:' + icsText(t.ort) : '',
+      'END:VEVENT', 'END:VCALENDAR'].filter(Boolean).join('\r\n');
+    return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+  }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+  function zeige(termine) {
+    if (!termine.length) { status.textContent = d.tLeer; return; }
+    termine.forEach(function (t) {
+      var beginn = alsDatum(t, t.beginn);
+      var li = el('li', 'hb-termin');
+      var dat = el('time', 'hb-termin__datum'); dat.dateTime = t.beginn;
+      dat.appendChild(el('span', 'hb-termin__tag', fmt(beginn, { day: 'numeric' })));
+      dat.appendChild(el('span', 'hb-termin__monat', fmt(beginn, { month: 'short' })));
+      li.appendChild(dat);
+      var info = el('div', 'hb-termin__info');
+      info.appendChild(el('h3', 'hb-termin__titel', t.titel));
+      var wann = fmt(beginn, { weekday: 'long' }) + ', ' + (t.ganztag ? d.tGanztag : fmt(beginn, { hour: '2-digit', minute: '2-digit' }) + ' ' + d.tUhr);
+      info.appendChild(el('p', 'hb-termin__wann', wann));
+      if (t.ort) info.appendChild(el('p', 'hb-termin__ort', t.ort));
+      if (t.beschreibung) info.appendChild(el('p', 'hb-termin__text', t.beschreibung));
+      var a = el('a', 'hb-termin__ics', d.tEintragen); a.href = icsLink(t); a.download = 'hannesbraeu-termin.ics';
+      info.appendChild(a);
+      li.appendChild(info);
+      liste.appendChild(li);
+    });
+    liste.hidden = false; status.hidden = true;
+  }
+  fetch(d.quelle, { headers: { Accept: 'application/json' } })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) { zeige(j.termine || []); })
+    .catch(function () {
+      status.textContent = d.tFehler;
+    });
+})();
+</script>

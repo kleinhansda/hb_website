@@ -1,0 +1,6 @@
+{{ $socials := where (partialCached "func/socials/Get" "socials/Get") "follow" "!=" false }}
+<ul class="hb-pikto">
+  {{ range $socials }}
+    <li><a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .label }}" aria-label="{{ .label }} (öffnet in neuem Fenster)">{{ with .icon }}{{ . }}{{ else }}{{ .label }}{{ end }}</a></li>
+  {{ end }}
+</ul>

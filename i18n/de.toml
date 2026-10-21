@@ -1,0 +1,49 @@
+[hb_skip]
+other = "Zum Inhalt springen"
+[hb_menue]
+other = "Menü"
+[hb_hauptmenue]
+other = "Hauptmenü"
+[hb_sprache]
+other = "Sprache"
+[hb_biere]
+other = "Unsere Biere"
+[hb_intro_titel]
+other = "Frisch aus Viernheim"
+[hb_intro_text]
+other = "Vater und Sohn brauen seit 2019 Vernemmer Frischbier: nicht pasteurisiert, naturbelassen trüb und handwerklich gebraut. Seit 2023 auch in der Bügelflasche."
+[hb_mehr_ueber_uns]
+other = "Mehr über uns"
+[hb_impressum]
+other = "Impressum und Kontakt"
+[hb_bannertext]
+other = "Drei Gläser HannesBräu: ein helles, ein dunkles und ein trübes Bier auf einem Holztisch"
+[hb_glas]
+other = "Ein Glas"
+[hb_art]
+other = "Art"
+[hb_malz]
+other = "Malz"
+[hb_hopfen]
+other = "Hopfen"
+[hb_t_laedt]
+other = "Termine werden geladen. Alternativ:"
+[hb_t_kalender]
+other = "Kalender bei Google ansehen"
+[hb_t_abonnieren]
+other = "Kalender abonnieren"
+[hb_t_ganztag]
+other = "ganztägig"
+[hb_t_uhr]
+other = "Uhr"
+[hb_t_eintragen]
+other = "In meinen Kalender"
+[hb_t_leer]
+other = "Gerade stehen keine Termine fest. Abonniert den Kalender oder den Newsletter, dann verpasst ihr nichts."
+[hb_t_fehler]
+other = "Die Termine lassen sich gerade nicht laden."
+
+[hb_datenschutz]
+other = "Datenschutz"
+[hb_zutaten]
+other = "Zutaten"

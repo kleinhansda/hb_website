@@ -1,0 +1,24 @@
+{{- /* Kleines Bild, das sich beim Anklicken vergrößert (ohne JavaScript: öffnet das große Bild).
+     Aufruf: {{< zoombild gross="images/…webp" klein="images/…webp" breite="640" hoehe="689" alt="…" text="Bildunterschrift" >}} */ -}}
+{{- $zu := cond (eq site.Language.Lang "pfl") "Zumache" "Schließen" -}}
+<figure class="hb-zoombild">
+  <a href="{{ .Get "gross" | relURL }}" class="hb-zoombild__link" aria-label="{{ .Get "alt" }} – {{ cond (eq site.Language.Lang "pfl") "grehßer aazeiche" "vergrößern" }}">
+    <img src="{{ .Get "klein" | relURL }}" alt="{{ .Get "alt" }}" width="{{ .Get "breite" }}" height="{{ .Get "hoehe" }}" loading="lazy">
+  </a>
+  {{ with .Get "text" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{- if not (.Page.Scratch.Get "hbZoom") }}{{ .Page.Scratch.Set "hbZoom" true }}
+<dialog class="hb-zoom" id="hb-zoom"><button type="button" class="hb-zoom__zu" aria-label="{{ $zu }}">×</button><img alt=""></dialog>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var d = document.getElementById("hb-zoom"); if (!d || !d.showModal) return;
+  var img = d.querySelector("img");
+  document.querySelectorAll(".hb-zoombild__link").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault(); img.src = a.href; img.alt = a.querySelector("img").alt; d.showModal();
+    });
+  });
+  d.addEventListener("click", function () { d.close(); });
+});
+</script>
+{{- end }}

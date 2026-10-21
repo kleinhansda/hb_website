@@ -1,5 +1,6 @@
 ---
 title: Impressum
+description: "Kontakt und Anschrift von HannesBräu in Viernheim"
 featured_image: '/images/impressum/banner.jpg'
 type: page
 weight: 5
@@ -11,18 +12,10 @@ toc: true
 Uwe Kleinhans  
 Einsteinstraße 8  
 68519 Viernheim
-## Anschrift
 
-{{< anfahrt_gmaps >}}
+Telefon: {{< telefon >}}  
+E-Mail: {{< email >}}
 
-## Noch fragen?
+## Anfahrt
 
-Sende uns eine Nachricht! :)
-
-{{< form-contact action="https://formspree.io/info@xn--hannesbru-22a.de" >}}
-
-## Newsletter
-
-Melde dich für den Newsletter an um über anstehende Termine und Aktionen auf dem laufenden zu bleiben.
-
-{{< newsletter_anmeldung >}}
+{{< anfahrt >}}

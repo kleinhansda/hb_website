@@ -1,0 +1,10 @@
+{{- /* Überschreibt das Theme: eigene Stylesheets bekommen eine Prüfsumme in der Adresse, damit Browser nach Änderungen sofort die neue Fassung laden. */ -}}
+{{ with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" >
+{{ end }}
+
+{{ range site.Params.custom_css }}
+  {{ with partialCached "func/style/GetResource" . . }}{{ else }}
+    <link rel="stylesheet" href="{{ relURL (.) }}?v={{ substr (md5 (readFile (printf "static/%s" .))) 0 10 }}">
+  {{ end }}
+{{ end }}

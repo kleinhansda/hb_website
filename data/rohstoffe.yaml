@@ -1,0 +1,397 @@
+# Rohstoff-Profile für die Charakter-Popups (Netzdiagramme, eigene Darstellung).
+# Malz: Werte 0 bis 5, abgelesen aus dem Weyermann® Malz Aroma Rad (Würze), © Weyermann® Specialty Malts.
+#   Kaffee-Werte aus dem Linienverlauf rekonstruiert (Punkt dort vom Skalen-Etikett verdeckt). Auf 0,5 gerundet.
+#   "referenz" = Weyermann-Sorte, die als Referenz dient (unser Lieferant/genaue Sorte ggf. anders).
+#   Röstmalz: Annahme CARAFA® (nicht bestätigt).
+# Hopfen: Werte = "Durchschnittliche Schlüsselaromen seit 2018" aus dem BarthHaas Hop Harvest Guide 2021 (relative Skala).
+# dx/dy in den Achsen = Richtung der Achse (sin/cos), vorberechnet, weil Hugo 0.125 keine Winkelfunktionen hat.
+achsen_malz:
+- name: Kaffee
+  dx: 0.0
+  dy: -1.0
+  anker: middle
+- name: Kakao
+  dx: 0.2817
+  dy: -0.9595
+  anker: start
+- name: Dunkle Schokolade
+  dx: 0.5406
+  dy: -0.8413
+  anker: start
+- name: Gebrannte Mandeln
+  dx: 0.7557
+  dy: -0.6549
+  anker: start
+- name: Getr. Früchte
+  dx: 0.9096
+  dy: -0.4154
+  anker: start
+- name: Brotkruste
+  dx: 0.9898
+  dy: -0.1423
+  anker: start
+- name: Holzrauch
+  dx: 0.9898
+  dy: 0.1423
+  anker: start
+- name: Gewürznelke
+  dx: 0.9096
+  dy: 0.4154
+  anker: start
+- name: Mandeln
+  dx: 0.7557
+  dy: 0.6549
+  anker: start
+- name: Haselnüsse
+  dx: 0.5406
+  dy: 0.8413
+  anker: start
+- name: Rosinen
+  dx: 0.2817
+  dy: 0.9595
+  anker: start
+- name: Vanille
+  dx: 0.0
+  dy: 1.0
+  anker: middle
+- name: Honig
+  dx: -0.2817
+  dy: 0.9595
+  anker: end
+- name: Gebäck
+  dx: -0.5406
+  dy: 0.8413
+  anker: end
+- name: Marmelade
+  dx: -0.7557
+  dy: 0.6549
+  anker: end
+- name: Malzig
+  dx: -0.9096
+  dy: 0.4154
+  anker: end
+- name: Toffee
+  dx: -0.9898
+  dy: 0.1423
+  anker: end
+- name: Helles Karamell
+  dx: -0.9898
+  dy: -0.1423
+  anker: end
+- name: Dunkles Karamell
+  dx: -0.9096
+  dy: -0.4154
+  anker: end
+- name: Sauer
+  dx: -0.7557
+  dy: -0.6549
+  anker: end
+- name: Süß
+  dx: -0.5406
+  dy: -0.8413
+  anker: end
+- name: Bitter
+  dx: -0.2817
+  dy: -0.9595
+  anker: end
+achsen_hopfen:
+- name: Blumig
+  dx: 0.0
+  dy: -1.0
+  anker: middle
+- name: Zitrus
+  dx: 0.5
+  dy: -0.866
+  anker: start
+- name: Süße Früchte
+  dx: 0.866
+  dy: -0.5
+  anker: start
+- name: Grüne Früchte
+  dx: 1.0
+  dy: 0.0
+  anker: start
+- name: Beeren
+  dx: 0.866
+  dy: 0.5
+  anker: start
+- name: Sahne, Karamell
+  dx: 0.5
+  dy: 0.866
+  anker: start
+- name: Holzig, aromatisch
+  dx: 0.0
+  dy: 1.0
+  anker: middle
+- name: Menthol
+  dx: -0.5
+  dy: 0.866
+  anker: end
+- name: Krautig
+  dx: -0.866
+  dy: 0.5
+  anker: end
+- name: Würzig
+  dx: -1.0
+  dy: 0.0
+  anker: end
+- name: Grün, grasig
+  dx: -0.866
+  dy: -0.5
+  anker: end
+- name: Vegetal
+  dx: -0.5
+  dy: -0.866
+  anker: end
+malz:
+  pilsner:
+    name: Pilsener Malz
+    referenz: Weyermann® Pilsner Malz
+    werte:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.5
+    - 0.0
+    - 0.0
+    - 0.5
+    - 1.0
+    - 0.5
+    - 1.0
+    - 2.0
+    - 1.0
+    - 0.5
+    - 2.0
+    - 0.5
+    - 1.0
+    - 0.0
+    - 0.5
+    - 2.5
+    - 0.5
+    besonderheit: 'Sehr helles Basismalz und das Fundament fast jedes Bieres. Zurückhaltend: sanfte Süße, ein Hauch Honig, leicht malzig, praktisch keine Röstaromen.'
+  muenchner:
+    name: Münchner Malz
+    referenz: Weyermann® Münchner Malz
+    werte:
+    - 0.0
+    - 0.5
+    - 0.0
+    - 1.0
+    - 1.0
+    - 2.5
+    - 0.5
+    - 1.5
+    - 1.5
+    - 1.5
+    - 1.5
+    - 1.0
+    - 2.5
+    - 2.0
+    - 1.0
+    - 4.5
+    - 1.5
+    - 1.5
+    - 0.5
+    - 0.5
+    - 4.0
+    - 0.5
+    besonderheit: Kräftiger gedarrtes Basismalz. Deutlich malzig und süß, mit Brotkruste und Honig; bringt Farbe und Körper.
+  weizen_hell:
+    name: Weizenmalz hell
+    referenz: Weyermann® Weizenbraumalz hell
+    werte:
+    - 0.0
+    - 0.5
+    - 0.0
+    - 0.5
+    - 0.5
+    - 1.5
+    - 0.5
+    - 0.5
+    - 1.5
+    - 1.5
+    - 1.0
+    - 2.5
+    - 2.5
+    - 2.5
+    - 1.5
+    - 4.0
+    - 2.5
+    - 3.0
+    - 1.0
+    - 0.0
+    - 4.5
+    - 0.0
+    besonderheit: Helles Malz aus Weizen. Süß und malzig, mit Gebäck, Honig, Vanille und hellem Karamell; sorgt für Vollmundigkeit.
+  weizen_dunkel:
+    name: Weizenmalz dunkel
+    referenz: Weyermann® Weizenbraumalz dunkel
+    werte:
+    - 0.0
+    - 0.0
+    - 0.5
+    - 0.5
+    - 1.0
+    - 2.0
+    - 0.5
+    - 0.5
+    - 1.0
+    - 1.5
+    - 1.0
+    - 1.5
+    - 2.5
+    - 2.5
+    - 2.0
+    - 3.0
+    - 1.5
+    - 2.0
+    - 0.5
+    - 0.0
+    - 4.0
+    - 0.0
+    besonderheit: Dunkler gedarrtes Weizenmalz. Malzig-süß mit Brotkruste, Gebäck und einem Anklang von Marmelade.
+  caramuench:
+    name: Caramünch
+    referenz: Weyermann® CARAMÜNCH®
+    werte:
+    - 2.5
+    - 3.0
+    - 2.0
+    - 2.0
+    - 2.0
+    - 3.5
+    - 0.5
+    - 1.0
+    - 1.5
+    - 1.5
+    - 2.5
+    - 1.5
+    - 2.0
+    - 2.5
+    - 1.5
+    - 3.5
+    - 2.5
+    - 2.0
+    - 3.0
+    - 3.0
+    - 2.0
+    - 2.0
+    besonderheit: Karamellmalz. Brotkruste, Kakao und dunkles Karamell, dazu Rosinen; gibt Farbe, Rundung und Malzfülle.
+  roestmalz:
+    name: Röstmalz
+    referenz: Weyermann® CARAFA®
+    werte:
+    - 3.5
+    - 2.0
+    - 2.5
+    - 2.5
+    - 1.0
+    - 3.0
+    - 0.5
+    - 0.0
+    - 1.0
+    - 0.5
+    - 0.5
+    - 1.0
+    - 0.5
+    - 1.0
+    - 1.0
+    - 1.5
+    - 1.0
+    - 1.0
+    - 2.0
+    - 1.5
+    - 0.5
+    - 4.0
+    besonderheit: Stark geröstetes Malz. Kaffee, dunkle Schokolade und gebrannte Mandeln, dazu eine deutliche Röstbittere; schon wenig davon färbt das Bier tiefdunkel.
+hopfen:
+  perle:
+    name: Hallertauer Perle
+    referenz: Perle
+    werte:
+    - 36
+    - 37
+    - 35
+    - 35
+    - 26
+    - 33
+    - 40
+    - 23
+    - 38
+    - 32
+    - 35
+    - 27
+    besonderheit: Deutsche Aromasorte aus Hüll, Nachfahrin von Northern Brewer. Grüne Früchte, Zitrus und Honig, dazu holzige und pfeffrige Noten. Alphasäure 4,5 bis 11 %.
+  cascade:
+    name: Cascade
+    referenz: Cascade
+    werte:
+    - 44
+    - 52
+    - 52
+    - 36
+    - 43
+    - 31
+    - 36
+    - 23
+    - 34
+    - 25
+    - 36
+    - 25
+    besonderheit: 'US-Klassiker aus Oregon, seit 1972 auf dem Markt. Fruchtig-zitrusartig: Grapefruit, Limette, rote Beeren. Alphasäure 4,5 bis 7 %.'
+  hallertau_blanc:
+    name: Hallertau Blanc
+    referenz: Hallertau Blanc
+    werte:
+    - 33
+    - 38
+    - 38
+    - 46
+    - 29
+    - 24
+    - 38
+    - 24
+    - 33
+    - 27
+    - 37
+    - 41
+    besonderheit: 'Tochter von Cascade, seit 2012. Weißwein-Bouquet: grüne Früchte wie Traube und Stachelbeere, dazu Grapefruit. Alphasäure 9 bis 11 %.'
+  mandarina:
+    name: Mandarina Bavaria
+    referenz: Mandarina Bavaria
+    werte:
+    - 39
+    - 64
+    - 48
+    - 34
+    - 33
+    - 30
+    - 28
+    - 29
+    - 31
+    - 28
+    - 34
+    - 32
+    besonderheit: 'Ebenfalls Tochter von Cascade, seit 2012. Name ist Programm: Mandarine und Orange, dazu Johannisbeere. Alphasäure 7,6 bis 10,2 %.'
+  saazer:
+    name: Saazer
+    referenz: Saaz
+    werte:
+    - 35
+    - 31
+    - 25
+    - 25
+    - 21
+    - 24
+    - 47
+    - 18
+    - 42
+    - 26
+    - 43
+    - 22
+    besonderheit: 'Alte tschechische Landsorte, die das Original-Pilsener geprägt hat. Würzig, holzig und krautig, mit Heu, Thymian und einem Hauch Geranie. Sehr mild: Alphasäure 3,4 bis 5,6 %.'
+  tettnanger:
+    name: Tettnanger
+    besonderheit: Traditionelle Aromasorte vom Bodensee. Im Hop Harvest Guide 2021 ist kein Profil enthalten, daher hier ohne Diagramm.

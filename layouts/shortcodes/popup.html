@@ -1,0 +1,14 @@
+{{- /* Knopf, der ein Fenster (Popup) mit längerem Text öffnet. Der Text steht zwischen Anfang und Ende (Markdown).
+     Ohne JavaScript steht der Text direkt unter der Stelle, ohne Knopf.
+     Aufruf: {{< popup knopf="Weitere Informationen" titel="Überschrift" >}}Text{{< /popup >}} */ -}}
+{{- $id := printf "hb-popup-%d" .Ordinal -}}
+{{- $zu := cond (eq site.Language.Lang "pfl") "Zumache" "Schließen" -}}
+{{- partial "hb-popup-skript.html" .Page }}
+<p class="hb-popup-knopf"><button type="button" class="hb-popup__auf" data-hb-popup="{{ $id }}" aria-haspopup="dialog">{{ .Get "knopf" }}</button></p>
+<dialog class="hb-popup" id="{{ $id }}" aria-labelledby="{{ $id }}-titel">
+  <div class="hb-popup__inhalt">
+    <h3 id="{{ $id }}-titel">{{ .Get "titel" }}</h3>
+    {{ .Inner | markdownify }}
+  </div>
+  <button type="button" class="hb-popup__zu" aria-label="{{ $zu }}">×</button>
+</dialog>

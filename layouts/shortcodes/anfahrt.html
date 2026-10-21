@@ -1,0 +1,6 @@
+{{- /* Anfahrt ohne eingebettete Karte (DSGVO): Links öffnen den Kartendienst erst auf Klick. */ -}}
+{{- $ziel := "Hannes Bräu, Einsteinstraße 8, 68519 Viernheim" -}}
+<p class="hb-anfahrt">
+  <a class="hb-knopf" href="https://www.google.com/maps/dir/?api=1&amp;destination={{ $ziel | urlquery }}" target="_blank" rel="noopener">Route planen (Google Maps)</a>
+  <a class="hb-knopf hb-knopf--leise" href="https://www.openstreetmap.org/search?query={{ "Einsteinstraße 8, 68519 Viernheim" | urlquery }}" target="_blank" rel="noopener">OpenStreetMap</a>
+</p>

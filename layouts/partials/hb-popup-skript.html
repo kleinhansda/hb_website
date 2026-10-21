@@ -1,0 +1,28 @@
+{{- /* Skript für Popups (dialog), einmal pro Seite. Aufruf: partial "hb-popup-skript.html" .Page */ -}}
+{{- if not (.Scratch.Get "hbPopup") }}{{ .Scratch.Set "hbPopup" true }}
+<script>
+if (window.HTMLDialogElement) document.documentElement.classList.add("hb-js");
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("[data-hb-popup]").forEach(function (b) {
+    var d = document.getElementById(b.getAttribute("data-hb-popup"));
+    if (!d || !d.showModal) return;
+    b.addEventListener("click", function () { d.showModal(); });
+    d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
+    d.querySelector(".hb-popup__zu").addEventListener("click", function () { d.close(); });
+  });
+  /* Netzdiagramme: Klick auf einen Legenden-Eintrag hebt diese Sorte hervor, nochmal Klick zeigt wieder alle. */
+  document.querySelectorAll(".hb-netz__legende button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var fig = b.closest(".hb-netz"), aktiv = b.getAttribute("aria-pressed") === "true";
+      fig.querySelectorAll(".hb-netz__legende button").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+      fig.querySelectorAll(".hb-netz__serie").forEach(function (s) { s.classList.remove("ist-aktiv"); });
+      fig.classList.toggle("hb-netz--fokus", !aktiv);
+      if (!aktiv) {
+        b.setAttribute("aria-pressed", "true");
+        fig.querySelector('.hb-netz__serie[data-i="' + b.getAttribute("data-i") + '"]').classList.add("ist-aktiv");
+      }
+    });
+  });
+});
+</script>
+{{- end }}

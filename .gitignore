@@ -9,3 +9,5 @@ biere_fullres.psd
 biere.psd
 header.psd
 hb_website
+node_modules/
+resources/_gen/

@@ -1,0 +1,2 @@
+{{- /* Ein Bild in {{< galerie >}}. Parameter: gross, klein, breite, hoehe, alt */ -}}
+<li><a href="{{ .Get "gross" | relURL }}" class="hb-galerie__link" aria-label="{{ .Get "alt" }} – {{ cond (eq site.Language.Lang "pfl") "grehßer aazeiche" "vergrößern" }}"><img src="{{ .Get "klein" | relURL }}" alt="{{ .Get "alt" }}" width="{{ .Get "breite" }}" height="{{ .Get "hoehe" }}" loading="lazy"></a></li>

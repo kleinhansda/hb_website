@@ -1,0 +1,49 @@
+[hb_skip]
+other = "Glei zum Inhalt"
+[hb_menue]
+other = "Menü"
+[hb_hauptmenue]
+other = "Hauptmenü"
+[hb_sprache]
+other = "Sprooch"
+[hb_biere]
+other = "Unser Biere"
+[hb_intro_titel]
+other = "Frisch aus Vernem"
+[hb_intro_text]
+other = "Vadder unn Bu braue seit 2019 Vernemmer Frischbier: ned pasteurisiert, naturbelasse trieb unn vun Hand gebraut. Seit 2023 aach in de Biegelflasch."
+[hb_mehr_ueber_uns]
+other = "Mehr iwwer uns"
+[hb_impressum]
+other = "Impressum unn Kontakt"
+[hb_bannertext]
+other = "Drei Gläser HannesBräu: e hell, e dunkel unn e trieb Bier uff'm Holzdisch"
+[hb_glas]
+other = "E Glas"
+[hb_art]
+other = "Art"
+[hb_malz]
+other = "Malz"
+[hb_hopfen]
+other = "Hopfe"
+[hb_t_laedt]
+other = "Die Termine werre gelade. Odder:"
+[hb_t_kalender]
+other = "Kalenner bei Google aagucke"
+[hb_t_abonnieren]
+other = "Kalenner abonniere"
+[hb_t_ganztag]
+other = "de ganze Daag"
+[hb_t_uhr]
+other = "Uhr"
+[hb_t_eintragen]
+other = "In moin Kalenner"
+[hb_t_leer]
+other = "Grad stehe kä Termine fescht. Abonniert de Kalenner odder de Newsletter, dann verpasst'er nix."
+[hb_t_fehler]
+other = "Die Termine kenne grad ned gelade werre."
+
+[hb_datenschutz]
+other = "Datenschutz"
+[hb_zutaten]
+other = "Zutate"

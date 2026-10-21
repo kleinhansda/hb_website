@@ -1,0 +1,7 @@
+{{- /* Zwei Knöpfe: E-Mail und Telefon, beide verschleiert (per JS zu Links). */ -}}
+{{- $pfl := eq site.Language.Lang "pfl" -}}
+<p class="hb-kontakt-knoepfe">
+  {{- partial "hb-email.html" (dict "text" (cond $pfl "E-Mail schreibe" "E-Mail schreiben") "klasse" "hb-knopf") }}
+  {{ $n := site.Params.kontakt_telefon -}}
+  <span class="hb-tel" data-h="{{ base64Encode site.Params.kontakt_telefon_href }}" data-n="{{ base64Encode $n }}" data-t="{{ cond $pfl "Aarufe:" "Anrufen:" }}" data-k="hb-knopf hb-knopf--leise">{{ cond $pfl "Aarufe:" "Anrufen:" }} {{ replace $n " " " / " }}</span>
+</p>

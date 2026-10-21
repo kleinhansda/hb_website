@@ -1,0 +1,54 @@
+# Die klassischen Biere. Reihenfolge = Reihenfolge auf der Website.
+# farbe: Bierfarbe als Hex-Wert, wird als Farbstreifen angezeigt.
+- name: Vernemmer Buuh
+  kurz: Vollmundig, süffig, malzaromatisch
+  bild: /images/biere/buuh_kelch.jpg
+  farbe: "#C98A2E"
+  art: Untergärig
+  malz: "Pilsener, Münchner"
+  hopfen: "Hallertauer Perle, Cascade, Tettnanger"
+  sommelier: "Bernsteinfarben, in der Nase Brotkruste und ein Hauch Honig. Am Gaumen weich und vollmundig, getragen vom Malz; Perle und Cascade setzen einen feinen, zitrusfrischen Gegenpol. Süffig bis zum letzten Schluck."
+  profil_malz: [pilsner, muenchner]
+  profil_hopfen: [perle, cascade, tettnanger]
+- name: Vernemmer Meehdsche
+  kurz: Malzaromatisch, vollmundig, samtig
+  bild: /images/biere/meehdsche_kelch.jpg
+  farbe: "#8E3A1F"
+  art: Untergärig
+  malz: "Pilsener, Münchner, Caramünch"
+  hopfen: "Hallertauer Perle, Cascade, Hallertau Blanc"
+  sommelier: "Kupferrot leuchtend, mit Duft nach Karamell und Brotkruste. Samtig und rund, mit sanfter Malzsüße; im Abgang klingen Weißweintraube und Zitrus aus dem Hopfen nach."
+  profil_malz: [pilsner, muenchner, caramuench]
+  profil_hopfen: [perle, cascade, hallertau_blanc]
+- name: Vernemmer Helles
+  kurz: Frisch, hopfenaromatisch, fruchtig
+  bild: /images/biere/hell_kelch.jpg
+  farbe: "#E3BE5C"
+  art: Untergärig, kalt gehopft
+  malz: "Pilsener"
+  hopfen: "Hallertauer Perle, Mandarina Bavaria, Hallertau Blanc"
+  sommelier: "Hellgolden und duftig. Die Kalthopfung schenkt ihm Mandarine, Grapefruit und Weißweintraube, darunter ein schlanker, honigzarter Malzkörper. Frisch und lebendig."
+  profil_malz: [pilsner]
+  profil_hopfen: [perle, mandarina, hallertau_blanc]
+- name: Vernemmer Pils
+  kurz: Erfrischend & angenehm herb
+  bild: /images/biere/hell_kelch.jpg
+  bild_platzhalter: true
+  farbe: "#EBCB6A"
+  art: Untergärig, kalt gehopft
+  malz: "Pilsener"
+  hopfen: "Saazer, Hallertauer Perle"
+  sommelier: "Hellgolden und schlank. Die Kalthopfung hebt die Aromen von Saazer und Perle frisch ins Glas: würzig-krautig mit Heu und Thymian, dazu ein Hauch Zitrus und Pfeffer über zarter Honignote vom Pilsener Malz. Erfrischend, mit angenehm herbem Abgang."
+  profil_malz: [pilsner]
+  profil_hopfen: [saazer, perle]
+- name: Vernemmer Weehze
+  kurz: Spritzig, frisch, vollmundig
+  bild: /images/biere/hell_kelch.jpg
+  bild_platzhalter: true
+  farbe: "#E8C98B"
+  art: Obergärig
+  malz: "Weizenmalz hell, Weizenmalz dunkel, Pilsener, Caramünch"
+  hopfen: "Hallertau Blanc"
+  sommelier: "Spritzig und frisch, mit weichem, vollmundigem Weizenkörper und Noten von Honig und Gebäck. Hallertau Blanc bringt einen Hauch Stachelbeere und Grapefruit ins Glas."
+  profil_malz: [weizen_hell, weizen_dunkel, pilsner, caramuench]
+  profil_hopfen: [hallertau_blanc]

@@ -1,0 +1,20 @@
+<ul class="hb-biere hb-biere--details">
+  {{ $seite := .Page }}{{ range site.Data.biere }}
+  <li class="hb-bier">
+    <img src="{{ .bild | relURL }}" alt="{{ i18n "hb_glas" }} {{ .name }}" width="500" height="500" loading="lazy">
+    <div>
+      <span class="hb-bier__farbe" style="background:{{ .farbe | safeCSS }}"></span>
+      <h3>{{ .name }}</h3>
+      <p class="hb-bier__kurz">{{ .kurz }}</p>
+      {{ with .sommelier }}<p class="hb-bier__sommelier">{{ . }}</p>{{ end }}
+      <dl>
+        <dt>{{ i18n "hb_art" }}</dt><dd>{{ .art }}</dd>
+        <dt>{{ i18n "hb_malz" }}</dt><dd>{{ .malz }}</dd>
+        <dt>{{ i18n "hb_hopfen" }}</dt><dd>{{ .hopfen }}</dd>
+      </dl>
+      {{ partial "hb-bier-profil.html" (dict "bier" . "seite" $seite) }}
+      {{ if .bild_platzhalter }}{{ partial "hb-platzhalter.html" (printf "Foto ist ein Platzhalter (Helles). Eigenes Foto vom %s fehlt." (replace .name "Vernemmer " "")) }}{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ul>
