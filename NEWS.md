@@ -10,6 +10,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 ### Aufbau und Inhalt
 
 - Mieten & Shop (21.10.2026): Die Seite heißt jetzt wie der Menüpunkt. Ganz oben stehen zwei Wege nebeneinander (auf dem Handy untereinander): „Anfragen per E-Mail oder Telefon“ (Bierseminare, Feiern, Kühl-Anhänger, Bier-Gondel) mit den beiden Knöpfen, und „Direkt im Online-Shop kaufen“ (dunkle Karte) mit dem Shop-Knopf. Der frühere Abschnitt „Mehr im Online-Shop“ am Seitenende entfällt.
+- Charakterprofil Tettnanger (21.10.2026): Das Netzdiagramm für den Tettnanger Hopfen fehlte noch. Werte aus dem BarthHaas-Aromaprofil (Webseite) abgelesen und auf die Skala des Hop Harvest Guide übertragen (Gegenprobe mit Hallertauer Perle: gleiche Werte).
 - Bier-Gondel (21.10.2026): Auf dem ersten Foto ist der Mitarbeiter wegretuschiert (Inhaltsbewusstes Füllen in PhotoCraft).
 - Startseite auf dem Handy: eigener Bildausschnitt des Banners im Format 6:5 mit Rand um die Gläser (600/900/1200 px, WebP und JPG) statt des verkleinerten Querformats. Desktop unverändert.
 - Menüpunkt heißt jetzt „Mieten & Shop“ (Vernemerisch „Miete unn Lade“), ohne eigenen Shop-Knopf in der Navigation.
