@@ -2,7 +2,7 @@
 # Tony, Dunkles Geheimnis und Noigeblaggder: Texte von den Etiketten übernommen.
 # Urbock: Name aus EAN-Liste und altem Archiv. Pils ist seit 2026-10-20 ein Stammbier (data/biere.yaml).
 # Malz und Hopfen: Word-Dokument "Inhalte Malz u. Hopfensorten" (2026-10-18).
-# Urbock = Urstoff mit mehr Schüttung pro Wasser (Bockbier, mind. 16 Grad Stammwürze, steht bewusst nicht auf der Seite). Malz/Hopfen wie Urstoff.
+# Urbock = Urstoff mit mehr Schüttung pro Wasser (Bockbier). Malz/Hopfen wie Urstoff.
 - name: Tony
   farbe: "#D9892B"
   art: "IPA nach amerikanischer Art"

@@ -9,6 +9,7 @@ Stand 17.10.2026. Noch nicht live, nur in der Deploy Preview
 
 ### Aufbau und Inhalt
 
+- Startseite auf dem Handy: eigener quadratischer Bildausschnitt des Banners (alle drei Gläser im Bild, 600/900/1200 px, WebP und JPG) statt des verkleinerten Querformats. Desktop unverändert.
 - Menüpunkt heißt jetzt „Mieten & Shop“ (kurpfälzisch „Miete unn Lade“), ohne eigenen Shop-Knopf in der Navigation.
 - Unsere Biere (20.10.2026): Das Vernemmer Pils (Pilsener Malz, Saazer und Hallertauer Perle, kalt gehopft, „Erfrischend & angenehm herb“) ist kein
   Sonderbier mehr und steht jetzt unter Über uns, Unsere Biere (Foto noch Platzhalter). Jedes Bier hat eine kurze

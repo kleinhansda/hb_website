@@ -7,6 +7,9 @@
     {{ partial "hb-piktogramme.html" . }}
   </div>
   <picture class="hb-held__bild">
+    {{- /* Handy: quadratischer Ausschnitt, alle drei Gläser bleiben im Bild */ -}}
+    <source media="(max-width: 760px)" type="image/webp" srcset="{{ "images/neu/banner-mobil-600.webp" | relURL }} 600w, {{ "images/neu/banner-mobil-900.webp" | relURL }} 900w, {{ "images/neu/banner-mobil-1200.webp" | relURL }} 1200w" sizes="100vw">
+    <source media="(max-width: 760px)" type="image/jpeg" srcset="{{ "images/neu/banner-mobil-600.jpg" | relURL }} 600w, {{ "images/neu/banner-mobil-900.jpg" | relURL }} 900w, {{ "images/neu/banner-mobil-1200.jpg" | relURL }} 1200w" sizes="100vw">
     <source type="image/webp" srcset="{{ "images/neu/banner-800.webp" | relURL }} 800w, {{ "images/neu/banner-1400.webp" | relURL }} 1400w, {{ "images/neu/banner-2400.webp" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw">
     <img src="{{ "images/neu/banner-1400.jpg" | relURL }}" srcset="{{ "images/neu/banner-800.jpg" | relURL }} 800w, {{ "images/neu/banner-1400.jpg" | relURL }} 1400w, {{ "images/neu/banner-2400.jpg" | relURL }} 2400w" sizes="(min-width: 900px) 60vw, 100vw" alt="{{ i18n "hb_bannertext" }}" width="2400" height="1800" fetchpriority="high">
   </picture>
