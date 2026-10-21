@@ -74,7 +74,7 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/buchen-mieten"
       weight = 4
   [languages.pfl]
-    languageName = "Kurpälzisch"
+    languageName = "Vernemerisch"
     languageCode = "de-x-pfl"
     weight = 2
     [[languages.pfl.menus.main]]
