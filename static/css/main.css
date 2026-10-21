@@ -139,7 +139,7 @@ body.hb{margin:0;background:var(--grund);color:var(--holz);font-family:var(--san
 @media (max-width:900px){
   .hb-held{grid-template-columns:1fr;min-height:0}
   .hb-held__bild{order:-1}
-  .hb-held__bild img{aspect-ratio:1/1;height:auto;transform:none}
+  .hb-held__bild img{aspect-ratio:6/5;height:auto;transform:none}
   .hb-held__text{padding:1.75rem 1.25rem 2rem}
   .hb .hb-held__marke{display:none}
   .hb-held__claim{margin-bottom:1.5rem}
