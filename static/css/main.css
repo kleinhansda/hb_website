@@ -265,3 +265,13 @@ html{scroll-padding-top:5rem}
   .hb-netz text{font-size:11.5px}
 }
 
+/* Zwei Wege oben auf Mieten & Shop */
+.hb-zugaenge{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:0 0 2.5rem}
+.hb-zugang{background:var(--deckel);border-radius:4px;padding:1.4rem 1.5rem 1.6rem}
+.hb .hb-zugang__titel{font-family:var(--serif);font-weight:500;font-size:1.4rem;line-height:1.2;margin:0 0 .5rem}
+.hb-zugang p{margin:0 0 1rem}
+.hb-zugang .hb-kontakt-knoepfe{margin:0}
+.hb-zugang--shop{background:var(--holz);color:#fff}
+.hb .hb-zugang--shop .hb-zugang__titel{color:#fff}
+.hb-zugang__knopf{margin:0!important}
+@media (max-width:760px){.hb-zugaenge{grid-template-columns:1fr}}

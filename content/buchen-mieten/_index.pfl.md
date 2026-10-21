@@ -1,12 +1,10 @@
 ---
-title: "Buche unn Miete"
+title: "Miete unn Lade"
 description: "Bierseminare, Feiern, Kiehl-Aahänger unn unser Online-Lade"
 aliases: ["/pfl/leistungen/", "/pfl/angebote/"]
 ---
 
-Aafroge unn Buchunge gern per E-Mail odder telefonisch. Mer melde uns so schnell wie meeglich.
-
-{{< kontakt-knoepfe >}}
+{{< zugaenge >}}
 
 {{< sprungmarken >}}
 

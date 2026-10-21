@@ -1,14 +1,12 @@
 ---
-title: "Buchen & Mieten"
+title: "Mieten & Shop"
 seotitel: "Bier-Gondel & Kühlwagen mieten, Bierseminar in Viernheim"
 description: "Bier-Gondel (mobile Schankanlage) und Kühl-Anhänger mieten, Bierseminare und Feiern bei der Mikrobrauerei HannesBräu in Viernheim"
 weight: 4
 aliases: ["/leistungen/", "/angebote/"]
 ---
 
-Anfragen und Buchungen gerne per E-Mail oder telefonisch. Wir melden uns so schnell wie möglich.
-
-{{< kontakt-knoepfe >}}
+{{< zugaenge >}}
 
 {{< sprungmarken >}}
 
